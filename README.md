@@ -17,11 +17,11 @@ Public-sector leaders and investment authorities are not primarily concerned wit
 - To what extent can domestic policy credibility and execution mitigate downside risks?
 - What range of outcomes should policymakers plan for under different global conditions?
 
-This project reframes FDI forecasting as a **decision-support problem**, focused on **resilience, controllability, and risk-aware planning**, rather than statistical precision alone.
+This analysis reframes FDI forecasting as a **decision-support problem**, focused on **resilience, controllability, and risk-aware planning**, rather than statistical precision alone.
 
 ---
 
-## What This Analysis Is — and Is Not
+## What this analysis is (and is not)
 
 ### What This Analysis Is
 - A **short-term (2025–2026) FDI resilience assessment**
