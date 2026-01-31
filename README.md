@@ -4,9 +4,9 @@
 
 Foreign Direct Investment (FDI) plays a central role in the UAE’s economic diversification and long-term growth strategy. While recent years have demonstrated strong investment momentum, short-term FDI inflows remain sensitive to global financing conditions, regional oil price dynamics, and shifts in investor confidence.
 
-Over the past two years, global monetary tightening has altered the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, oil price movements have continued to shape regional liquidity conditions and investor sentiment, reinforcing the link between external macro conditions and investment timing.
+Over the past two years, global monetary tightening has altered the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, showing how external macroeconomic conditions influence investment timing.
 
-In this context, understanding the resilience of UAE FDI momentum has become more important than producing a single-point forecast. Short-term changes in global and regional conditions can affect not only the level of inflows, but also the timing, composition, and persistence of investment.
+In this context, understanding the resilience of UAE FDI momentum has become more important than producing a single-point forecast. Short-term changes in global and regional conditions can not only affect the level of inflows, but also the timing, composition, and persistence of investment.
 
 This analysis examines UAE FDI inflows over the 2025–2026 horizon using a scenario-based framework. Rather than focusing on forecast accuracy alone, the objective is to assess how resilient recent investment momentum is under different global conditions, identify the key drivers of short-term volatility, and evaluate which factors are most relevant for stabilising or supporting outcomes over the next two years.
 
