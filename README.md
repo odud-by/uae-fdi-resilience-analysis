@@ -4,9 +4,7 @@
 
 Foreign Direct Investment (FDI) is a critical pillar of the UAE’s economic diversification and long-term growth strategy. While recent years have demonstrated strong investment momentum, short-term FDI inflows remain exposed to global liquidity conditions, regional oil price dynamics, and shifts in investor confidence.
 
-This project presents a **scenario-based economic advisory analysis** of UAE FDI inflows over the **2025–2026 horizon**. Rather than producing a single-point forecast, the analysis assesses **FDI resilience under alternative global conditions**, identifies the **key sources of near-term volatility**, and evaluates **which policy levers can realistically stabilize or uplift outcomes** within a short-term decision window.
-
-The analysis is designed to mirror how Economic Advisory teams support public-sector decision-makers in investment promotion, macroeconomic strategy, and risk management.
+This project presents a **scenario-based economic analysis** of UAE FDI inflows over the **2025 – 2026 horizon**. Rather than producing a single-point forecast, the analysis assesses **FDI resilience under alternative global conditions**, identifies the **key sources of near-term volatility**, and evaluates **which policy levers can realistically stabilize or uplift outcomes** within a short-term decision window.
 
 ---
 
