@@ -42,13 +42,14 @@ This analysis approaches FDI forecasting as a decision-support exercise, focused
 - An academic exercise focused on econometric optimisation  
 
 ---
+
 ## Analytical Framework and Model Role
 
-This analysis uses a short-run time-series framework to evaluate how UAE FDI inflows respond to changes in key macroeconomic and financial conditions over the near term.
+This analysis uses a short-run time-series framework to evaluate how UAE FDI inflows respond to changes in key macroeconomic and financial conditions over the short term.
 
 The core empirical tool is an Autoregressive Distributed Lag (ARDL) model estimated on annual UAE data from 2001 to 2024. The ARDL specification is used not to infer long-run structural relationships, but to capture short-run dynamics and lagged adjustment patterns between FDI inflows and a small set of macroeconomic drivers.
 
-This choice reflects the practical constraints of annual macroeconomic data, the limited time horizon of interest, and the objective of informing near-term decision-making rather than long-term equilibrium analysis.
+This choice reflects the practical constraints of annual macroeconomic data, the limited time horizon of interest, and the objective of informing short-term decision-making rather than long-term equilibrium analysis.
 
 ### Model Scope and Interpretation
 
