@@ -42,6 +42,42 @@ This analysis approaches FDI forecasting as a decision-support exercise, focused
 - An academic exercise focused on econometric optimisation  
 
 ---
+## Analytical Framework and Model Role
+
+This analysis uses a short-run time-series framework to evaluate how UAE FDI inflows respond to changes in key macroeconomic and financial conditions over the near term.
+
+The core empirical tool is an Autoregressive Distributed Lag (ARDL) model estimated on annual UAE data from 2001 to 2024. The ARDL specification is used not to infer long-run structural relationships, but to capture short-run dynamics and lagged adjustment patterns between FDI inflows and a small set of macroeconomic drivers.
+
+This choice reflects the practical constraints of annual macroeconomic data, the limited time horizon of interest, and the objective of informing near-term decision-making rather than long-term equilibrium analysis.
+
+### Model Scope and Interpretation
+
+The ARDL model is treated as a signal extraction and sensitivity analysis tool. Its role is to:
+
+- Quantify the short-run exposure of FDI inflows to movements in oil prices, economic growth, and trade openness  
+- Capture delayed responses and persistence effects that are common in investment data  
+- Provide a baseline trajectory around which alternative scenarios can be constructed  
+
+The model is not intended to generate precise point forecasts in isolation. Instead, its outputs are interpreted in conjunction with recent investment momentum and explicit assumptions about the external environment.
+
+### Data and Estimation Window
+
+The estimation sample covers the period from 2001 to 2024, reflecting the availability and consistency of key macroeconomic series for the UAE. Variables are selected to balance economic relevance with data reliability and include:
+
+- FDI net inflows (current US dollars)  
+- Brent crude oil prices (annual average)  
+- Real GDP growth  
+- Trade openness (trade as a percentage of GDP)  
+
+Given the short annual sample and the presence of mixed integration orders, the analysis focuses on robust short-run inference rather than formal long-run cointegration relationships.
+
+### Model Diagnostics and Stability
+
+Standard diagnostic checks are applied to ensure that model outputs are interpretable and stable over time. These include tests for serial correlation, heteroskedasticity, residual normality, and parameter stability.
+
+Where serial correlation is detected, inference is based on heteroskedasticity- and autocorrelation-consistent standard errors. Stability tests indicate no evidence of systematic parameter drift or abrupt structural breaks over the estimation period, supporting the use of the model for near-term analysis.
+
+These diagnostics are used defensively to assess reliability rather than to optimise statistical fit.
 
 ## Why This Matters for the UAE (2025–2026)
 
