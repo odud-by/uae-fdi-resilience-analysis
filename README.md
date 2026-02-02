@@ -80,6 +80,61 @@ Where serial correlation is detected, inference is based on heteroskedasticity- 
 
 These diagnostics are used defensively to assess reliability rather than to optimise statistical fit.
 
+---
+
+## Scenario Framework and Assumptions (2025–2026)
+
+Rather than relying on a single forecast path, this analysis evaluates UAE FDI outcomes under a small set of internally consistent macroeconomic scenarios. Each scenario reflects a plausible combination of global financial conditions, energy market dynamics, and regional growth expectations over the 2025–2026 horizon.
+
+The scenarios are not intended as predictions. They are designed to bound reasonable outcomes and to assess how sensitive short-term FDI inflows are to changes in the external environment.
+
+### Base Case: Gradual Normalisation
+
+The base case reflects a continuation of recent trends, with global financial conditions easing gradually but remaining tighter than the pre-2022 period. Energy prices stabilise near recent averages, and UAE growth remains solid but not accelerating.
+
+Key assumptions:
+- Brent crude averages around USD 75–80 per barrel in 2025, easing modestly in 2026  
+- UAE real GDP growth remains close to 5%  
+- Trade openness remains broadly stable, with no major structural shift  
+
+Under this scenario, FDI inflows are expected to remain resilient, supported by existing investment momentum and a stable macroeconomic backdrop.
+
+---
+
+### Downside Case: Prolonged External Tightness
+
+The downside scenario reflects a more challenging global environment, where tighter financial conditions persist for longer and global risk appetite remains subdued. Softer energy prices reduce regional liquidity, and international investors become more selective in committing capital.
+
+Key assumptions:
+- Brent crude declines toward the USD 60–65 range  
+- Global financing conditions remain restrictive, weighing on cross-border investment flows  
+- UAE growth moderates but remains positive  
+
+In this environment, FDI inflows are expected to undershoot recent momentum, driven primarily by delayed investment decisions rather than a deterioration in domestic fundamentals.
+
+---
+
+### Upside Case: Liquidity and Confidence Rebound
+
+The upside scenario reflects a faster-than-expected improvement in global financial conditions, alongside stronger energy prices and improved investor confidence. Existing investment pipelines are accelerated rather than deferred.
+
+Key assumptions:
+- Brent crude moves toward the USD 85–90 range  
+- Global financial conditions ease more rapidly than anticipated  
+- UAE growth remains robust, supported by strong domestic demand and external inflows  
+
+Under this scenario, FDI inflows surprise to the upside, with gains driven by timing effects and improved risk sentiment rather than structural shifts.
+
+---
+
+### Interpretation of Scenario Results
+
+All scenarios are evaluated using the same underlying econometric framework. Differences in outcomes reflect changes in assumptions, not changes in model structure.
+
+Results are interpreted as ranges rather than precise point estimates, with emphasis placed on downside risk, resilience, and the degree to which outcomes remain within a manageable corridor under adverse conditions.
+
+---
+
 ## Why This Matters for the UAE (2025–2026)
 
 The 2025–2026 period is particularly relevant given ongoing uncertainty around global financing conditions, the continued influence of oil prices on regional liquidity, and heightened competition among investment destinations.
