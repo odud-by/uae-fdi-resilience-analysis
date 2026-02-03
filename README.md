@@ -88,13 +88,13 @@ Rather than relying on a single forecast path, this analysis evaluates UAE FDI o
 
 The scenarios are not intended as predictions. They are designed to bound reasonable outcomes and to assess how sensitive short-term FDI inflows are to changes in the external environment.
 
-### Base Case: Gradual Normalisation NEED TO CHANGE BASED ON ACTUAL JAN 2025 VALUE USED FOR 2025 AND MODERATE FALL TO 72 BASED ON RESEARCH!!!!!!!!!!
+### Base Case: Gradual Normalisation - NEED TO CHANGE BASED ON ACTUAL JAN 2025 VALUE USED FOR 2025 AND MODERATE FALL TO 72 BASED ON RESEARCH!!!!!!!!!!
 
 The base case reflects a continuation of recent trends, with global financial conditions easing gradually but remaining tighter than the pre-2022 period. Energy prices stabilise near recent averages, and UAE growth remains solid but not accelerating.
 
 Key assumptions:
 - Brent crude averages around USD 75–80 per barrel in 2025, easing modestly in 2026  
-- UAE real GDP growth remains close to 5%  
+- UAE real GDP growth remains close to 5%  IMF WEO FORECASTS !!!!!!!
 - Trade openness remains broadly stable, with no major structural shift  
 
 Under this scenario, FDI inflows are expected to remain resilient, supported by existing investment momentum and a stable macroeconomic backdrop.
