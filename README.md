@@ -88,7 +88,7 @@ Rather than relying on a single forecast path, this analysis evaluates UAE FDI o
 
 The scenarios are not intended as predictions. They are designed to bound reasonable outcomes and to assess how sensitive short-term FDI inflows are to changes in the external environment.
 
-### Base Case: Gradual Normalisation
+### Base Case: Gradual Normalisation NEED TO CHANGE BASED ON ACTUAL JAN 2025 VALUE USED FOR 2025 AND MODERATE FALL TO 72 BASED ON RESEARCH!!!!!!!!!!
 
 The base case reflects a continuation of recent trends, with global financial conditions easing gradually but remaining tighter than the pre-2022 period. Energy prices stabilise near recent averages, and UAE growth remains solid but not accelerating.
 
