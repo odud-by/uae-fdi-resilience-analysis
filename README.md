@@ -4,26 +4,21 @@
 
 Foreign Direct Investment (FDI) plays a central role in the UAE’s economic diversification and long-term growth strategy. While recent years have demonstrated strong investment momentum, short-term FDI inflows remain sensitive to global financing conditions, regional oil price dynamics, and shifts in investor confidence.
 
-Over the past two years, global monetary tightening has altered the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, showing how external macroeconomic conditions influence investment timing.
+Over the past 2 years, global monetary tightening has altered the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, showing how external macroeconomic conditions influence investment timing.
 
-In this context, understanding the resilience of UAE FDI momentum has become more important than producing a single-point forecast. Short-term changes in global and regional conditions can not only affect the level of inflows, but also the timing, composition, and persistence of investment.
-
-This analysis examines UAE FDI inflows over the 2025–2026 horizon using a scenario-based framework. Rather than focusing on forecast accuracy alone, the objective is to assess how resilient recent investment momentum is under different global conditions, identify the key drivers of short-term volatility, and evaluate which factors are most relevant for stabilising or supporting outcomes over the next two years.
+In this context, understanding the resilience of UAE FDI momentum has become essential. This analysis therefore examines UAE FDI inflows over the 2025–2026 horizon using a scenario-based framework. Rather than solely focusing on forecast accuracy, the objective is to assess how resilient recent investment momentum is under different global conditions, identify the key drivers of short-term volatility, and evaluate which factors are most relevant for stabilising or supporting outcomes over the next 2 years.
 
 ---
 
-## Policy Question and Decision Context
+## Policy Question & Decision Context
 
 From a policy and strategy perspective, the central issue is not whether FDI will be marginally higher or lower in a given year. The more relevant questions are:
 
-- How exposed are UAE FDI inflows to external shocks over the next one to two years?
+- How exposed are UAE FDI inflows to external shocks over the next 1-2 years?
 - Which macroeconomic channels most strongly influence investor behaviour in the short term?
-- To what extent does near-term FDI volatility reflect external financial conditions versus domestic fundamentals?
 - What range of outcomes should decision-makers reasonably plan for under different global scenarios?
 
-These questions are particularly relevant in an environment where global capital remains selective, post-COVID investment pipelines are still normalising, and competition for mobile international investment remains intense.
-
-This analysis approaches FDI forecasting as a decision-support exercise, focused on resilience, downside risk, and controllability, rather than forecast precision in isolation.
+These questions are particularly relevant in an environment where capital remains selective, post-COVID investment pipelines are still normalising, and competition for mobile international investment remains intense.
 
 ---
 
@@ -39,21 +34,21 @@ This analysis approaches FDI forecasting as a decision-support exercise, focused
 - A long-run structural growth or development model  
 - A precise point prediction of future FDI inflows  
 - A cross-country benchmarking or panel-data exercise  
-- An academic exercise focused on econometric optimisation  
+- An academic exercise focused on econometric optimization  
 
 ---
 
-## Analytical Framework and Model Role
+## Analytical Framework & Model Role
 
 This analysis uses a short-run time-series framework to evaluate how UAE FDI inflows respond to changes in key macroeconomic and financial conditions over the short term.
 
-The core empirical tool is an Autoregressive Distributed Lag (ARDL) model estimated on annual UAE data from 2001 to 2024. The ARDL specification is used not to infer long-run structural relationships, but to capture short-run dynamics and lagged adjustment patterns between FDI inflows and a small set of macroeconomic drivers.
+The core empirical tool is an Autoregressive Distributed Lag (ARDL) model estimated on annual UAE data from 2001 to 2024. The ARDL specification is well suited to the dataset, as it accommodates variables with mixed integration orders and captures short-run dynamics without requiring full cointegration. 
 
-This choice reflects the practical constraints of annual macroeconomic data, the limited time horizon of interest, and the objective of informing short-term decision-making rather than long-term equilibrium analysis.
+However, ARDL-based forecasts can overreact to short-term fluctuations. To address this, base-case projections are blended with a trend anchor derived from recent realised FDI growth. This ensures that forecasts remain grounded in observed investment momentum while preserving sensitivity to underlying macroeconomic conditions.
 
-### Model Scope and Interpretation
+### Model Scope & Interpretation
 
-The ARDL model is treated as a signal extraction and sensitivity analysis tool. Its role is to:
+The ARDL model's role is to:
 
 - Quantify the short-run exposure of FDI inflows to movements in oil prices, economic growth, and trade openness  
 - Capture delayed responses and persistence effects that are common in investment data  
@@ -61,7 +56,7 @@ The ARDL model is treated as a signal extraction and sensitivity analysis tool. 
 
 The model is not intended to generate precise point forecasts in isolation. Instead, its outputs are interpreted in conjunction with recent investment momentum and explicit assumptions about the external environment.
 
-### Data and Estimation Window
+### Data & Estimation Window
 
 The estimation sample covers the period from 2001 to 2024, reflecting the availability and consistency of key macroeconomic series for the UAE. Variables are selected to balance economic relevance with data reliability and include:
 
@@ -72,7 +67,7 @@ The estimation sample covers the period from 2001 to 2024, reflecting the availa
 
 Given the short annual sample and the presence of mixed integration orders, the analysis focuses on robust short-run inference rather than formal long-run cointegration relationships.
 
-### Model Diagnostics and Stability
+### Model Diagnostics & Stability
 
 Standard diagnostic checks are applied to ensure that model outputs are interpretable and stable over time. These include tests for serial correlation, heteroskedasticity, residual normality, and parameter stability.
 
