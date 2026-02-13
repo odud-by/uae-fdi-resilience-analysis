@@ -1,4 +1,4 @@
-# Methodology & Model Framework
+ # Methodology & Model Framework
 
 ## 1. Research Design and Econometric Strategy
 
@@ -45,7 +45,7 @@ GDP growth and trade openness are used in level form.
 
 ## 3. Stationarity and Integration Properties
 
-Stationarity was assessed using:
+Macroeconomic time-series often exhibit stochastic trends. Regressions involving non-stationary variables can produce spurious relationships and unreliable inference. Stationarity testing is therefore conducted to confirm the time-series properties of the data and guide model specification. Stationarity was assessed using:
 
 - Augmented Dickey–Fuller (ADF) test  
 - KPSS test  
@@ -70,7 +70,7 @@ Given this mixture, ARDL is appropriate because it:
 
 ## 4. Model Specification and Lag Selection
 
-Lag selection was conducted using:
+Given the small sample size, lag selection in the ARDL model is critical to avoid over-fitting and preserve degrees of freedom. Lag length was determined using:
 
 - Akaike Information Criterion (AIC)  
 - Bayesian Information Criterion (BIC)  
@@ -97,7 +97,7 @@ The model captures:
 
 ## 5. Diagnostic Testing and Model Validity
 
-A full diagnostic battery was conducted.
+A battery of diagnostic checks were conducted.
 
 ### Serial Correlation
 
