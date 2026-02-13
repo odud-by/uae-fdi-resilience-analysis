@@ -25,7 +25,7 @@ These questions are particularly relevant in an environment where capital remain
 ## What This Analysis Is (and Is Not)
 
 ### What This Analysis Is
-- A short-term assessment of UAE FDI resilience over the 2025–2026 period  
+- A short-term assessment of UAE FDI resilience for the forecast period of 2025–2026  
 - A scenario-based framework for evaluating upside and downside risks under alternative global conditions  
 - An empirical analysis of short-run macroeconomic channels affecting FDI inflows  
 - A policy-oriented interpretation grounded in observed economic relationships  
@@ -72,7 +72,7 @@ Where serial correlation is detected, inference is based on heteroskedasticity- 
 
 These diagnostics are used defensively to assess reliability rather than to optimise statistical fit. 
 
-A detailed description of the model specification. diagnostics, and forecasting mechanics is provided in the Methodology (ADD HYPERLINK HERE!!!!!!!)
+A detailed description of the model specification, diagnostics, and forecasting mechanics is provided in the Methodology (ADD HYPERLINK HERE!!!!!!!)
 
 ---
 
