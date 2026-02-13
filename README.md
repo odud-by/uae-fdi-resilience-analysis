@@ -38,7 +38,7 @@ These questions are particularly relevant in an environment where capital remain
 
 ---
 
-## Analytical Framework & Model Role
+## Analytical Framework & Model
 
 This analysis uses a short-run time-series framework to evaluate how UAE FDI inflows respond to changes in key macroeconomic and financial conditions over the short term.
 
@@ -46,15 +46,12 @@ The core empirical tool is an Autoregressive Distributed Lag (ARDL) model estima
 
 However, ARDL-based forecasts can overreact to short-term fluctuations. To address this, base-case projections are blended with a trend anchor derived from recent realised FDI growth. This ensures that forecasts remain grounded in observed investment momentum while preserving sensitivity to underlying macroeconomic conditions.
 
-### Model Scope & Interpretation
-
 The ARDL model's role is to:
 
 - Quantify the short-run exposure of FDI inflows to movements in oil prices, economic growth, and trade openness  
 - Capture delayed responses and persistence effects that are common in investment data  
 - Provide a baseline trajectory around which alternative scenarios can be constructed  
 
-The model is not intended to generate precise point forecasts in isolation. Instead, its outputs are interpreted in conjunction with recent investment momentum and explicit assumptions about the external environment.
 
 ### Data & Estimation Window
 
@@ -73,7 +70,9 @@ Standard diagnostic checks are applied to ensure that model outputs are interpre
 
 Where serial correlation is detected, inference is based on heteroskedasticity- and autocorrelation-consistent standard errors. Stability tests indicate no evidence of systematic parameter drift or abrupt structural breaks over the estimation period, supporting the use of the model for near-term analysis.
 
-These diagnostics are used defensively to assess reliability rather than to optimise statistical fit.
+These diagnostics are used defensively to assess reliability rather than to optimise statistical fit. 
+
+A detailed description of the model specification. diagnostics, and forecasting mechanics is provided in the Methodology (ADD HYPERLINK HERE!!!!!!!)
 
 ---
 
