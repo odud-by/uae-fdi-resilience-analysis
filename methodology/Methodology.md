@@ -7,7 +7,7 @@ This analysis adopts a country-specific time-series framework to evaluate the sh
 A panel approach is deliberately avoided for two reasons:
 
 1. The objective is to model UAE-specific investment behaviour rather than cross-country averages.  
-2. Incorporating additional countries would introduce structural heterogeneity (institutional quality, regulatory regimes, capital controls, fiscal structures) that could obscure UAE-specific transmission mechanisms.
+2. Incorporating additional countries would introduce structural heterogeneity (external / different institutional quality, regulatory regimes, capital controls, and fiscal structures) that could obscure UAE-specific transmission mechanisms.
 
 The dataset is annual and spans 2001–2024. Given the relatively small sample and mixed integration properties of macroeconomic variables, a flexible time-series model suited to limited observations is required.
 
@@ -18,16 +18,16 @@ Accordingly, the core empirical framework is an Autoregressive Distributed Lag (
 ## 2. Data and Variable Construction
 
 ### Estimation Window
-2001–2024, chosen to ensure complete and consistent coverage across all variables.
+The final cleaned and refined dataset covers the period 2001–2024, selected to ensure complete and consistent coverage across all variables used in the analysis.
 
 ### Variables
 
-| Variable | Description | Rationale |
-|----------|------------|-----------|
-| FDI Net Inflows | Current US dollars | Dependent variable capturing realised foreign investment activity |
-| Brent Crude Oil Price | Annual average | Proxy for regional liquidity, fiscal space, and investor sentiment |
-| Real GDP Growth (UAE) | Annual % change | Captures domestic economic momentum and market potential |
-| Trade Openness | Trade as % of GDP | Measures integration with global markets and structural openness |
+| Variable | Description | Source | Rationale 
+|----------|------------|-----------|-----------|
+| FDI Net Inflows | Current USD | [BoP database World Bank - WDI](https://data.worldbank.org/indicator/BX.KLT.DINV.CD.WD?locations=AE) | Dependent variable capturing realised foreign direct investment activity |
+| Brent Crude Oil Price | USD per barrel | [FRED](https://fred.stlouisfed.org/series/POILBREUSDA) | Proxy for regional liquidity and investor confidence |
+| Real GDP Growth (UAE) | Annual % change | [IMF WEO](https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/ARE?zoom=ARE&highlight=ARE) | Captures domestic economic momentum and market potential |
+| Trade Openness | Trade as % of GDP | [World Bank](https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS) | Measures integration with global markets and structural openness |
 
 FDI inflows are measured in nominal USD. This is intentional, as Brent oil prices are also nominal; maintaining nominal consistency avoids introducing additional deflation assumptions.
 
@@ -35,11 +35,9 @@ FDI data were cross-validated against UNCTAD to ensure consistency.
 
 ### Transformations
 
-- Natural logarithm applied to:
+To stabilize variance and reduce skewness, a natural logarithm transformation is applied to:
   - FDI inflows  
   - Brent oil prices  
-
-This stabilizes variance and reduces skewness.
 
 GDP growth and trade openness are used in level form.
 
