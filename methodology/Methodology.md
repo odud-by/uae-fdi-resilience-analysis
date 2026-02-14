@@ -52,12 +52,12 @@ Macroeconomic time-series often exhibit stochastic trends. Regressions involving
 
 Results indicate a mix of I(0) and I(1) variables.
 
-| Variable | ADF Statistic | KPSS Statistic | Integration Order |
-|----------|--------------|---------------|-------------------|
-| ln(FDI) | [INSERT] | [INSERT] | I(1) |
-| ln(Brent) | [INSERT] | [INSERT] | I(1) |
-| GDP Growth | [INSERT] | [INSERT] | I(0) |
-| Trade (% GDP) | [INSERT] | [INSERT] | I(0) |
+| Variable | ADF (Level, drift, lag 1) | 5% Critical Value | KPSS (Level) | Integration Order |
+|----------|--------------------------|-------------------|--------------|-------------------|
+| ln(FDI)  | -4.93                    | -3.00             | 0.600        | I(1)              |
+| ln(Brent) | [INSERT] | [INSERT] | | I(1) |
+| GDP Growth | [INSERT] | [INSERT] | | I(0) |
+| Trade (% GDP) | [INSERT] | [INSERT] | | I(0) |
 
 Given this mixture, ARDL is appropriate because it:
 
@@ -151,7 +151,7 @@ This is consistent with the small annual sample and the focus on near-term forec
 
 ---
 
-## 7. Short-Run Coefficient Interpretation
+## 7. Fitted ARDL & Coefficient Interpretation
 
 Key dynamics:
 
