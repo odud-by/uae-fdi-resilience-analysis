@@ -207,17 +207,70 @@ This is consistent with the small annual sample and the focus on short-term fore
 
 ## 7. Fitted ARDL & Coefficient Interpretation
 
-Key dynamics:
+The ARDL(2,3,3,0) model was estimated using HAC (Newey–West) robust standard errors. Coefficient estimates are reported below.
 
-- **Lagged FDI (t-1):** Positive and statistically significant, indicating strong persistence.  
-- **Lagged FDI (t-2):** Negative and insignificant, suggesting diminishing multi-year effects.  
-- **Brent oil lags:** Alternating signs, consistent with staged investor response (initial uncertainty, liquidity rebound, subsequent adjustment).  
-- **GDP growth:** Positive and borderline significant, indicating macro momentum matters but less than persistence.  
-- **Trade openness:** Insignificant in short-run specification, suggesting structural rather than cyclical influence.
+### 7.1 Short-Run Coefficient Estimates
 
-Full coefficient values and robust t-statistics are reported in the output tables.
+| Variable | Estimate | Robust t-stat | p-value | Significance |
+|-----------|----------|---------------|---------|--------------|
+| L1 ln(FDI) | 0.5057 | 2.53 | 0.0322 | * |
+| L2 ln(FDI) | -0.0977 | -0.91 | 0.3852 |   |
+| ln(Brent) | 0.4898 | 1.81 | 0.1035 |   |
+| L1 ln(Brent) | -1.4648 | -2.82 | 0.0200 | * |
+| L2 ln(Brent) | 1.5879 | 2.42 | 0.0387 | * |
+| L3 ln(Brent) | -1.4484 | -3.39 | 0.0080 | ** |
+| Trade (% GDP) | 0.0006 | 0.03 | 0.9758 |   |
+| L1 Trade (% GDP) | -0.0149 | -0.85 | 0.4160 |   |
+| L2 Trade (% GDP) | 0.0180 | 0.95 | 0.3653 |   |
+| L3 Trade (% GDP) | 0.0147 | 1.07 | 0.3127 |   |
+| GDP Growth | 0.0453 | 1.76 | 0.1130 |   |
 
----
+(*Significance levels: "*" p < 0.05, "**" p < 0.01, " " p < 1)
+
+*Note:* L1, L2, and L3 denote first, second, and third lags of the respective variable (e.g., L1 ln(FDI) refers to ln(FDI)_{t−1}).
+
+
+### 7.2 Interpretation of Key Dynamics
+
+**FDI Persistence**
+
+The coefficient on L1 ln(FDI) is positive (0.51) and statistically significant, indicating strong short-run persistence in FDI inflows. Approximately half of a prior year’s inflow effect carries into the current period.  
+
+The second lag is negative but statistically insignificant, suggesting diminishing multi-year effects.
+
+
+**Oil Price Transmission**
+
+Oil prices exhibit alternating and statistically significant lag effects:
+
+- The first lag (L1) is negative and significant.
+- The second lag (L2) is positive and significant.
+- The third lag (L3) is negative and significant.
+
+This pattern suggests staged adjustment dynamics rather than a monotonic response. Short-run oil shocks appear to generate initial caution, followed by liquidity-driven rebound effects, before normalisation.
+
+The contemporaneous ln(Brent) coefficient is positive but not statistically significant at conventional levels.
+
+
+**Domestic Growth**
+
+GDP growth enters positively (0.045) but is not statistically significant at the 5% level. This suggests macroeconomic momentum supports FDI, but its short-run impact is weaker relative to oil-driven liquidity channels.
+
+
+**Trade Openness**
+
+Trade openness and its lags are statistically insignificant in the short-run specification. This suggests that openness may operate as a structural or long-term determinant of FDI rather than a cyclical short-run driver.
+
+
+### 7.3 Summary of Short-Run Drivers
+
+The dominant short-run drivers of UAE FDI inflows are:
+
+- Strong persistence effects
+- Lagged oil price dynamics
+
+Domestic growth plays a secondary role, while trade openness does not materially influence short-term fluctuations within the estimation window.
+
 
 ## 8. Forecast Construction Framework
 
