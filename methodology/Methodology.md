@@ -157,15 +157,16 @@ The null hypothesis of a unit root is rejected. Residuals are I(0), supporting s
 #### CUSUM Test
 
 - Test statistic: 0.2558  
-- p-value: 1.000  
+- p-value: 1.000
+
+![CUSUM Plot](cusum.png) 
 
 #### OLS–MOSUM Test
 
 - Test statistic: 0.3634  
 - p-value: 0.7083  
 
-
-
+![OLS-MOSUM Plot](mosum.png)
 
 Both tests remain within 5% boundaries throughout the sample period.
 
