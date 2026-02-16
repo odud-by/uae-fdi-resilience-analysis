@@ -52,14 +52,18 @@ Macroeconomic time-series often exhibit stochastic trends. Regressions involving
 
 Results indicate a mix of I(0) and I(1) variables.
 
-| Variable | ADF (Level, drift, lag 1) | 5% Critical Value | KPSS (Level) | Integration Order |
-|----------|--------------------------|-------------------|--------------|-------------------|
-| ln(FDI)  | -4.93                    | -3.00             | 0.600        | I(1)              |
-| ln(Brent) | [INSERT] | [INSERT] | | I(1) |
-| GDP Growth | [INSERT] | [INSERT] | | I(0) |
-| Trade (% GDP) | [INSERT] | [INSERT] | | I(0) |
+### Stationarity Test Summary (5% Significance Level)
 
-Given this mixture, ARDL is appropriate because it:
+| Variable | ADF Level (drift, lag 1) | ADF Diff (drift, lag 1) | ADF 5% CV | KPSS Level (μ) | KPSS 5% CV | Integration Order |
+|----------|--------------------------|--------------------------|-------|---------------|-------|-------------------|
+| ln(FDI)  | -4.93 | -4.71 | -3.00 | 0.600 | 0.463 | I(1) |
+| ln(Brent)| -2.85 | -4.00 | -3.00 | 0.330 | 0.463 | I(1) |
+| Trade (% GDP) | -1.42 | -5.26 | -3.00 | 0.864 | 0.463 | I(1) |
+| GDP Growth | -3.10 | -5.03 | -3.00 | 0.177 | 0.463 | I(0) |
+
+**Note:** CV denotes the 5% critical value.
+
+ADF results indicate that ln(FDI), ln(Brent), and Trade openness are non-stationary in levels but stationary in first differences. GDP growth is stationary in levels. KPSS results broadly support these findings. Given this mixture, ARDL is appropriate because it:
 
 - Accommodates I(0) and I(1) regressors  
 - Does not require pre-differencing  
@@ -77,37 +81,49 @@ Given the small sample size, lag selection in the ARDL model is critical to avoi
 
 Lag caps were restricted to (3,3,3,3) to prevent overfitting. Expanding lag caps resulted in unstable information criteria values, particularly with AIC trending toward extreme values — a known small-sample issue.
 
-Selected specification:
+### Information Criteria Results
 
-**ARDL(2,3,3,0)**
+| Model (p, q1, q2, q3) | AIC | BIC |
+|------------------------|------|------|
+| ARDL(2,3,3,0) | **31.379** | 44.958 |
+| ARDL(2,3,2,0) | 34.137 | **43.961** |
 
-- AIC: [INSERT]  
-- BIC: [INSERT]  
-- Number of parameters: [INSERT]  
-- Adjusted R²: [INSERT]
+The AIC-selected model, ARDL(2,3,3,0), achieves the lowest AIC and is therefore adopted as the baseline specification. The BIC-selected alternative, ARDL(2,3,2,0), is more parsimonious but yields a marginally higher AIC.
 
-The model captures:
+Both criteria consistently select:
+
+- 2 lags for FDI  
+- 3 lags for Brent  
+- 0 lags for GDP growth
+
+### Final Adopted Specification
+
+Based on the information criteria results, the following model is adopted as the final model specification is **ARDL(2,3,3,0)**
+
+This **ARDL(2,3,3,0)** captures:
 
 - FDI persistence (lagged dependent variable)  
 - Delayed oil effects  
 - Short-run growth effects  
-- Contemporaneous trade openness impact  
+- Contemporaneous trade openness impact
 
 ---
 
 ## 5. Diagnostic Testing and Model Validity
 
-A battery of diagnostic checks were conducted.
+Extensive diagnostic testing is conducted to ensure that coefficient inference is reliable and that model residuals satisfy core regression assumptions.
 
 ### Serial Correlation
 
 Breusch–Godfrey LM test detected serial correlation up to lag 2.
 
-Since serial correlation biases inference (not coefficient estimates), HAC/Newey–West robust standard errors were applied.
 
 - Breusch–Godfrey (lag 2) statistic: [INSERT]  
 - p-value: [INSERT]  
 - Newey–West lag length: [INSERT]
+
+Since serial correlation biases inference (not coefficient estimates), HAC/Newey–West robust standard errors were applied.
+
 
 ### Heteroskedasticity
 
