@@ -113,49 +113,84 @@ This **ARDL(2,3,3,0)** captures:
 
 Extensive diagnostic testing is conducted to ensure that coefficient inference is reliable and that model residuals satisfy core regression assumptions.
 
-### Serial Correlation
+### 5.1 Serial Correlation
 
 Breusch–Godfrey LM test detected serial correlation up to lag 2.
 
+| Test Order | LM Statistic | df | p-value |
+|------------|-------------|----|---------|
+| AR(1)      | 4.1718      | 1  | 0.0411  |
+| AR(2)      | 7.4918      | 2  | 0.0236  |
 
-- Breusch–Godfrey (lag 2) statistic: [INSERT]  
-- p-value: [INSERT]  
-- Newey–West lag length: [INSERT]
+Since serial correlation affects standard errors (not coefficient estimates) and biases inferences, heteroskedasticity and autocorrelation consistent (HAC) Newey–West robust standard errors are applied for inference.
 
-Since serial correlation biases inference (not coefficient estimates), HAC/Newey–West robust standard errors were applied.
+### 5.2 Heteroskedasticity
 
+Breusch–Pagan and White-type tests indicate no evidence of heteroskedasticity.
 
-### Heteroskedasticity
+| Test | Statistic | df | p-value |
+|------|----------|----|---------|
+| Breusch–Pagan | 11.52 | 11 | 0.4008 |
+| White (auxiliary LM) | — | 2 | 0.2362 |
 
-Breusch–Pagan and White tests indicate no systematic heteroskedasticity.
+Residual variance appears homoskedastic.
 
-- Statistic: [INSERT]  
-- p-value: [INSERT]
-
-### Normality
+### 5.3 Normality
 
 Jarque–Bera test suggests residuals are approximately normally distributed.
 
-- Statistic: [INSERT]  
-- p-value: [INSERT]
+- JB statistic: 1.4925   
+- p-value: 0.4741  
 
-### Residual Stationarity
+### 5.4 Residual Stationarity
 
-An ADF test on residuals confirms they are I(0), supporting stability of the short-run specification.
+An Augmented Dickey–Fuller (ADF) test was performed on model residuals.
 
-### Stability Tests
+- Test statistic (τ): −3.474  
+- 5% critical value: −3.00  
+- p-value (approx.): 0.003
 
-- CUSUM  
-- MOSUM  
+The null hypothesis of a unit root is rejected. Residuals are I(0), supporting stability of the short-run specification.
 
-No evidence of systematic parameter drift or structural breaks was detected over the estimation window. This supports use of the model for near-term projections.
+### 5.5 Stability Tests and Plots
+
+#### CUSUM Test
+
+- Test statistic: 0.2558  
+- p-value: 1.000  
+
+#### OLS–MOSUM Test
+
+- Test statistic: 0.3634  
+- p-value: 0.7083  
+
+
+
+
+Both tests remain within 5% boundaries throughout the sample period.
+
+No evidence of structural breaks, parameter instability, or abrupt regime shifts is detected. This supports use of the model for short-term projections.
+
+### Diagnostic Conclusion
+
+- Serial correlation present → HAC corrections applied  
+- No heteroskedasticity  
+- Residuals approximately normal  
+- Residuals stationary  
+- Parameters stable  
+
+The ARDL(2,3,3,0) model is statistically well-behaved and suitable for short-run inference and forecasting under robust standard errors.
 
 ---
 
 ## 6. Bounds Test and Long-Run Considerations
 
-A bounds F-test was conducted to assess cointegration.
+A bounds F-test (Wald Test) was conducted to assess cointegration.
 
+- F-statistic: 2.6252  
+- p-value: 0.3211  
+
+The null hypothesis of no cointegration cannot be rejected.
 Results do not indicate evidence of long-run equilibrium relationships.
 
 Accordingly:
@@ -163,7 +198,7 @@ Accordingly:
 - No error correction term (ECM) is estimated  
 - The model is explicitly treated as a short-run dynamic framework  
 
-This is consistent with the small annual sample and the focus on near-term forecasting.
+This is consistent with the small annual sample and the focus on short-term forecasting.
 
 ---
 
