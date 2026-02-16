@@ -6,7 +6,7 @@ Foreign Direct Investment (FDI) plays a central role in the UAE’s economic div
 
 Over the past 2 years, global monetary tightening has altered the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, showing how external macroeconomic conditions influence investment timing.
 
-In this context, understanding the resilience of UAE FDI momentum has become essential. This analysis therefore examines UAE FDI inflows over the 2025–2026 horizon using a scenario-based framework. Rather than solely focusing on forecast accuracy, the objective is to assess how resilient recent investment momentum is under different global conditions, identify the key drivers of short-term volatility, and evaluate which factors are most relevant for stabilising or supporting outcomes over the next 2 years.
+In this context, understanding the resilience of UAE FDI momentum has become essential. This analysis therefore examines UAE FDI inflows over the 2025–2026 forecast horizon using a scenario-based framework. Rather than solely focusing on forecast accuracy, the objective is to assess how resilient recent investment momentum is under different global conditions, identify the key drivers of short-term volatility, and evaluate which factors are most relevant for stabilising or supporting outcomes over the next 2 years.
 
 ---
 
@@ -68,7 +68,7 @@ Given the short annual sample and the presence of mixed integration orders, the 
 
 Standard diagnostic checks are applied to ensure that model outputs are interpretable and stable over time. These include tests for serial correlation, heteroskedasticity, residual normality, and parameter stability.
 
-Where serial correlation is detected, inference is based on heteroskedasticity- and autocorrelation-consistent standard errors. Stability tests indicate no evidence of systematic parameter drift or abrupt structural breaks over the estimation period, supporting the use of the model for near-term analysis.
+Where serial correlation is detected, inference is based on heteroskedasticity- and autocorrelation-consistent (HAC) standard errors. Stability tests indicate no evidence of systematic parameter drift or abrupt structural breaks over the estimation period, supporting the use of the model for short-term analysis. Consistent with this focus, cointegration tests do not indicate any long-run relationships, confirming that the model is appropriate for short-run dynamic analysis.
 
 These diagnostics are used defensively to assess reliability rather than to optimise statistical fit. 
 
