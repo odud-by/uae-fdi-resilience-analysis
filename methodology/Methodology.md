@@ -58,7 +58,7 @@ Results indicate a mix of I(0) and I(1) variables.
 |----------|--------------------------|--------------------------|-------|---------------|-------|-------------------|
 | ln(FDI)  | -4.93 | -4.71 | -3.00 | 0.600 | 0.463 | I(1) |
 | ln(Brent)| -2.85 | -4.00 | -3.00 | 0.330 | 0.463 | I(1) |
-| Trade (% GDP) | -1.42 | -5.26 | -3.00 | 0.864 | 0.463 | I(1) |
+| Trade Openness | -1.42 | -5.26 | -3.00 | 0.864 | 0.463 | I(1) |
 | GDP Growth | -3.10 | -5.03 | -3.00 | 0.177 | 0.463 | I(0) |
 
 **Note:** CV denotes the 5% critical value.
@@ -98,7 +98,7 @@ Both criteria consistently select:
 
 ### Final Adopted Specification
 
-Based on the information criteria results, the following model is adopted as the final model specification is **ARDL(2,3,3,0)**
+Based on the information criteria results, **ARDL(2,3,3,0)** is adopted as the final model specification.
 
 This **ARDL(2,3,3,0)** captures:
 
@@ -219,13 +219,13 @@ The ARDL(2,3,3,0) model was estimated using HAC (Newey–West) robust standard e
 | L1 ln(Brent) | -1.4648 | -2.82 | 0.0200 | * |
 | L2 ln(Brent) | 1.5879 | 2.42 | 0.0387 | * |
 | L3 ln(Brent) | -1.4484 | -3.39 | 0.0080 | ** |
-| Trade (% GDP) | 0.0006 | 0.03 | 0.9758 |   |
-| L1 Trade (% GDP) | -0.0149 | -0.85 | 0.4160 |   |
-| L2 Trade (% GDP) | 0.0180 | 0.95 | 0.3653 |   |
-| L3 Trade (% GDP) | 0.0147 | 1.07 | 0.3127 |   |
+| Trade Openness | 0.0006 | 0.03 | 0.9758 |   |
+| L1 Trade Openness | -0.0149 | -0.85 | 0.4160 |   |
+| L2 Trade Openness | 0.0180 | 0.95 | 0.3653 |   |
+| L3 Trade Openness | 0.0147 | 1.07 | 0.3127 |   |
 | GDP Growth | 0.0453 | 1.76 | 0.1130 |   |
 
-(*Significance levels: "*" p < 0.05, "**" p < 0.01, " " p < 1)
+(*Significance levels:* "*" p < 0.05, "**" p < 0.01, " " p < 1)
 
 *Note:* L1, L2, and L3 denote first, second, and third lags of the respective variable (e.g., L1 ln(FDI) refers to ln(FDI)_{t−1}).
 
@@ -234,9 +234,9 @@ The ARDL(2,3,3,0) model was estimated using HAC (Newey–West) robust standard e
 
 **FDI Persistence**
 
-The coefficient on L1 ln(FDI) is positive (0.51) and statistically significant, indicating strong short-run persistence in FDI inflows. Approximately half of a prior year’s inflow effect carries into the current period.  
+The coefficient on L1 ln(FDI) is positive (0.51) and statistically significant, indicating strong short-run persistence in FDI inflows. Approximately 50% of the previous year’s inflow persists into the current period.
 
-The second lag is negative but statistically insignificant, suggesting diminishing multi-year effects.
+The second lag (L2) is negative but statistically insignificant, suggesting diminishing multi-year effects.
 
 
 **Oil Price Transmission**
@@ -254,7 +254,7 @@ The contemporaneous ln(Brent) coefficient is positive but not statistically sign
 
 **Domestic Growth**
 
-GDP growth enters positively (0.045) but is not statistically significant at the 5% level. This suggests macroeconomic momentum supports FDI, but its short-run impact is weaker relative to oil-driven liquidity channels.
+GDP growth enters positively (0.045) but is not statistically significant at the 5% level. This suggests macroeconomic momentum supports FDI, but its short-run impact is weaker relative to FDI persistence and oil-driven liquidity channels.
 
 
 **Trade Openness**
@@ -266,25 +266,65 @@ Trade openness and its lags are statistically insignificant in the short-run spe
 
 The dominant short-run drivers of UAE FDI inflows are:
 
-- Strong persistence effects
+- FDI persistence effect
 - Lagged oil price dynamics
 
-Domestic growth plays a secondary role, while trade openness does not materially influence short-term fluctuations within the estimation window.
+GDP growth plays a secondary role, while trade openness does not materially influence short-term fluctuations within the estimation window.
 
+---
 
 ## 8. Forecast Construction Framework
 
-### 8.1 ARDL Conditional Forecasts
+### 8.1 ARDL Forecasting Structure
 
-Forecasts for 2025–2026 require exogenous paths.
+The ARDL(2,3,3,0) specification is estimated over 2001–2024. Forecasts for 2025–2026 are generated using a recursive approach.
 
-Base-case assumptions:
+Because the model contains lagged dependent variables, forecasts are constructed sequentially:
 
-- Brent: USD 78.19 (January 2025 observed level), moderating to 72 in 2026  
-- GDP growth: IMF WEO projections  
-- Trade openness: AR(1) projection  
+1. The 2025 forecast uses:
+   - Observed 2024 values
+   - Assumed 2025 exogenous inputs (i.e. exogenous paths)
 
-The ARDL model generates conditional forecasts under these inputs.
+2. The 2026 forecast uses:
+   - The predicted 2025 FDI value (recursive substitution)
+   - Assumed 2026 exogenous inputs
+
+This ensures internal consistency with the ARDL specification.
+
+Formally, the model can be written as:
+
+ln(FDI)_t = α  + β₁ ln(FDI)_{t−1}  + β₂ ln(FDI)_{t−2}  + Σ γ_j ln(Brent)_{t−j}  + Σ δ_k Trade Openness_{t−k}  + θ GDP Growth_t  + ε_t  
+
+Forecasts are conditional on assumed future paths for Brent, GDP growth, and Trade Openness.
+
+
+### 8.2 Exogenous Path Assumptions (Base Case)
+
+Since ARDL forecasts require future values of explanatory variables, explicit assumptions are imposed for 2025–2026.
+
+Base-case projections:
+
+- **Brent:** USD 78.19 (observed January 2025 level), moderating to USD 72 in 2026  
+- **GDP Growth:** IMF World Economic Outlook projections  
+- **Trade Openness:** Projected using a simple AR(1) process estimated from historical data  
+
+These assumptions reflect a gradual normalization scenario rather than a structural shock.
+
+Forecasts generated under these inputs represent conditional projections, not unconditional predictions.
+
+---
+
+### 8.3 Interpretation of ARDL Forecasts
+
+Pure ARDL forecasts reflect:
+
+- Short-run oil sensitivity  
+- Lagged FDI persistence  
+- Immediate macroeconomic effects  
+
+However, in small samples with oil-sensitive regressors, ARDL forecasts may overreact to short-term fluctuations. 
+
+For this reason, a structural anchor is introduced for the base case only (Section 9).
 
 ---
 
