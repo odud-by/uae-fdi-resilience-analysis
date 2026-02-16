@@ -72,7 +72,7 @@ Where serial correlation is detected, inference is based on heteroskedasticity- 
 
 These diagnostics are used defensively to assess reliability rather than to optimise statistical fit. 
 
-A detailed description of the model specification, diagnostics, and forecasting mechanics is provided in the Methodology (ADD HYPERLINK HERE!!!!!!!)
+A detailed description of the model specification, diagnostics, and forecasting mechanics is provided in the ["Methodology & Model Framework"](methodology/Methodology.md).
 
 ---
 
