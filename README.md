@@ -76,7 +76,7 @@ A detailed description of the model specification, diagnostics, and forecasting 
 
 ---
 
-## Scenario Framework and Assumptions (2025–2026)
+## Scenario Framework & Assumptions (2025–2026)
 
 Rather than relying on a single forecast path, this analysis evaluates UAE FDI outcomes under a small set of internally consistent macroeconomic scenarios. Each scenario reflects a plausible combination of global financial conditions, energy market dynamics, and regional growth expectations over the 2025–2026 horizon.
 
@@ -93,7 +93,6 @@ Key assumptions:
 
 Under this scenario, FDI inflows are expected to remain resilient, supported by existing investment momentum and a stable macroeconomic backdrop.
 
----
 
 ### Downside Case: Prolonged External Tightness
 
@@ -106,7 +105,6 @@ Key assumptions:
 
 In this environment, FDI inflows are expected to undershoot recent momentum, driven primarily by delayed investment decisions rather than a deterioration in domestic fundamentals.
 
----
 
 ### Upside Case: Liquidity and Confidence Rebound
 
