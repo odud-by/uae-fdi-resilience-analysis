@@ -122,6 +122,8 @@ Breusch–Godfrey LM test detected serial correlation up to lag 2.
 | AR(1)      | 4.1718      | 1  | 0.0411  |
 | AR(2)      | 7.4918      | 2  | 0.0236  |
 
+**Note:** df stands for degrees of freedom.
+
 Since serial correlation affects standard errors (not coefficient estimates) and biases inferences, heteroskedasticity and autocorrelation consistent (HAC) Newey–West robust standard errors are applied for inference.
 
 ### 5.2 Heteroskedasticity
