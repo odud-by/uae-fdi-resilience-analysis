@@ -1,6 +1,6 @@
  # Methodology & Model Framework
 
-## 1. Research Design and Econometric Strategy
+## 1. Research Design & Econometric Strategy
 
 This analysis adopts a country-specific time-series framework to evaluate the short-run dynamics of UAE FDI inflows.
 
@@ -15,7 +15,7 @@ Accordingly, the core empirical framework is an Autoregressive Distributed Lag (
 
 ---
 
-## 2. Data and Variable Construction
+## 2. Data & Variable Construction
 
 ### Estimation Window
 The final cleaned and refined dataset covers the period 2001–2024, selected to ensure complete and consistent coverage across all variables used in the analysis.
@@ -43,7 +43,7 @@ GDP growth and trade openness are used in level form.
 
 ---
 
-## 3. Stationarity and Integration Properties
+## 3. Stationarity & Integration Properties
 
 Macroeconomic time-series often exhibit stochastic trends. Regressions involving non-stationary variables can produce spurious relationships and unreliable inference. Stationarity testing is therefore conducted to confirm the time-series properties of the data and guide model specification. Stationarity was assessed using:
 
@@ -72,7 +72,7 @@ ADF results indicate that ln(FDI), ln(Brent), and Trade openness are non-station
 
 ---
 
-## 4. Model Specification and Lag Selection
+## 4. Model Specification & Lag Selection
 
 Given the small sample size, lag selection in the ARDL model is critical to avoid over-fitting and preserve degrees of freedom. Lag length was determined using:
 
@@ -109,7 +109,7 @@ This **ARDL(2,3,3,0)** captures:
 
 ---
 
-## 5. Diagnostic Testing and Model Validity
+## 5. Diagnostic Testing & Model Validity
 
 Extensive diagnostic testing is conducted to ensure that coefficient inference is reliable and that model residuals satisfy core regression assumptions.
 
@@ -152,7 +152,7 @@ An Augmented Dickey–Fuller (ADF) test was performed on model residuals.
 
 The null hypothesis of a unit root is rejected. Residuals are I(0), supporting stability of the short-run specification.
 
-### 5.5 Stability Tests and Plots
+### 5.5 Stability Tests & Plots
 
 #### CUSUM Test
 
@@ -184,7 +184,7 @@ The ARDL(2,3,3,0) model is statistically well-behaved and suitable for short-run
 
 ---
 
-## 6. Bounds Test and Long-Run Considerations
+## 6. Bounds Test & Long-Run Considerations
 
 A bounds F-test (Wald Test) was conducted to assess cointegration.
 
