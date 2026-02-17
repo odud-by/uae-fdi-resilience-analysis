@@ -247,7 +247,7 @@ Oil prices exhibit alternating and statistically significant lag effects:
 - The second lag (L2) is positive and significant.
 - The third lag (L3) is negative and significant.
 
-This pattern suggests staged adjustment dynamics rather than a monotonic response. Short-run oil shocks appear to generate initial caution, followed by liquidity-driven rebound effects, before normalisation.
+This pattern suggests staged adjustment dynamics rather than a monotonic response. Short-run oil shocks appear to generate initial caution, followed by liquidity-driven rebound effects, before normalization.
 
 The contemporaneous ln(Brent) coefficient is positive but not statistically significant at conventional levels.
 
@@ -289,28 +289,42 @@ Because the model contains lagged dependent variables, forecasts are constructed
    - The predicted 2025 FDI value (recursive substitution)
    - Assumed 2026 exogenous inputs
 
-This ensures internal consistency with the ARDL specification.
+This ensures internal consistency with the ARDL specification - which can formally be written as:
 
-Formally, the model can be written as:
+```
+ln(FDI)_t = α + β₁ ln(FDI)_{t−1} + β₂ ln(FDI)_{t−2} + γ₀ ln(Brent)_t + γ₁ ln(Brent)_{t−1} + γ₂ ln(Brent)_{t−2} + γ₃ ln(Brent)_{t−3} + δ₀ Trade Openness_t + δ₁ Trade Openness_{t−1} + δ₂ Trade Openness_{t−2} + δ₃ Trade Openness_{t−3} + θ GDP Growth_t + ε_t  
+```
 
-ln(FDI)_t = α  + β₁ ln(FDI)_{t−1}  + β₂ ln(FDI)_{t−2}  + Σ γ_j ln(Brent)_{t−j}  + Σ δ_k Trade Openness_{t−k}  + θ GDP Growth_t  + ε_t  
+### 8.2 Exogenous Path Assumptions
 
-Forecasts are conditional on assumed future paths for Brent, GDP growth, and Trade Openness.
+ARDL forecasts require future values of explanatory variables. As these values are not observed beyond 2024, explicit exogenous projections are imposed for 2025–2026. 3 macroeconomic scenarios are constructed: **Base**, **Downside**, and **Upside**. The underlying ARDL structure remains fixed; only exogenous inputs vary across scenarios.
 
+#### Base Case – Gradual Normalization
 
-### 8.2 Exogenous Path Assumptions (Base Case)
+- **Brent:** USD 78.19 in 2025, moderating to USD 72 in 2026  
+- **GDP Growth:** 4.8% in 2025, 5.0% in 2026  
+- **Trade Openness:** 203.7% in 2025, 205.0% in 2026  
 
-Since ARDL forecasts require future values of explanatory variables, explicit assumptions are imposed for 2025–2026.
+This scenario reflects continued macroeconomic stability with moderate easing in energy prices.
 
-Base-case projections:
+#### Downside Case – Prolonged External Tightness
 
-- **Brent:** USD 78.19 (observed January 2025 level), moderating to USD 72 in 2026  
-- **GDP Growth:** IMF World Economic Outlook projections  
-- **Trade Openness:** Projected using a simple AR(1) process estimated from historical data  
+- **Brent:** USD 65 in 2025, USD 62 in 2026  
+- **GDP Growth:** 3.5% in 2025, 4.0% in 2026  
+- **Trade Openness:** Same path as base case  
 
-These assumptions reflect a gradual normalization scenario rather than a structural shock.
+This scenario captures weaker global liquidity conditions and softer energy markets.
 
-Forecasts generated under these inputs represent conditional projections, not unconditional predictions.
+#### Upside Case – Liquidity & Confidence Rebound
+
+- **Brent:** USD 88 in 2025, USD 90 in 2026  
+- **GDP Growth:** 5.5% in 2025, 5.8% in 2026  
+- **Trade Openness:** Same path as base case  
+
+This scenario reflects stronger-than-expected global conditions and improved investor confidence.
+
+Forecasts generated under these assumptions are conditional projections. Differences across scenarios arise solely from variations in exogenous inputs rather than changes in the underlying econometric structure.
+
 
 ---
 
