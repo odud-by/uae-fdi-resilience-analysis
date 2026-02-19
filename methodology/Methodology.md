@@ -323,22 +323,13 @@ This scenario captures weaker global liquidity conditions and softer energy mark
 
 This scenario reflects stronger-than-expected global conditions and improved investor confidence.
 
+Trade Openness projections are generated using a simple AR(1) process:
+```
+Trade_t = α + φ Trade_{t−1} + ε_t
+```
+The AR(1) model is estimated using historical data over the estimation window. Forecasts for 2025–2026 are generated recursively.
+
 Forecasts generated under these assumptions are conditional projections. Differences across scenarios arise solely from variations in exogenous inputs rather than changes in the underlying econometric structure.
-
-
----
-
-### 8.3 Interpretation of ARDL Forecasts
-
-Pure ARDL forecasts reflect:
-
-- Short-run oil sensitivity  
-- Lagged FDI persistence  
-- Immediate macroeconomic effects  
-
-However, in small samples with oil-sensitive regressors, ARDL forecasts may overreact to short-term fluctuations. 
-
-For this reason, a structural anchor is introduced for the base case only (Section 9).
 
 ---
 
