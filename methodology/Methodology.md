@@ -297,7 +297,7 @@ ln(FDI)_t = α + β₁ ln(FDI)_{t−1} + β₂ ln(FDI)_{t−2} + γ₀ ln(Brent)
 
 ### 8.2 Exogenous Path Assumptions
 
-ARDL forecasts require future values of explanatory variables. As these values are not observed beyond 2024, explicit exogenous projections are imposed for 2025–2026. 3 macroeconomic scenarios are constructed: **Base**, **Downside**, and **Upside**. The underlying ARDL structure remains fixed; only exogenous inputs vary across scenarios.
+ARDL projections require future values of explanatory variables. As these values are not observed beyond 2024, explicit exogenous projections are imposed for 2025–2026. 3 macroeconomic scenarios are constructed: **Base**, **Downside**, and **Upside**. The underlying ARDL structure remains fixed; only exogenous inputs vary across scenarios.
 
 #### Base Case – Gradual Normalization
 
@@ -327,7 +327,7 @@ Trade Openness projections are generated using a simple AR(1) process:
 ```
 Trade_t = α + φ Trade_{t−1} + ε_t
 ```
-The AR(1) model is estimated using historical data over the estimation window. Forecasts for 2025–2026 are generated recursively.
+The AR(1) model is estimated using historical data over the estimation window. Trade Openness projections for 2025–2026 are generated recursively.
 
 Forecasts generated under these assumptions are conditional projections. Differences across scenarios arise solely from variations in exogenous inputs rather than changes in the underlying ARDL structure.
 
@@ -335,45 +335,57 @@ Forecasts generated under these assumptions are conditional projections. Differe
 
 ## 9. Trend Anchor Construction
 
-Our ARDL models tends to amplify short-run volatility due to the small sample, particularly with oil-sensitive regressors. To address this, a structural anchor is introduced for the base case only. 
+The ARDL specification captures short-run dynamics and oil-price sensitivity. However, in small samples, such models can mechanically amplify temporary fluctuations. To ensure that the final projection remains aligned with the observed structural investment momentum, a complementary trend anchor is introduced for the base case only.
 
-The anchor is constructed using a weighted geometric average of recent annual log growth in FDI over the 2016–2024 window, with greater weight assigned to post-COVID years (2023–2024) to reflect the structural shift in UAE investment momentum.
+The anchor growth rate is constructed using a weighted geometric average of recent annual log growth in FDI over the 2016–2024 period. Greater weight is assigned to post-COVID years (2023–2024) to reflect the structural shift in UAE investment momentum observed.
 
-Formally: 
+Formally:
 
-![Trend Anchor Formula](anchor_growth.png)
+![Anchor Growth Formula](anchor_growth.png)
 
+Using the estimated anchor growth rate, the anchor projection is generated recursively from the 2024 level using:
 
-![Trend Anchor Formula](anchor_fdi.png)
+![Anchor Projection Formula](anchor_fdi.png)
 
-The anchor:
-
-- Captures structural momentum  
-- Reduces short-run oil overreaction  
-- Reflects observed post-pandemic investment acceleration  
+The trend anchor refers to the structural anchor projections derived. It complements the ARDL framework in constructing the final base-case projection. 
 
 ---
 
 ## 10. Blended Forecast Specification
 
-Final base forecast:
+The final base-case FDI projection is constructed using a blended specification that combines the ARDL-based projection with the trend anchor.
 
-FDI_final = w × FDI_ARDL + (1 − w) × FDI_anchor  
+The blended forecast is defined as:
+
+![Blended Forecast Formula](blended_forecast.png)
 
 Where:
 
-w = 0.6  
+- w_ARDL = 0.5 in the central scenario 
 
-Downside and Upside scenarios remain purely model-driven to preserve stress-test integrity.
+This weighting balances short-run macroeconomic sensitivity with recent structural momentum.
+
+To assess robustness, alternative weights on ARDL (w_ARDL = 0.3 and w_ARDL = 0.6) are also examined. The Downside and Upside scenarios remain purely ARDL-based to preserve the stress-testing function of the framework.
 
 ---
 
 ## 11. Limitations
 
-- Annual data restricts degrees of freedom.  
-- Small sample limits structural break detection power.  
-- Oil price proxy may indirectly capture broader liquidity effects.  
-- Forecasts are conditional on assumed exogenous paths.  
-- No formal out-of-sample validation due to short horizon.  
+This framework is subject to several structural and data-related limitations that should be considered when interpreting results.
 
-Where available, in-sample metrics (RMSE, Adjusted R²) are reported in the output section.
+- **Oil Price Sensitivity:**  
+  The ARDL specification exhibits strong sensitivity to Brent oil shocks, reflecting the statistical significance of oil dynamics in the short-run model. While the blended base-case projection mitigates mechanical overreaction through the trend anchor, oil price assumptions remain a key driver of forecast volatility.
+
+- **Annual Frequency & Sample Size:**  
+  The use of annual data (2001–2024) limits degrees of freedom and reduces statistical power. Large shocks (e.g., COVID-19) are captured implicitly in the data but are not modeled as explicit structural breaks.
+
+- **Short-Run Specification Only:**  
+  The bounds test indicates no evidence of cointegration; therefore, the model excludes long-run equilibrium dynamics. The framework should be interpreted as a short-run resilience assessment rather than a structural growth model.
+
+- **Conditional Nature of Projections:**  
+  All FDI projections are conditional on assumed exogenous paths for oil prices, GDP growth, and trade openness. These macroeconomic inputs are inherently uncertain and subject to revision.
+
+- **Structural Stability Assumption:**  
+  The model assumes no major policy regime changes or structural breaks during 2025–2026, and that the historical relationships between FDI and its drivers remain broadly stable over the projection horizon.
+
+Despite these limitations, the framework provides a disciplined scenario-based approach to assessing short-term FDI resilience under alternative macroeconomic conditions.
