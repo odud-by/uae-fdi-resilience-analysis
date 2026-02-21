@@ -329,23 +329,22 @@ Trade_t = α + φ Trade_{t−1} + ε_t
 ```
 The AR(1) model is estimated using historical data over the estimation window. Forecasts for 2025–2026 are generated recursively.
 
-Forecasts generated under these assumptions are conditional projections. Differences across scenarios arise solely from variations in exogenous inputs rather than changes in the underlying econometric structure.
+Forecasts generated under these assumptions are conditional projections. Differences across scenarios arise solely from variations in exogenous inputs rather than changes in the underlying ARDL structure.
 
 ---
 
-## 9. Trend Anchor Construction (Base Case Only)
+## 9. Trend Anchor Construction
 
-ARDL models can amplify short-run volatility in small samples, particularly with oil-sensitive regressors.
+Our ARDL models tends to amplify short-run volatility due to the small sample, particularly with oil-sensitive regressors. To address this, a structural anchor is introduced for the base case only. 
 
-To address this, a structural anchor is introduced for the base case only.
+The anchor is constructed using a weighted geometric average of recent annual log growth in FDI over the 2016–2024 window, with greater weight assigned to post-COVID years (2023–2024) to reflect the structural shift in UAE investment momentum.
 
-The anchor is constructed as a weighted geometric average of recent log FDI growth, with greater weight assigned to post-COVID years (2023–2024), reflecting the structural shift in UAE FDI momentum.
+Formally: 
 
-Let:
+![Trend Anchor Formula](anchor_growth.png)
 
-FDI_anchor_growth = Σ (w_i × g_i)
 
-Where w_i are weights applied to recent annual log growth rates.
+![Trend Anchor Formula](anchor_fdi.png)
 
 The anchor:
 
@@ -355,7 +354,7 @@ The anchor:
 
 ---
 
-## 10. Blended Forecast Specification (Base Case Only)
+## 10. Blended Forecast Specification
 
 Final base forecast:
 
