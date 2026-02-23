@@ -7,9 +7,9 @@ This analysis adopts a country-specific time-series framework to evaluate the sh
 A panel approach is deliberately avoided for two reasons:
 
 1. The objective is to model UAE-specific investment behaviour rather than cross-country averages.  
-2. Incorporating additional countries would introduce structural heterogeneity (external / different institutional quality, regulatory regimes, capital controls, and fiscal structures) that could obscure UAE-specific transmission mechanisms.
+2. Incorporating additional countries would introduce structural heterogeneity (differences in institutional quality, regulatory regimes, capital controls, and fiscal structures) that could obscure UAE-specific transmission mechanisms.
 
-The dataset is annual and spans 2001–2024. Given the relatively small sample and mixed integration properties of macroeconomic variables, a flexible time-series model suited to limited observations is required.
+The dataset is annual and spans 2001–2024 (T = 24 observations). Given the relatively small sample and mixed integration properties of macroeconomic variables, a flexible time-series model suited to limited observations is required.
 
 Accordingly, the core empirical framework is an Autoregressive Distributed Lag (ARDL) model.
 
@@ -31,7 +31,7 @@ The final cleaned and refined dataset covers the period 2001–2024, selected to
 
 FDI inflows are measured in nominal USD. This is intentional, as Brent oil prices are also nominal; maintaining nominal consistency avoids introducing additional deflation assumptions.
 
-FDI data were cross-validated against UNCTAD to ensure consistency.
+WDI FDI data are cross-validated against UNCTAD data to ensure consistency.
 
 ### Transformations
 
@@ -39,7 +39,7 @@ To stabilize variance and reduce skewness, a natural logarithm transformation is
   - FDI inflows  
   - Brent oil prices  
 
-GDP growth and trade openness are used in level form.
+GDP growth and trade Openness are used in level form.
 
 ---
 
@@ -61,9 +61,9 @@ Results indicate a mix of I(0) and I(1) variables.
 | Trade Openness | -1.42 | -5.26 | -3.00 | 0.864 | 0.463 | I(1) |
 | GDP Growth | -3.10 | -5.03 | -3.00 | 0.177 | 0.463 | I(0) |
 
-**Note:** CV denotes the 5% critical value.
+**Note:** CV denotes the 5% critical value. The ADF test has a null hypothesis of a unit root (non-stationarity), while the KPSS test has a null hypothesis of stationarity.
 
-ADF results indicate that ln(FDI), ln(Brent), and Trade openness are non-stationary in levels but stationary in first differences. GDP growth is stationary in levels. KPSS results broadly support these findings. Given this mixture, ARDL is appropriate because it:
+ADF results indicate that ln(FDI), ln(Brent), and Trade Openness are non-stationary in levels but stationary in first differences. GDP growth is stationary in levels. KPSS results broadly support these findings. Given this mixture, ARDL is appropriate because it:
 
 - Accommodates I(0) and I(1) regressors  
 - Does not require pre-differencing  
@@ -152,7 +152,7 @@ An Augmented Dickey–Fuller (ADF) test was performed on model residuals.
 - 5% critical value: −3.00  
 - p-value (approx.): 0.003
 
-The null hypothesis of a unit root is rejected. Residuals are I(0), supporting stability of the short-run specification.
+The null hypothesis of a unit root is rejected. Residuals are I(0), supporting absence of spurious regressions.
 
 ### 5.5 Stability Tests & Plots
 
@@ -170,7 +170,7 @@ The null hypothesis of a unit root is rejected. Residuals are I(0), supporting s
 
 ![OLS-MOSUM Plot](mosum.png)
 
-Both tests remain within 5% boundaries throughout the sample period.
+Both tests remained within 5% boundaries throughout the sample period.
 
 No evidence of structural breaks, parameter instability, or abrupt regime shifts is detected. This supports use of the model for short-term projections.
 
@@ -182,7 +182,7 @@ No evidence of structural breaks, parameter instability, or abrupt regime shifts
 - Residuals stationary  
 - Parameters stable  
 
-The ARDL(2,3,3,0) model is statistically well-behaved and suitable for short-run inference and forecasting under robust standard errors.
+Therefore, the ARDL(2,3,3,0) model is statistically well-behaved and suitable for short-run inference and forecasting under robust standard errors.
 
 ---
 
@@ -224,8 +224,12 @@ The ARDL(2,3,3,0) model was estimated using HAC (Newey–West) robust standard e
 | L2 Trade Openness | 0.0180 | 0.95 | 0.3653 |   |
 | L3 Trade Openness | 0.0147 | 1.07 | 0.3127 |   |
 | GDP Growth | 0.0453 | 1.76 | 0.1130 |   |
+| --- | --- | --- | --- | --- |
+| **Observations** | 24 |  |  |  |
+| **Adjusted R²** | 0.673 |  |  |  |
+| **RMSE (ln scale)** | 0.275 |  |  |  |
 
-(*Significance levels:* "*" p < 0.05, "**" p < 0.01, " " p < 1)
+(*Significance levels:* "**" p < 0.01, "*" p < 0.05, " " p < 1)
 
 *Note:* L1, L2, and L3 denote first, second, and third lags of the respective variable (e.g., L1 ln(FDI) refers to ln(FDI)_{t−1}).
 
@@ -259,7 +263,7 @@ GDP growth enters positively (0.045) but is not statistically significant at the
 
 **Trade Openness**
 
-Trade openness and its lags are statistically insignificant in the short-run specification. This suggests that openness may operate as a structural or long-term determinant of FDI rather than a cyclical short-run driver.
+Trade Openness and its lags are statistically insignificant in the short-run specification. This suggests that openness may operate as a structural or long-term determinant of FDI rather than a cyclical short-run driver.
 
 
 ### 7.3 Summary of Short-Run Drivers
