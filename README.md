@@ -60,19 +60,26 @@ The estimation sample covers the period from 2001 to 2024, reflecting the availa
 - FDI net inflows (current US dollars)  
 - Brent crude oil prices (annual average)  
 - Real GDP growth  
-- Trade openness (trade as a percentage of GDP)  
+- Trade Openness (trade as a percentage of GDP)  
 
 Given the short annual sample and the presence of mixed integration orders, the analysis focuses on robust short-run inference rather than formal long-run cointegration relationships.
 
 ### Model Diagnostics & Stability
 
-Standard diagnostic checks are applied to ensure that model outputs are interpretable and stable over time. These include tests for serial correlation, heteroskedasticity, residual normality, and parameter stability.
+A comprehensive diagnostic framework is applied to ensure statistical reliability and structural stability of the ARDL specification.
 
-Where serial correlation is detected, inference is based on heteroskedasticity- and autocorrelation-consistent (HAC) standard errors. Stability tests indicate no evidence of systematic parameter drift or abrupt structural breaks over the estimation period, supporting the use of the model for short-term analysis. Consistent with this focus, cointegration tests do not indicate any long-run relationships, confirming that the model is appropriate for short-run dynamic analysis.
+The model is tested for serial correlation, heteroskedasticity, residual normality, parameter stability, and potential long-run cointegration. Where serial correlation is detected, inference is conducted using heteroskedasticity- and autocorrelation-consistent (Newey–West HAC) standard errors.
 
-These diagnostics are used defensively to assess reliability rather than to optimise statistical fit. 
+Results indicate:
 
-A detailed description of the model specification, diagnostics, and forecasting mechanics is provided in the ["Methodology & Model Framework"](methodology/Methodology.md).
+- No evidence of heteroskedasticity  
+- Approximately normal residuals  
+- Stable parameters over the estimation window  
+- No evidence of long-run cointegration  
+
+Accordingly, the model is treated explicitly as a short-run dynamic framework suitable for conditional scenario-based forecasting.
+
+A detailed technical exposition of model specification, diagnostics, and forecast construction is provided in the ["Methodology & Model Framework"](methodology/Methodology.md).
 
 ---
 
