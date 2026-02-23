@@ -39,7 +39,7 @@ To stabilize variance and reduce skewness, a natural logarithm transformation is
   - FDI inflows  
   - Brent oil prices  
 
-GDP growth and trade Openness are used in level form.
+GDP growth and trade openness are used in level form.
 
 ---
 
@@ -104,8 +104,8 @@ This **ARDL(2,3,3,0)** captures:
 
 - FDI persistence (lagged dependent variable)  
 - Delayed oil effects  
-- Short-run growth effects  
-- Contemporaneous trade openness impact
+- Contemporaneous growth effect  
+- Short-run trade openness terms (current and lagged)
 
 ---
 
@@ -152,7 +152,7 @@ An Augmented Dickey–Fuller (ADF) test was performed on model residuals.
 - 5% critical value: −3.00  
 - p-value (approx.): 0.003
 
-The null hypothesis of a unit root is rejected. Residuals are I(0), supporting absence of spurious regressions.
+The null hypothesis of a unit root is rejected. Residuals are I(0), supporting well-behaved short-run inference.
 
 ### 5.5 Stability Tests & Plots
 
@@ -224,14 +224,15 @@ The ARDL(2,3,3,0) model was estimated using HAC (Newey–West) robust standard e
 | L2 Trade Openness | 0.0180 | 0.95 | 0.3653 |   |
 | L3 Trade Openness | 0.0147 | 1.07 | 0.3127 |   |
 | GDP Growth | 0.0453 | 1.76 | 0.1130 |   |
-| --- | --- | --- | --- | --- |
-| **Observations** | 24 |  |  |  |
-| **Adjusted R²** | 0.673 |  |  |  |
-| **RMSE (ln scale)** | 0.275 |  |  |  |
 
-(*Significance levels:* "**" p < 0.01, "*" p < 0.05, " " p < 1)
+(*Significance levels:* *** p < 0.001, ** p < 0.01, * p < 0.05, . p < 0.10)
 
 *Note:* L1, L2, and L3 denote first, second, and third lags of the respective variable (e.g., L1 ln(FDI) refers to ln(FDI)_{t−1}).
+
+**Model Fit (In-Sample)**  
+- Observations: 24  
+- Adjusted R²: 0.673  
+- RMSE (ln scale): 0.275
 
 
 ### 7.2 Interpretation of Key Dynamics
@@ -301,7 +302,7 @@ ln(FDI)_t = α + β₁ ln(FDI)_{t−1} + β₂ ln(FDI)_{t−2} + γ₀ ln(Brent)
 
 ### 8.2 Exogenous Path Assumptions
 
-ARDL projections require future values of explanatory variables. As these values are not observed beyond 2024, explicit exogenous projections are imposed for 2025–2026. 3 macroeconomic scenarios are constructed: **Base**, **Downside**, and **Upside**. The underlying ARDL structure remains fixed; only exogenous inputs vary across scenarios.
+ARDL projections require future values of explanatory variables. As these values are not observed beyond 2024, explicit exogenous projections are imposed for 2025–2026. Three macroeconomic scenarios are constructed: **Base**, **Downside**, and **Upside**. The underlying ARDL structure remains fixed; only exogenous inputs vary across scenarios.
 
 #### Base Case – Gradual Normalization
 
@@ -331,9 +332,9 @@ Trade Openness projections are generated using a simple AR(1) process:
 ```
 Trade_t = α + φ Trade_{t−1} + ε_t
 ```
-The AR(1) model is estimated using historical data over the estimation window. Trade Openness projections for 2025–2026 are generated recursively.
+The AR(1) model is estimated using historical data over the estimation window. Trade Openness exogenous paths for 2025–2026 are generated recursively.
 
-Forecasts generated under these assumptions are conditional projections. Differences across scenarios arise solely from variations in exogenous inputs rather than changes in the underlying ARDL structure.
+FDI forecasts generated under these assumptions are conditional on the imposed exogenous paths. Differences across scenarios arise solely from variations in exogenous inputs rather than changes in the underlying ARDL structure.
 
 ---
 
