@@ -14,7 +14,7 @@ In this context, understanding the resilience of UAE FDI momentum has become ess
 
 Before assessing forward-looking resilience, it is important to understand how UAE FDI has behaved across prior global cycles. Between 2001 and 2024, UAE foreign direct investment (FDI) inflows exhibited clear cyclical responses to global shocks alongside distinct phases of structural acceleration.
 
-<INSERT FDI INFLOW CHART (2001–2024) HERE>
+![Historical FDI Chart](outputs/fdi_clean.png)
 
 The chart highlights three distinct regimes in UAE FDI inflows.
 
