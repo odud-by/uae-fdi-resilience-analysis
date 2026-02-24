@@ -4,9 +4,27 @@
 
 Foreign Direct Investment (FDI) plays a central role in the UAE’s economic diversification and long-term growth strategy. While recent years have demonstrated strong investment momentum, short-term FDI inflows remain sensitive to global financing conditions, regional oil price dynamics, and shifts in investor confidence.
 
-Over the past 2 years, global monetary tightening has altered the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, showing how external macroeconomic conditions influence investment timing.
+Over the past 2 years, global monetary tightening has affected the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, showing how external macroeconomic conditions influence investment timing.
 
 In this context, understanding the resilience of UAE FDI momentum has become essential. This analysis therefore examines UAE FDI inflows over the 2025–2026 forecast horizon using a scenario-based framework. Rather than solely focusing on forecast accuracy, the objective is to assess how resilient recent investment momentum is under different global conditions, identify the key drivers of short-term volatility, and evaluate which factors are most relevant for stabilising or supporting outcomes over the next 2 years.
+
+---
+
+## Evolution of UAE FDI Inflows 
+
+Before assessing forward-looking resilience, it is important to understand how UAE FDI has behaved across prior global cycles. Between 2001 and 2024, UAE foreign direct investment (FDI) inflows exhibited clear cyclical responses to global shocks alongside distinct phases of structural acceleration.
+
+<INSERT FDI INFLOW CHART (2001–2024) HERE>
+
+The chart highlights three distinct regimes in UAE FDI inflows.
+
+The early-2000s expansion in FDI aligned with the UAE’s emergence as a regional trade and logistics hub, supporting increased project finance and cross-border investment.
+
+The global financial crisis of 2008–09 sharply reduced inflows from USD 14.1 billion in 2007 to USD 1.1 billion in 2009. Unlike many emerging markets, UAE FDI rebounded within a few years rather than entering prolonged stagnation. Following this recovery, inflows stabilized within a mid-range band before rising sharply to nearly USD 17.9 billion by 2019, reflecting increased greenfield project activity and further expansion across logistics, free zones, and service-related sectors.
+
+The COVID period diverged from conventional crisis dynamics: instead of contracting, FDI remained elevated through 2020–2022. This resilience stands in contrast to global FDI flows over the same period, which generally weakened. The post-pandemic phase represents a structural acceleration rather than a simple cyclical rebound. In 2023, inflows jumped to approximately USD 30.7 billion, placing the UAE among the most dynamic global FDI destinations and second only to the United States in greenfield project announcements. In 2024, this acceleration culminated in a record USD 45.6 billion in net FDI, elevating the UAE into the top-10 global destination ranking and accounting for a dominant share of total inflows into the Middle East.
+
+The magnitude and consistency of recent inflows across greenfield projects, reinvestments, and diversified sector activity suggest that 2023–2024 represent more than a typical cyclical upswing; they mark a distinct upward shift in UAE investment flows. This structural acceleration raises an important policy question: how durable is this momentum under tightening global conditions?
 
 ---
 
@@ -89,28 +107,27 @@ Rather than relying on a single forecast path, this analysis evaluates UAE FDI o
 
 The scenarios are not intended as predictions. They are designed to bound reasonable outcomes and to assess how sensitive short-term FDI inflows are to changes in the external environment.
 
-### Base Case: Gradual Normalisation - NEED TO CHANGE BASED ON ACTUAL JAN 2025 VALUE USED FOR 2025 AND MODERATE FALL TO 72 BASED ON RESEARCH!!!!!!!!!!
+### Base Case: Gradual Normalisation
 
 The base case reflects a continuation of recent trends, with global financial conditions easing gradually but remaining tighter than the pre-2022 period. Energy prices stabilise near recent averages, and UAE growth remains solid but not accelerating.
 
 Key assumptions:
-- Brent crude averages around USD 75–80 per barrel in 2025, easing modestly in 2026  
-- UAE real GDP growth remains close to 5%  IMF WEO FORECASTS !!!!!!!
+- Brent crude reflects the observed January 2025 levels, with prices moderating toward the USD 70–75 range in 2026, consistent with major energy market outlooks (EIA/IEA).
+- UAE real GDP growth remains close to 5%, reflecting projections from the IMF World Economic Outlook.
 - Trade openness remains broadly stable, with no major structural shift  
 
 Under this scenario, FDI inflows are expected to remain resilient, supported by existing investment momentum and a stable macroeconomic backdrop.
 
-
 ### Downside Case: Prolonged External Tightness
 
-The downside scenario reflects a more challenging global environment, where tighter financial conditions persist for longer and global risk appetite remains subdued. Softer energy prices reduce regional liquidity, and international investors become more selective in committing capital.
+The downside scenario reflects a more challenging global environment, where tighter financial conditions persist and global risk appetite remains subdued. Softer energy prices reduce regional liquidity, and international investors become more selective in committing capital.
 
 Key assumptions:
 - Brent crude declines toward the USD 60–65 range  
-- Global financing conditions remain restrictive, weighing on cross-border investment flows  
+- Global financing conditions remain restrictive 
 - UAE growth moderates but remains positive  
 
-In this environment, FDI inflows are expected to undershoot recent momentum, driven primarily by delayed investment decisions rather than a deterioration in domestic fundamentals.
+Under this scenario, FDI inflows are expected to undershoot recent momentum, driven primarily by delayed investment decisions rather than a deterioration in domestic fundamentals.
 
 
 ### Upside Case: Liquidity and Confidence Rebound
@@ -122,13 +139,13 @@ Key assumptions:
 - Global financial conditions ease more rapidly than anticipated  
 - UAE growth remains robust, supported by strong domestic demand and external inflows  
 
-Under this scenario, FDI inflows surprise to the upside, with gains driven by timing effects and improved risk sentiment rather than structural shifts.
+Under this scenario, FDI inflows exceed baseline momentum due to improved risk sentiment and accelerated capital deployment.
 
 ---
 
 ### Interpretation of Scenario Results
 
-All scenarios are evaluated using the same underlying econometric framework. Differences in outcomes reflect changes in assumptions, not changes in model structure.
+All scenarios are evaluated using the same underlying ARDL framework. Differences in outcomes reflect changes in assumptions, not changes in model structure.
 
 Results are interpreted as ranges rather than precise point estimates, with emphasis placed on downside risk, resilience, and the degree to which outcomes remain within a manageable corridor under adverse conditions.
 
