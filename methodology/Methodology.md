@@ -161,14 +161,14 @@ The null hypothesis of a unit root is rejected. Residuals are I(0), supporting w
 - Test statistic: 0.2558  
 - p-value: 1.000
 
-![CUSUM Plot](cusum.png) 
+![CUSUM Plot](figures/cusum.png) 
 
 #### OLS–MOSUM Test
 
 - Test statistic: 0.3634  
 - p-value: 0.7083  
 
-![OLS-MOSUM Plot](mosum.png)
+![OLS-MOSUM Plot](figures/mosum.png)
 
 Both tests remained within 5% boundaries throughout the sample period.
 
@@ -346,11 +346,11 @@ The anchor growth rate is constructed using a weighted geometric average of rece
 
 Formally:
 
-![Anchor Growth Formula](anchor_growth.png)
+![Anchor Growth Formula](figures/anchor_growth.png)
 
 Using the estimated anchor growth rate, the anchor projection is generated recursively from the 2024 level using:
 
-![Anchor Projection Formula](anchor_fdi.png)
+![Anchor Projection Formula](figures/anchor_fdi.png)
 
 The trend anchor refers to the structural anchor projections derived. It complements the ARDL framework in constructing the final base-case projection. 
 
@@ -362,7 +362,7 @@ The final base-case FDI projection is constructed using a blended specification 
 
 The blended forecast is defined as:
 
-![Blended Forecast Formula](blended_forecast.png)
+![Blended Forecast Formula](figures/blended_forecast.png)
 
 Where:
 
