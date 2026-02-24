@@ -101,13 +101,29 @@ A detailed technical exposition of model specification, diagnostics, and forecas
 
 ---
 
-## Scenario Framework & Assumptions (2025–2026)
+## Model-Implied FDI Dynamics
+
+The estimated ARDL framework indicates that UAE FDI dynamics are primarily driven by investment momentum and oil-linked liquidity effects, with domestic growth playing a secondary role.
+
+FDI exhibits strong persistence: prior-year inflows meaningfully influence subsequent-year outcomes. This reflects the role of project pipelines, reinvestment decisions, and implementation lags in large-scale investments. Once momentum builds, it tends to carry into the following year before gradually dissipating.
+
+Oil prices influence FDI in stages rather than instantaneously. Initial oil shocks generate caution and uncertainty, but are later followed by improved liquidity and investor confidence that support capital deployment. This pattern indicates that FDI movements are closely linked to regional liquidity cycles.
+
+GDP growth is positively associated with FDI but plays a secondary role relative to oil-linked liquidity and persistence effects. Trade Openness does not materially influence year-to-year fluctuations, suggesting it operates more as a structural determinant than a cyclical driver.
+
+These channels provide the foundation for interpreting the scenario results that follow.
+
+---
+
+## Scenario Analysis (2025–2026)
+
+### Scenario Framework & Assumptions
 
 Rather than relying on a single forecast path, this analysis evaluates UAE FDI outcomes under a small set of macroeconomic scenarios. Each scenario reflects a plausible combination of global financial conditions, energy market dynamics, and regional growth expectations over the 2025–2026 horizon.
 
 The scenarios are not intended as predictions. They are designed to bound reasonable outcomes and to assess how sensitive short-term FDI inflows are to changes in the external environment.
 
-### Base Case: Gradual Normalisation
+#### Base Case: Gradual Normalisation
 
 The base case reflects a continuation of recent trends, with global financial conditions easing gradually but remaining tighter than the pre-2022 period. Energy prices stabilize near recent averages, and UAE growth remains solid but not accelerating.
 
@@ -118,7 +134,7 @@ Key assumptions:
 
 Under this scenario, FDI inflows are expected to remain resilient, supported by existing investment momentum and a stable macroeconomic backdrop.
 
-### Downside Case: Prolonged External Tightness
+#### Downside Case: Prolonged External Tightness
 
 The downside scenario reflects a more challenging global environment, where tighter financial conditions persist. Softer energy prices reduce regional liquidity, and international investors become more selective in committing capital.
 
@@ -130,7 +146,7 @@ Key assumptions:
 Under this scenario, FDI inflows are expected to undershoot recent momentum, driven primarily by delayed investment decisions.
 
 
-### Upside Case: Liquidity and Confidence Rebound
+#### Upside Case: Liquidity and Confidence Rebound
 
 The upside scenario reflects a faster-than-expected improvement in global financial conditions, alongside stronger energy prices and improved investor confidence.
 
@@ -141,13 +157,26 @@ Key assumptions:
 
 Under this scenario, FDI inflows exceed baseline momentum due to improved risk sentiment and accelerated capital deployment.
 
----
 
-### Interpretation of Scenario Results
+### ARDL Scenario Results
 
-All scenarios are evaluated using the same underlying ARDL framework. Differences in outcomes reflect changes in assumptions, not changes in model structure.
+Using the estimated ARDL framework and the macroeconomic assumptions outlined above, conditional projections for UAE FDI inflows are generated for 2025 and 2026 under each scenario.
 
-Results are interpreted as ranges rather than precise point estimates, with emphasis placed on downside risk, resilience, and the degree to which outcomes remain within a manageable corridor under adverse conditions.
+The results below reflect **pure ARDL projections**, prior to any anchor adjustment or blending.
+
+| Scenario   | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
+|------------|-------------------|-------------------|
+| Base       | 42.8              | 30.8              |
+| Downside   | 36.9              | 33.2              |
+| Upside     | 46.9              | 31.3              |
+
+Several features emerge from the ARDL projections:
+
+- **2025 outcomes remain elevated across all scenarios**, reflecting strong carryover momentum from the record 2024 inflow.  
+- **Oil-linked dynamics drive dispersion in 2025**, with the Upside case producing the highest near-term inflow and the Downside case moderating investment activity.  
+- **Normalization becomes visible in 2026**, as persistence effects fade and lagged oil dynamics work through the system.  
+
+Notably, the model produces a sharper moderation in 2026 under the Base and Upside scenarios. This reflects the ARDL structure’s sensitivity to liquidity conditions and its tendency to partially unwind exceptionally strong prior-year inflows.
 
 ---
 
