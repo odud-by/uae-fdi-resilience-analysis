@@ -6,7 +6,7 @@ Foreign Direct Investment (FDI) plays a central role in the UAE’s economic div
 
 Over the past 2 years, global monetary tightening has affected the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, showing how external macroeconomic conditions influence investment timing.
 
-In this context, understanding the resilience of UAE FDI momentum has become essential. This analysis therefore examines UAE FDI inflows over the 2025–2026 forecast horizon using a scenario-based framework. Rather than solely focusing on forecast accuracy, the objective is to assess how resilient recent investment momentum is under different global conditions, identify the key drivers of short-term volatility, and evaluate which factors are most relevant for stabilising or supporting outcomes over the next 2 years.
+In this context, understanding the resilience of UAE FDI momentum has become essential. This analysis therefore examines UAE FDI inflows over the 2025–2026 forecast horizon using a scenario-based framework. Rather than solely focusing on forecast accuracy, the objective is to assess how resilient recent investment momentum is under different global conditions, identify the key drivers of short-term volatility, and evaluate which factors are most relevant for stabilizing or supporting outcomes over the next 2 years.
 
 ---
 
@@ -14,7 +14,7 @@ In this context, understanding the resilience of UAE FDI momentum has become ess
 
 Before assessing forward-looking resilience, it is important to understand how UAE FDI has behaved across prior global cycles. Between 2001 and 2024, UAE foreign direct investment (FDI) inflows exhibited clear cyclical responses to global shocks alongside distinct phases of structural acceleration.
 
-![Historical FDI Chart](outputs/fdi_clean.png)
+![Historical FDI Chart](outputs/fdi_historical.png)
 
 The chart highlights three distinct regimes in UAE FDI inflows.
 
@@ -62,7 +62,7 @@ This analysis uses a short-run time-series framework to evaluate how UAE FDI inf
 
 The core empirical tool is an Autoregressive Distributed Lag (ARDL) model estimated on annual UAE data from 2001 to 2024. The ARDL specification is well suited to the dataset, as it accommodates variables with mixed integration orders and captures short-run dynamics without requiring pre-differencing. 
 
-However, ARDL-based forecasts can overreact to short-term fluctuations. To address this, base-case projections are blended with a trend anchor derived from recent realised FDI growth. This ensures that forecasts remain grounded in observed investment momentum while preserving sensitivity to underlying macroeconomic conditions.
+However, ARDL-based forecasts can overreact to short-term fluctuations. To address this, base-case projections are blended with a trend anchor derived from recent realized FDI growth. This ensures that forecasts remain grounded in observed investment momentum while preserving sensitivity to underlying macroeconomic conditions.
 
 The ARDL model's role is to:
 
@@ -103,13 +103,13 @@ A detailed technical exposition of model specification, diagnostics, and forecas
 
 ## Scenario Framework & Assumptions (2025–2026)
 
-Rather than relying on a single forecast path, this analysis evaluates UAE FDI outcomes under a small set of internally consistent macroeconomic scenarios. Each scenario reflects a plausible combination of global financial conditions, energy market dynamics, and regional growth expectations over the 2025–2026 horizon.
+Rather than relying on a single forecast path, this analysis evaluates UAE FDI outcomes under a small set of macroeconomic scenarios. Each scenario reflects a plausible combination of global financial conditions, energy market dynamics, and regional growth expectations over the 2025–2026 horizon.
 
 The scenarios are not intended as predictions. They are designed to bound reasonable outcomes and to assess how sensitive short-term FDI inflows are to changes in the external environment.
 
 ### Base Case: Gradual Normalisation
 
-The base case reflects a continuation of recent trends, with global financial conditions easing gradually but remaining tighter than the pre-2022 period. Energy prices stabilise near recent averages, and UAE growth remains solid but not accelerating.
+The base case reflects a continuation of recent trends, with global financial conditions easing gradually but remaining tighter than the pre-2022 period. Energy prices stabilize near recent averages, and UAE growth remains solid but not accelerating.
 
 Key assumptions:
 - Brent crude reflects the observed January 2025 levels, with prices moderating toward the USD 70–75 range in 2026, consistent with major energy market outlooks (EIA/IEA).
@@ -120,19 +120,19 @@ Under this scenario, FDI inflows are expected to remain resilient, supported by 
 
 ### Downside Case: Prolonged External Tightness
 
-The downside scenario reflects a more challenging global environment, where tighter financial conditions persist and global risk appetite remains subdued. Softer energy prices reduce regional liquidity, and international investors become more selective in committing capital.
+The downside scenario reflects a more challenging global environment, where tighter financial conditions persist. Softer energy prices reduce regional liquidity, and international investors become more selective in committing capital.
 
 Key assumptions:
 - Brent crude declines toward the USD 60–65 range  
 - Global financing conditions remain restrictive 
 - UAE growth moderates but remains positive  
 
-Under this scenario, FDI inflows are expected to undershoot recent momentum, driven primarily by delayed investment decisions rather than a deterioration in domestic fundamentals.
+Under this scenario, FDI inflows are expected to undershoot recent momentum, driven primarily by delayed investment decisions.
 
 
 ### Upside Case: Liquidity and Confidence Rebound
 
-The upside scenario reflects a faster-than-expected improvement in global financial conditions, alongside stronger energy prices and improved investor confidence. Existing investment pipelines are accelerated rather than deferred.
+The upside scenario reflects a faster-than-expected improvement in global financial conditions, alongside stronger energy prices and improved investor confidence.
 
 Key assumptions:
 - Brent crude moves toward the USD 85–90 range  
