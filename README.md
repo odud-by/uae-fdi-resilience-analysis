@@ -105,11 +105,11 @@ A detailed technical exposition of model specification, diagnostics, and forecas
 
 The estimated ARDL framework indicates that UAE FDI dynamics are primarily driven by investment momentum and oil-linked liquidity effects, with domestic growth playing a secondary role.
 
-FDI exhibits strong persistence: prior-year inflows meaningfully influence subsequent-year outcomes. This reflects the role of project pipelines, reinvestment decisions, and implementation lags in large-scale investments. Once momentum builds, it tends to carry into the following year before gradually dissipating.
+FDI exhibits strong persistence: last-year inflows affect next-year outcomes. This reflects the role of project pipelines, reinvestment decisions, and implementation lags in large-scale investments. Once momentum builds, it tends to carry into the following year before gradually dissipating.
 
 Oil prices influence FDI in stages rather than instantaneously. Initial oil shocks generate caution and uncertainty, but are later followed by improved liquidity and investor confidence that support capital deployment. This pattern indicates that FDI movements are closely linked to regional liquidity cycles.
 
-GDP growth is positively associated with FDI but plays a secondary role relative to oil-linked liquidity and persistence effects. Trade Openness does not materially influence year-to-year fluctuations, suggesting it operates more as a structural determinant than a cyclical driver.
+GDP growth is positively associated with FDI but plays a secondary role. Trade Openness does not materially influence year-to-year fluctuations, suggesting it operates more as a structural determinant than a cyclical driver.
 
 These channels provide the foundation for interpreting the scenario results that follow.
 
@@ -145,7 +145,6 @@ Key assumptions:
 
 Under this scenario, FDI inflows are expected to undershoot recent momentum, driven primarily by delayed investment decisions.
 
-
 #### Upside Case: Liquidity and Confidence Rebound
 
 The upside scenario reflects a faster-than-expected improvement in global financial conditions, alongside stronger energy prices and improved investor confidence.
@@ -156,7 +155,6 @@ Key assumptions:
 - UAE growth remains robust, supported by strong domestic demand and external inflows  
 
 Under this scenario, FDI inflows exceed baseline momentum due to improved risk sentiment and accelerated capital deployment.
-
 
 ### ARDL Scenario Results
 
@@ -170,13 +168,28 @@ The results below reflect **pure ARDL projections**, prior to any anchor adjustm
 | Downside   | 36.9              | 33.2              |
 | Upside     | 46.9              | 31.3              |
 
-Several features emerge from the ARDL projections:
+Key takeaways from the ARDL scenarios:
 
-- **2025 outcomes remain elevated across all scenarios**, reflecting strong carryover momentum from the record 2024 inflow.  
-- **Oil-linked dynamics drive dispersion in 2025**, with the Upside case producing the highest near-term inflow and the Downside case moderating investment activity.  
-- **Normalization becomes visible in 2026**, as persistence effects fade and lagged oil dynamics work through the system.  
+- The **Upside** case raises the 2025 2025 inflows relative to the Base scenario, consistent with stronger oil-linked liquidity and investor confidence.
+- The **Downside** case lowers 2025 inflows, reflecting tighter global conditions and softer energy prices.
+- Across scenarios, **2026 outcomes converge**, suggesting partial normalization after the initial scenario impact.
+- Differences across scenarios are most pronounced in **2025**, when oil dynamics and persistence effects are strongest.
 
-Notably, the model produces a sharper moderation in 2026 under the Base and Upside scenarios. This reflects the ARDL structure’s sensitivity to liquidity conditions and its tendency to partially unwind exceptionally strong prior-year inflows.
+These ARDL scenario results provide the stress-test range. The next sections introduce a trend anchor to raccount for recent structural momentum and assess how conclusions change when forecasts are anchored to post-pandemic inflow dynamics. 
+
+---
+
+## Trend Anchor & Momentum Adjustment
+
+While the ARDL framework provides a disciplined estimate based on historical transmission dynamics, recent FDI outcomes suggest a possible structural acceleration beyond what historical averages alone would imply.
+
+The 2023 and 2024 inflows represent a marked break from the prior decade’s range, both in magnitude and consistency. This raises an important question: should projections rely solely on mean-reverting historical relationships, or should recent momentum be partially incorporated into the forward-looking baseline?
+
+To address this, a structural trend anchor is introduced for the Base scenario.
+
+The anchor is constructed using a weighted geometric average of recent FDI growth, placing greater emphasis on post-pandemic years. This approach captures the possibility that recent inflows reflect more than a temporary liquidity cycle and may signal a higher structural investment trajectory.
+
+The anchor does not replace the ARDL framework. Instead, it serves as a complementary reference path against which model-implied normalization can be evaluated.
 
 ---
 
