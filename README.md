@@ -12,7 +12,7 @@ In this context, understanding the resilience of UAE FDI momentum has become ess
 
 ## Evolution of UAE FDI Inflows 
 
-Before assessing forward-looking resilience, it is important to understand how UAE FDI has behaved across prior global cycles. Between 2001 and 2024, UAE foreign direct investment (FDI) inflows exhibited clear cyclical responses to global shocks alongside distinct phases of structural acceleration.
+To assess forward-looking resilience, it is first necessary to examine how UAE FDI has behaved across past global cycles. Between 2001 and 2024, UAE foreign direct investment (FDI) inflows exhibited clear cyclical responses to global shocks alongside distinct phases of structural acceleration.
 
 ![Historical FDI Chart](outputs/fdi_historical.png)
 
@@ -36,7 +36,7 @@ From a policy perspective, the key issue is not whether FDI will be marginally h
 - Which macroeconomic variables most strongly influence investor behaviour in the short term?
 - What range of outcomes should decision-makers reasonably plan for under different global scenarios?
 
-These questions are particularly relevant in an environment where capital remains selective, post-COVID investment pipelines are still adjusting, and competition for international investment remains intense.
+These questions are particularly relevant in an environment where capital remains selective, post-COVID investment pipelines are still adjusting, and competition for international investment remains intense. To address these questions clearly, it is important to define the scope and limits of the analysis.
 
 ---
 
@@ -175,7 +175,7 @@ Key takeaways from the ARDL scenarios:
 - Across scenarios, 2026 outcomes converge, suggesting partial normalization after the initial scenario impact.
 - Differences across scenarios are most pronounced in 2025, when oil effects and persistence are strongest.
 
-These ARDL scenario results provide the stress-test range. The next sections introduce a trend anchor to account for recent structural momentum and assess how conclusions change when forecasts are anchored to post-pandemic inflow dynamics. 
+While the ARDL results capture historical transmission mechanisms, they do not fully account for the structural shift observed in 2023–2024. The next sections introduce a trend anchor to account for recent structural momentum and assess how conclusions change when forecasts are anchored to post-pandemic inflow dynamics. 
 
 ---
 
