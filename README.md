@@ -250,6 +250,42 @@ Across the examined weights, the central pattern does not change: 2025 remains e
 
 ---
 
+## Strategic Recommendation: Anchor-Heavy Specification
+
+The ARDL and trend anchor framework clarifies the trade-off in the forecast design. The ARDL model captures historically observed transmission channels and embeds partial normalization following exceptionally strong inflows. The trend anchor, by contrast, reflects the structural acceleration observed in 2023–2024.
+
+The 0.5 blend provides a neutral midpoint. However, based on forward-looking evidence, I recommend adopting an anchor-heavy baseline (w_ARDL = 0.3) for central policy interpretation.
+
+This recommendation rests on three considerations.
+
+**1. Multi-year capital deployment in advanced technology**
+
+Large-scale AI and data infrastructure investments are already committed and phased beyond 2025. The Microsoft–G42 partnership includes a $15 billion investment program, with significant deployment completed by end-2025 and additional capital scheduled through 2026–2029. The UAE’s 5 GW “Stargate” AI campus, supported by global partners including Nvidia and Oracle, is rolling out capacity through 2026.
+
+These projects represent structured capital expenditure programs rather than short-term liquidity responses. Their timing aligns directly with the 2025–2026 forecast horizon.
+
+**2. Ongoing greenfield pipeline, not fully realized flows**
+
+While 2025 final inflow data are not yet fully realized, announced greenfield activity remains elevated. The UAE ranked second globally for greenfield FDI project announcements, with a substantial increase in project value relative to prior years. Early-2025 project data show continued activity across technology, manufacturing, and free zones.
+
+Greenfield announcements typically translate into phased capital deployment over multiple years. The scale of the current pipeline reduces the likelihood of an abrupt reversion toward pre-2023 inflow levels.
+
+**3. Explicit structural investment strategy**
+
+The National Investment Strategy 2031 targets raising annual FDI to AED 240 billion and expanding total FDI stock to AED 2.2 trillion. Complementary reforms — including 100% foreign ownership provisions and the NextGen FDI programme — reinforce structural competitiveness.
+
+This policy orientation is expansionary and medium-term in design. It supports the interpretation that the recent step-up in inflows reflects strengthened positioning rather than a temporary overshoot.
+
+---
+
+Taken together, these factors suggest that recent inflows incorporate a structural component that the historical ARDL dynamics — estimated on a relatively small sample — may underweight.
+
+Accordingly, assigning greater weight to the trend anchor (w_ARDL = 0.3) better reflects the balance of evidence. Under this specification, inflows remain elevated in 2025 and moderate gradually in 2026, rather than reverting sharply toward earlier cyclical norms.
+
+This anchor-heavy baseline therefore represents the most realistic and strategically coherent central forecast for 2025–2026.
+
+---
+
 ## Why This Matters for the UAE (2025–2026)
 
 The 2025–2026 period is particularly relevant given ongoing uncertainty around global financing conditions, the continued influence of oil prices on regional liquidity, and heightened competition among investment destinations.
