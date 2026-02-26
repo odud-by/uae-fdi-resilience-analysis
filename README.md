@@ -4,7 +4,7 @@
 
 Foreign Direct Investment (FDI) plays a central role in the UAE’s economic diversification and long-term growth strategy. While recent years have demonstrated strong investment momentum, short-term FDI inflows remain sensitive to global financing conditions, regional oil price movements, and shifts in investor confidence.
 
-Over the past 2 years, global monetary tightening has affected the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, showing how external macroeconomic conditions influence investment timing.
+Over the past 2 years, global monetary tightening has affected the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, highlighting how external macroeconomic conditions influence investment timing.
 
 In this context, understanding the resilience of UAE FDI momentum has become essential. This analysis therefore examines UAE FDI inflows over the 2025–2026 forecast horizon using a scenario-based framework. Rather than solely focusing on forecast accuracy, the objective is to assess how resilient recent investment momentum is under different global conditions, identify the key drivers of short-term volatility, and evaluate which factors are most relevant for stabilizing or supporting outcomes over the next 2 years.
 
@@ -22,7 +22,7 @@ The early-2000s expansion in FDI aligned with the UAE’s emergence as a regiona
 
 The global financial crisis of 2008–09 sharply reduced inflows from USD 14.1 billion in 2007 to USD 1.1 billion in 2009. Unlike many emerging markets, UAE FDI rebounded within a few years rather than entering prolonged stagnation. After stabilizing in the post-crisis period, inflows accelerated to nearly USD 17.9 billion by 2019, driven by increased greenfield project activity and further expansion across logistics, free zones, and service-related sectors.
 
-The COVID period diverged from conventional crisis patterns: instead of contracting, FDI remained elevated through 2020–2022. This resilience stands in contrast to broader global trends, where FDI flows generally weakened. The post-pandemic phase represents a structural acceleration rather than a simple cyclical rebound. In 2023, inflows jumped to approximately USD 30.7 billion, placing the UAE among the leading global FDI destinations and second only to the United States in greenfield project announcements. In 2024, this acceleration culminated in a record USD 45.6 billion in net FDI, elevating the UAE into the top-10 global destination ranking and accounting for a dominant share of total inflows into the Middle East.
+The COVID period diverged from conventional crisis patterns: instead of contracting, FDI remained elevated through 2020–2022. This resilience stands in contrast to broader global trends, where FDI flows generally weakened. The post-pandemic phase represents a structural step-up rather than a simple cyclical rebound. In 2023, inflows jumped to approximately USD 30.7 billion, placing the UAE among the leading global FDI destinations and second only to the United States in greenfield project announcements. In 2024, inflows reached a record USD 45.6 billion, placing the UAE among the top 10 global destinations and accounting for a dominant share of total inflows into the Middle East.
 
 The magnitude and consistency of recent inflows across greenfield projects, reinvestments, and diversified sector activity suggest that 2023–2024 represent more than a typical cyclical upswing; they mark a distinct upward shift in UAE investment flows. This structural acceleration raises an important policy question: how durable is this momentum under tightening global conditions?
 
@@ -30,7 +30,7 @@ The magnitude and consistency of recent inflows across greenfield projects, rein
 
 ## Policy Question & Decision Context
 
-From a policy and strategy perspective, the central issue is not whether FDI will be marginally higher or lower in a given year. The more relevant questions are:
+From a policy perspective, the key issue is not whether FDI will be marginally higher or lower in a given year. The more relevant questions are:
 
 - How exposed are UAE FDI inflows to external shocks over the next 1-2 years?
 - Which macroeconomic variables most strongly influence investor behaviour in the short term?
@@ -107,9 +107,9 @@ The ARDL estimates indicate that UAE FDI is primarily driven by investment momen
 
 FDI exhibits strong persistence: last-year inflows affect next-year outcomes. This reflects the role of project pipelines, reinvestment decisions, and implementation lags in large-scale investments. Once momentum builds, it tends to carry into the following year before gradually dissipating.
 
-Oil prices influence FDI in stages rather than instantaneously. Initial oil shocks generate caution and uncertainty, but as liquidity improves and confidence returns, inflows recover. Thus indicating that UAE FDI moves closely with regional liquidity cycles.
+Oil prices influence FDI in stages rather than instantaneously. Initial oil shocks generate caution and uncertainty, but as liquidity improves and confidence returns, inflows recover. This means UAE FDI moves closely with regional liquidity conditions.
 
-GDP growth is positively associated with FDI but plays a secondary role. Trade Openness does not materially influence year-to-year fluctuations, suggesting it operates more as a structural determinant than a cyclical driver.
+GDP growth supports FDI but plays a secondary role. Trade openness does not materially influence year-to-year fluctuations, operating more as a structural backdrop than a cyclical driver.
 
 These channels provide the foundation for interpreting the scenario results that follow.
 
@@ -132,7 +132,7 @@ Key assumptions:
 - UAE real GDP growth remains close to 5%, reflecting projections from the IMF World Economic Outlook.
 - Trade openness remains broadly stable, with no major structural shift  
 
-Under this scenario, FDI inflows are expected to remain resilient, supported by existing investment momentum and a stable macroeconomic backdrop.
+Under this scenario, FDI inflows remain resilient, supported by existing investment momentum and a stable macroeconomic backdrop.
 
 #### Downside Case: Prolonged External Tightness
 
@@ -143,7 +143,7 @@ Key assumptions:
 - Global financing conditions remain restrictive 
 - UAE growth moderates but remains positive  
 
-Under this scenario, FDI inflows are expected to undershoot recent momentum, driven primarily by delayed investment decisions.
+Under this scenario, FDI inflows undershoot recent momentum, driven primarily by delayed investment decisions.
 
 #### Upside Case: Liquidity and Confidence Rebound
 
@@ -173,7 +173,7 @@ Key takeaways from the ARDL scenarios:
 - The Upside case raises 2025 inflows relative to the Base scenario, consistent with stronger oil-linked liquidity and investor confidence.
 - The Downside case lowers 2025 inflows, reflecting tighter global conditions and softer energy prices.
 - Across scenarios, 2026 outcomes converge, suggesting partial normalization after the initial scenario impact.
-- Differences across scenarios are most pronounced in 2025, when oil dynamics and persistence effects are strongest.
+- Differences across scenarios are most pronounced in 2025, when oil effects and persistence are strongest.
 
 These ARDL scenario results provide the stress-test range. The next sections introduce a trend anchor to account for recent structural momentum and assess how conclusions change when forecasts are anchored to post-pandemic inflow dynamics. 
 
@@ -185,7 +185,7 @@ The ARDL projections are based on historical relationships in the data. As a res
 
 However, the scale of FDI in 2023 and 2024 differs significantly from the prior decade. These years may reflect more than a temporary surge in liquidity — they could indicate a higher structural investment trajectory. To account for this possibility, a structural trend anchor is introduced.
 
-The anchor is constructed using a weighted average of recent FDI growth, placing greater emphasis on post-pandemic years. This approach allows recent momentum to influence the forward-looking baseline without discarding the discipline of the ARDL framework. The anchor therefore serves as a complementary reference path. It does not replace the ARDL model, but provides an alternative lens through which recent acceleration can be evaluated.
+The anchor is constructed using a weighted average of recent FDI growth, placing greater emphasis on post-pandemic years. This approach allows recent momentum to influence the forward-looking baseline without discarding the discipline of the ARDL framework. The anchor serves as a complementary reference path. It does not replace the ARDL model, but provides an alternative lens through which recent acceleration can be evaluated.
 
 ### Trend Anchor Projection
 
@@ -221,9 +221,9 @@ Applying this weight produces the following blended Base forecast:
 |-----------------|-------------------|-------------------|
 | Blended (w = 0.5) | 50.1 | 51.4 |
 
-The blended forecast softens the normalization implied by the ARDL model while avoiding full extrapolation of recent acceleration. It represents a balanced baseline that incorporates both structural discipline and recent momentum.
+The blended forecast softens the normalization implied by the ARDL model while avoiding full extrapolation of recent acceleration. It provides a balanced baseline that incorporates both historical discipline and recent momentum.
 
-This central blend serves as the reference forecast for policy interpretation.
+This central blend serves as the reference for policy interpretation.
 
 ## Sensitivity to ARDL Weight
 
@@ -244,11 +244,9 @@ Several clear patterns emerge:
 
 - As the weight on the ARDL model increases, projected inflows decline in both years.  
 - The adjustment is more pronounced in 2026, where outcomes range from USD 59.7 bn under an anchor-heavy specification (w = 0.3) to USD 47.3 bn under an ARDL-heavy specification (w = 0.6). 
-- This dispersion reflects the balance between recent structural momentum (captured by the anchor) and historical normalization dynamics (captured by the ARDL model).
+- This dispersion captures the balance between recent structural momentum (captured by the anchor) and historical normalization dynamics (captured by the ARDL model).
 
-Across the examined weights, the central pattern does not change: 2025 remains elevated, and 2026 reflects a partial moderation whose magnitude depends on the balance between historical dynamics and recent momentum.
-
-This suggests that the overall outlook and pattern remain robust to different blending weights. 
+Across the examined weights, the central pattern does not change: 2025 remains elevated, and 2026 reflects a partial moderation whose magnitude depends on the balance between historical dynamics and recent momentum. The overall outlook remains stable across reasonable blending weights.
 
 ---
 
