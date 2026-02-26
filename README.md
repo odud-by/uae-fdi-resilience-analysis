@@ -160,7 +160,7 @@ Under this scenario, FDI inflows exceed baseline momentum due to improved risk s
 
 Using the estimated ARDL framework and the macroeconomic assumptions outlined above, conditional forecasts for UAE FDI inflows are generated for 2025 and 2026 under each scenario.
 
-The results below reflect **pure ARDL forecasts**, prior to any anchor adjustment or blending.
+The results below reflect pure ARDL forecasts, prior to any anchor adjustment or blending.
 
 | Scenario   | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
 |------------|-------------------|-------------------|
@@ -170,10 +170,10 @@ The results below reflect **pure ARDL forecasts**, prior to any anchor adjustmen
 
 Key takeaways from the ARDL scenarios:
 
-- The **Upside** case raises the 2025 inflows relative to the Base scenario, consistent with stronger oil-linked liquidity and investor confidence.
-- The **Downside** case lowers 2025 inflows, reflecting tighter global conditions and softer energy prices.
-- Across scenarios, **2026 outcomes converge**, suggesting partial normalization after the initial scenario impact.
-- Differences across scenarios are most pronounced in **2025**, when oil dynamics and persistence effects are strongest.
+- The Upside case raises the 2025 inflows relative to the Base scenario, consistent with stronger oil-linked liquidity and investor confidence.
+- The Downside case lowers 2025 inflows, reflecting tighter global conditions and softer energy prices.
+- Across scenarios, 2026 outcomes converge, suggesting partial normalization after the initial scenario impact.
+- Differences across scenarios are most pronounced in 2025, when oil dynamics and persistence effects are strongest.
 
 These ARDL scenario results provide the stress-test range. The next sections introduce a trend anchor to account for recent structural momentum and assess how conclusions change when forecasts are anchored to post-pandemic inflow dynamics. 
 
@@ -201,29 +201,54 @@ Unlike the ARDL framework, the anchor path does not incorporate oil-price sensit
 
 ---
 
-## Blended Forecast
+## Blended FDI Forecast
 
-To reconcile model-implied normalization with recent structural momentum, a blended forecast is constructed.
+To balance model-implied normalization with recent structural momentum, a blended forecast is constructed.
 
-The blended forecast combines the ARDL Base projection and the Trend Anchor projection using a fixed weight:
+The blended forecast combines the ARDL Base forecast and the Trend Anchor projection using a fixed weight:
 
-![Blended Forecast Formula](output/blended_formula.png)
+![Blended Forecast Formula](outputs/blended_formula.png)
 
-For the central specification, **w₍ARDL₎ = 0.5**.
+For the central specification, w(ARDL) = 0.5.
 
 This assigns equal weight to:
-- The historical transmission dynamics captured by the ARDL model  
-- The recent structural acceleration embedded in the trend anchor  
+- The historical dynamics captured by the ARDL model  
+- The recent inflow acceleration reflected in the trend anchor  
 
-Applying this weight produces the following blended Base projection:
+Applying this weight produces the following blended Base forecast:
 
-| Projection Type | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
+| Forecast Type | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
 |-----------------|-------------------|-------------------|
-| Blended (w = 0.5) | XX.X | XX.X |
+| Blended (w = 0.5) | 50.1 | 51.4 |
 
-The blended path moderates the sharp normalization implied by the ARDL model while avoiding full extrapolation of recent acceleration. It represents a balanced baseline that incorporates both structural discipline and recent momentum.
+The blended forecast softens the normalization implied by the ARDL model while avoiding full extrapolation of recent acceleration. It represents a balanced baseline that incorporates both structural discipline and recent momentum.
 
-This central blend serves as the reference projection for policy interpretation.
+This central blend serves as the reference forecast for policy interpretation.
+
+## Sensitivity to ARDL Weight
+
+The blended forecast depends on how much weight is assigned to the ARDL model relative to the trend anchor. To test robustness, forecasts are recalculated across a reasonable range of weights from w_ARDL = 0.3 to 0.6.
+
+| w_ARDL | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
+|--------|-------------------|-------------------|
+| 0.3    | 53.0              | 59.7              |
+| 0.4    | 51.5              | 55.5              |
+| 0.5    | 50.1              | 51.4              |
+| 0.6    | 48.6              | 47.3              |
+
+While the table shows the numerical range, the chart below illustrates how the forecast path shifts as the weight moves from anchor-heavy to ARDL-heavy specifications.
+
+![ARDL Weight Sensitivity](outputs/fdi_blend_sensitivity.png)
+
+Several clear patterns emerge:
+
+- As the weight on the ARDL model increases, projected inflows decline in both years.  
+- The adjustment is more pronounced in 2026, where outcomes range from USD 59.7 bn under an anchor-heavy specification (w = 0.3) to USD 47.3 bn under an ARDL-heavy specification (w = 0.6).  
+- This dispersion reflects the balance between recent structural momentum (captured by the anchor) and historical normalization dynamics (captured by the ARDL model).
+
+Importantly, the broader conclusion remains stable across the weight range: 2025 remains elevated relative to pre-2023 levels, while 2026 reflects varying degrees of normalization depending on how strongly historical dynamics are allowed to dominate.
+
+Overall, the sensitivity exercise shows that the policy narrative does not hinge on a single weight choice, but remains broadly consistent across reasonable blending specifications.
 
 ---
 
