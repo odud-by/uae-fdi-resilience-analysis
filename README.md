@@ -62,7 +62,7 @@ This analysis uses a short-run time-series framework to evaluate how UAE FDI inf
 
 The core empirical tool is an Autoregressive Distributed Lag (ARDL) model estimated on annual UAE data from 2001 to 2024. The ARDL specification is well suited to the dataset, as it accommodates variables with mixed integration orders and captures short-run dynamics without requiring pre-differencing. 
 
-However, ARDL-based forecasts can overreact to short-term fluctuations. To address this, base-case projections are blended with a trend anchor derived from recent realized FDI growth. This ensures that forecasts remain grounded in observed investment momentum while preserving sensitivity to underlying macroeconomic conditions.
+However, ARDL-based forecasts can overreact to short-term fluctuations. To address this, base-case forecasts are blended with a trend anchor derived from recent realized FDI growth. This ensures that forecasts remain grounded in observed investment momentum while preserving sensitivity to underlying macroeconomic conditions.
 
 The ARDL model's role is to:
 
@@ -158,9 +158,9 @@ Under this scenario, FDI inflows exceed baseline momentum due to improved risk s
 
 ### ARDL Scenario Results
 
-Using the estimated ARDL framework and the macroeconomic assumptions outlined above, conditional projections for UAE FDI inflows are generated for 2025 and 2026 under each scenario.
+Using the estimated ARDL framework and the macroeconomic assumptions outlined above, conditional forecasts for UAE FDI inflows are generated for 2025 and 2026 under each scenario.
 
-The results below reflect **pure ARDL projections**, prior to any anchor adjustment or blending.
+The results below reflect **pure ARDL forecasts**, prior to any anchor adjustment or blending.
 
 | Scenario   | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
 |------------|-------------------|-------------------|
@@ -170,26 +170,60 @@ The results below reflect **pure ARDL projections**, prior to any anchor adjustm
 
 Key takeaways from the ARDL scenarios:
 
-- The **Upside** case raises the 2025 2025 inflows relative to the Base scenario, consistent with stronger oil-linked liquidity and investor confidence.
+- The **Upside** case raises the 2025 inflows relative to the Base scenario, consistent with stronger oil-linked liquidity and investor confidence.
 - The **Downside** case lowers 2025 inflows, reflecting tighter global conditions and softer energy prices.
 - Across scenarios, **2026 outcomes converge**, suggesting partial normalization after the initial scenario impact.
 - Differences across scenarios are most pronounced in **2025**, when oil dynamics and persistence effects are strongest.
 
-These ARDL scenario results provide the stress-test range. The next sections introduce a trend anchor to raccount for recent structural momentum and assess how conclusions change when forecasts are anchored to post-pandemic inflow dynamics. 
+These ARDL scenario results provide the stress-test range. The next sections introduce a trend anchor to account for recent structural momentum and assess how conclusions change when forecasts are anchored to post-pandemic inflow dynamics. 
 
 ---
 
 ## Trend Anchor & Momentum Adjustment
 
-While the ARDL framework provides a disciplined estimate based on historical transmission dynamics, recent FDI outcomes suggest a possible structural acceleration beyond what historical averages alone would imply.
+The ARDL projections are based on historical relationships in the data. As a result, they naturally allow for some normalization following exceptionally strong inflows.
 
-The 2023 and 2024 inflows represent a marked break from the prior decade’s range, both in magnitude and consistency. This raises an important question: should projections rely solely on mean-reverting historical relationships, or should recent momentum be partially incorporated into the forward-looking baseline?
+However, the scale of FDI in 2023 and 2024 differs significantly from the prior decade. These years may reflect more than a temporary surge in liquidity — they could indicate a higher structural investment trajectory. To account for this possibility, a structural trend anchor is introduced for the Base scenario. 
 
-To address this, a structural trend anchor is introduced for the Base scenario.
+The anchor is constructed using a weighted average of recent FDI growth, placing greater emphasis on post-pandemic years. This approach allows recent momentum to influence the forward-looking baseline without discarding the discipline of the ARDL framework. The anchor therefore serves as a complementary reference path. It does not replace the ARDL model, but provides an alternative lens through which recent acceleration can be evaluated.
 
-The anchor is constructed using a weighted geometric average of recent FDI growth, placing greater emphasis on post-pandemic years. This approach captures the possibility that recent inflows reflect more than a temporary liquidity cycle and may signal a higher structural investment trajectory.
+### Trend Anchor Projection
 
-The anchor does not replace the ARDL framework. Instead, it serves as a complementary reference path against which model-implied normalization can be evaluated.
+The structural trend anchor generates the following anchor projection based solely on recent FDI growth dynamics.
+
+| Projection Type | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
+|-----------------|-------------------|-------------------|
+| Trend Anchor    | 57.3              | 72.0              |
+
+The anchor projection maintains a substantially higher trajectory relative to the ARDL-based scenarios. This reflects the assumption that the acceleration observed in 2023–2024 represents a sustained shift in investment momentum rather than a temporary liquidity-driven spike.
+
+Unlike the ARDL framework, the anchor path does not incorporate oil-price sensitivity or scenario-based stress testing. Instead, it embeds recent realized growth directly into the forward outlook. As such, the anchor should be interpreted as a momentum-driven reference path rather than a standalone forecast.
+
+---
+
+## Blended Forecast
+
+To reconcile model-implied normalization with recent structural momentum, a blended forecast is constructed.
+
+The blended forecast combines the ARDL Base projection and the Trend Anchor projection using a fixed weight:
+
+![Blended Forecast Formula](output/blended_formula.png)
+
+For the central specification, **w₍ARDL₎ = 0.5**.
+
+This assigns equal weight to:
+- The historical transmission dynamics captured by the ARDL model  
+- The recent structural acceleration embedded in the trend anchor  
+
+Applying this weight produces the following blended Base projection:
+
+| Projection Type | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
+|-----------------|-------------------|-------------------|
+| Blended (w = 0.5) | XX.X | XX.X |
+
+The blended path moderates the sharp normalization implied by the ARDL model while avoiding full extrapolation of recent acceleration. It represents a balanced baseline that incorporates both structural discipline and recent momentum.
+
+This central blend serves as the reference projection for policy interpretation.
 
 ---
 
