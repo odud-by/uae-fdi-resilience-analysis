@@ -33,10 +33,10 @@ The magnitude and consistency of recent inflows across greenfield projects, rein
 From a policy and strategy perspective, the central issue is not whether FDI will be marginally higher or lower in a given year. The more relevant questions are:
 
 - How exposed are UAE FDI inflows to external shocks over the next 1-2 years?
-- Which macroeconomic channels most strongly influence investor behaviour in the short term?
+- Which macroeconomic variables most strongly influence investor behaviour in the short term?
 - What range of outcomes should decision-makers reasonably plan for under different global scenarios?
 
-These questions are particularly relevant in an environment where capital remains selective, post-COVID investment pipelines are still normalising, and competition for mobile international investment remains intense.
+These questions are particularly relevant in an environment where capital remains selective, post-COVID investment pipelines are still adjusting, and competition for international investment remains intense.
 
 ---
 
@@ -103,11 +103,11 @@ A detailed technical exposition of model specification, diagnostics, and forecas
 
 ## Model-Implied FDI Dynamics
 
-The estimated ARDL framework indicates that UAE FDI dynamics are primarily driven by investment momentum and oil-linked liquidity effects, with domestic growth playing a secondary role.
+The ARDL estimates indicate that UAE FDI is primarily driven by investment momentum and oil-linked liquidity, with domestic growth playing a secondary role.
 
 FDI exhibits strong persistence: last-year inflows affect next-year outcomes. This reflects the role of project pipelines, reinvestment decisions, and implementation lags in large-scale investments. Once momentum builds, it tends to carry into the following year before gradually dissipating.
 
-Oil prices influence FDI in stages rather than instantaneously. Initial oil shocks generate caution and uncertainty, but are later followed by improved liquidity and investor confidence that support capital deployment. This pattern indicates that FDI movements are closely linked to regional liquidity cycles.
+Oil prices influence FDI in stages rather than instantaneously. Initial oil shocks generate caution and uncertainty, but as liquidity improves and confidence returns, inflows recover. Thus indicating that UAE FDI moves closely with regional liquidity cycles.
 
 GDP growth is positively associated with FDI but plays a secondary role. Trade Openness does not materially influence year-to-year fluctuations, suggesting it operates more as a structural determinant than a cyclical driver.
 
@@ -123,7 +123,7 @@ Rather than relying on a single forecast path, this analysis evaluates UAE FDI o
 
 The scenarios are not intended as predictions. They are designed to bound reasonable outcomes and to assess how sensitive short-term FDI inflows are to changes in the external environment.
 
-#### Base Case: Gradual Normalisation
+#### Base Case: Gradual Normalization
 
 The base case reflects a continuation of recent trends, with global financial conditions easing gradually but remaining tighter than the pre-2022 period. Energy prices stabilize near recent averages, and UAE growth remains solid but not accelerating.
 
@@ -170,7 +170,7 @@ The results below reflect pure ARDL forecasts, prior to any anchor adjustment or
 
 Key takeaways from the ARDL scenarios:
 
-- The Upside case raises the 2025 inflows relative to the Base scenario, consistent with stronger oil-linked liquidity and investor confidence.
+- The Upside case raises 2025 inflows relative to the Base scenario, consistent with stronger oil-linked liquidity and investor confidence.
 - The Downside case lowers 2025 inflows, reflecting tighter global conditions and softer energy prices.
 - Across scenarios, 2026 outcomes converge, suggesting partial normalization after the initial scenario impact.
 - Differences across scenarios are most pronounced in 2025, when oil dynamics and persistence effects are strongest.
@@ -183,7 +183,7 @@ These ARDL scenario results provide the stress-test range. The next sections int
 
 The ARDL projections are based on historical relationships in the data. As a result, they naturally allow for some normalization following exceptionally strong inflows.
 
-However, the scale of FDI in 2023 and 2024 differs significantly from the prior decade. These years may reflect more than a temporary surge in liquidity — they could indicate a higher structural investment trajectory. To account for this possibility, a structural trend anchor is introduced for the Base scenario. 
+However, the scale of FDI in 2023 and 2024 differs significantly from the prior decade. These years may reflect more than a temporary surge in liquidity — they could indicate a higher structural investment trajectory. To account for this possibility, a structural trend anchor is introduced.
 
 The anchor is constructed using a weighted average of recent FDI growth, placing greater emphasis on post-pandemic years. This approach allows recent momentum to influence the forward-looking baseline without discarding the discipline of the ARDL framework. The anchor therefore serves as a complementary reference path. It does not replace the ARDL model, but provides an alternative lens through which recent acceleration can be evaluated.
 
@@ -195,7 +195,7 @@ The structural trend anchor generates the following anchor projection based sole
 |-----------------|-------------------|-------------------|
 | Trend Anchor    | 57.3              | 72.0              |
 
-The anchor projection maintains a substantially higher trajectory relative to the ARDL-based scenarios. This reflects the assumption that the acceleration observed in 2023–2024 represents a sustained shift in investment momentum rather than a temporary liquidity-driven spike.
+The anchor projection maintains a substantially higher trajectory relative to the ARDL-based scenarios. This reflects the assumption that the acceleration observed in 2023–2024 represents a sustained shift in investment momentum rather than a temporary spike.
 
 Unlike the ARDL framework, the anchor path does not incorporate oil-price sensitivity or scenario-based stress testing. Instead, it embeds recent realized growth directly into the forward outlook. As such, the anchor should be interpreted as a momentum-driven reference path rather than a standalone forecast.
 
