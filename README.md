@@ -209,7 +209,7 @@ The blended forecast combines the ARDL Base forecast and the Trend Anchor projec
 
 ![Blended Forecast Formula](outputs/blended_formula.png)
 
-For the central specification, w(ARDL) = 0.5.
+For the central specification, w_ARDL = 0.5.
 
 This assigns equal weight to:
 - The historical dynamics captured by the ARDL model  
@@ -236,19 +236,19 @@ The blended forecast depends on how much weight is assigned to the ARDL model re
 | 0.5    | 50.1              | 51.4              |
 | 0.6    | 48.6              | 47.3              |
 
-While the table shows the numerical range, the chart below illustrates how the forecast path shifts as the weight moves from anchor-heavy to ARDL-heavy specifications.
+While the table shows the numerical range, the chart below illustrates how the forecast path shifts as the weight moves from Anchor-heavy to ARDL-heavy specifications.
 
 ![ARDL Weight Sensitivity](outputs/fdi_blend_sensitivity.png)
 
 Several clear patterns emerge:
 
 - As the weight on the ARDL model increases, projected inflows decline in both years.  
-- The adjustment is more pronounced in 2026, where outcomes range from USD 59.7 bn under an anchor-heavy specification (w = 0.3) to USD 47.3 bn under an ARDL-heavy specification (w = 0.6).  
+- The adjustment is more pronounced in 2026, where outcomes range from USD 59.7 bn under an anchor-heavy specification (w = 0.3) to USD 47.3 bn under an ARDL-heavy specification (w = 0.6). 
 - This dispersion reflects the balance between recent structural momentum (captured by the anchor) and historical normalization dynamics (captured by the ARDL model).
 
-Importantly, the broader conclusion remains stable across the weight range: 2025 remains elevated relative to pre-2023 levels, while 2026 reflects varying degrees of normalization depending on how strongly historical dynamics are allowed to dominate.
+Across the examined weights, the central pattern does not change: 2025 remains elevated, and 2026 reflects a partial moderation whose magnitude depends on the balance between historical dynamics and recent momentum.
 
-Overall, the sensitivity exercise shows that the policy narrative does not hinge on a single weight choice, but remains broadly consistent across reasonable blending specifications.
+This suggests that the overall outlook and pattern remain robust to different blending weights. 
 
 ---
 
