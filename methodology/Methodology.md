@@ -378,11 +378,17 @@ To assess robustness, alternative weights on ARDL (w_ARDL = 0.3 and w_ARDL = 0.6
 
 This framework is subject to several structural and data-related limitations that should be considered when interpreting results.
 
+- **Omitted Variable Risk:**  
+  The specification includes a deliberately limited set of explanatory variables (oil prices, GDP growth, and trade openness) to preserve degrees of freedom in a short annual sample. However, FDI inflows are influenced by a broader range of factors, including global financial conditions, interest rate differentials, geopolitical developments, sector-specific incentives, exchange rate expectations, and regulatory reforms. The exclusion of these drivers introduces potential omitted variable bias and may understate the full complexity of FDI dynamics.
+  
 - **Oil Price Sensitivity:**  
   The ARDL specification exhibits strong sensitivity to Brent oil shocks, reflecting the statistical significance of oil dynamics in the short-run model. While the blended base-case projection mitigates mechanical overreaction through the trend anchor, oil price assumptions remain a key driver of forecast volatility.
 
 - **Annual Frequency & Sample Size:**  
-  The use of annual data (2001–2024) limits degrees of freedom and reduces statistical power. Large shocks (e.g., COVID-19) are captured implicitly in the data but are not modeled as explicit structural breaks.
+  The use of annual data (2001–2024) limits degrees of freedom and reduces statistical power. Large shocks (e.g., COVID-19) are captured in the data but are not modeled as explicit break points.
+  
+- **Data Availability & Structural Shift Risk:**  
+  The acceleration observed in 2023–2024 is based on recently released data, and only a limited number of post-acceleration observations are available. As additional data become available, the magnitude and persistence of this structural shift may be reassessed. The current framework cannot formally test for regime change due to sample constraints.  
 
 - **Short-Run Specification Only:**  
   The bounds test indicates no evidence of cointegration; therefore, the model excludes long-run equilibrium dynamics. The framework should be interpreted as a short-run resilience assessment rather than a structural growth model.
@@ -393,4 +399,4 @@ This framework is subject to several structural and data-related limitations tha
 - **Structural Stability Assumption:**  
   The model assumes no major policy regime changes or structural breaks during 2025–2026, and that the historical relationships between FDI and its drivers remain broadly stable over the projection horizon.
 
-Despite these limitations, the framework provides a disciplined scenario-based approach to assessing short-term FDI resilience under alternative macroeconomic conditions.
+Despite these limitations, the framework provides a disciplined scenario-based approach to assessing short-term FDI resilience under alternative macroeconomic conditions. Future extensions could incorporate higher-frequency data, global financial conditions indices, sector-level disaggregation, and explicit structural break testing as the dataset expands.
