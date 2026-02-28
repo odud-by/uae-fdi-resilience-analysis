@@ -256,12 +256,6 @@ The trade-off between the ARDL model and the trend anchor framework illustrates 
 
 An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, based on forward-looking evidence, a more anchor-heavy specification is strategically more appropriate for policy interpretation and for forming a realistic outlook. Specifically, assigning a lower weight to the ARDL model — for example, w_ARDL = 0.3 — better aligns the forecast with current structural momentum. 
 
-This resulting path (w_ARDL=0.3) is illustrated below.
-
-![[Anchor heavy forecasts](outputs/anchor_heavy_forecasts.png)
-
-This baseline preserves the post-2023 step-up in inflows while allowing for moderate easing in 2026.
-
 Given the breadth of evidence indicating that structural momentum is likely to persist, this recommendation rests on three key considerations.
 
 **1. Multi-year capital deployment in advanced technology**
@@ -288,6 +282,10 @@ Taken together, these factors indicate that recent inflows contain a structural 
 
 Accordingly, assigning greater weight to the trend anchor (w_ARDL = 0.3) better reflects the balance of evidence. Under this specification, inflows remain elevated in 2025 and moderate gradually in 2026, rather than reverting sharply toward earlier cyclical norms.
 
-This anchor-heavy baseline therefore represents the most realistic and strategically coherent central forecast for 2025–2026.
+The resulting forecast path under the anchor-heavy specification, **w = 0.3**, is shown below.
+
+![Anchor heavy forecasts](outputs/anchor_heavy_forecasts.png)
+
+The chart highlights the post-2023 step-up in inflows and the sustained elevation through 2026 under the recommended weighting, reinforcing why the anchor-heavy specification represents the most realistic and strategically coherent central forecast for 2025–2026.
 
 ---
