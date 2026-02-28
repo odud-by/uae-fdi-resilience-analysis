@@ -254,39 +254,39 @@ Across the examined weights, the central pattern does not change: 2025 remains e
 
 The trade-off between the ARDL model and the trend anchor framework illustrates why blending is necessary. The ARDL specification captures historical dynamics and allows for partial normalization after exceptionally strong inflows. The trend anchor, by contrast, reflects the structural acceleration evident in 2023–2024.
 
-An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, based on forward-looking evidence, a more anchor-heavy specification is strategically more appropriate for policy interpretation and for forming a realistic outlook. Specifically, assigning a lower weight to the ARDL model — for example, w_ARDL = 0.3 — better aligns the forecast with current structural momentum. 
+An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w_ARDL = 0.3 better aligns the forecast with current structural momentum. 
 
-Given the breadth of evidence indicating that structural momentum is likely to persist, this recommendation rests on three key considerations.
+Given the breadth of evidence, this recommendation rests on three key considerations.
 
 **1. Multi-year capital deployment in advanced technology**
 
-Large-scale AI and data infrastructure investments are already committed and phased beyond 2025. The Microsoft–G42 partnership includes a $15 billion investment program, with significant deployment completed by end-2025 and additional capital scheduled through 2026–2029. The UAE’s 5 GW “Stargate” AI campus, supported by global partners including Nvidia and Oracle, is rolling out capacity through 2026.
+Large-scale AI and data infrastructure investments are committed and phased beyond 2025. The Microsoft–G42 partnership includes a $15 billion investment program, with significant deployment completed by end-2025 and additional capital scheduled through 2026–2029. The UAE’s 5 GW “Stargate” AI campus, supported by global partners including Nvidia and Oracle, is rolling out capacity through 2026.
 
-These projects represent structured capital expenditure programs rather than short-term liquidity responses. Their timing aligns directly with the 2025–2026 forecast horizon.
+These are long-horizon capex programs, supporting a forecast that moderates gradually rather than reverting quickly.
 
 **2. Ongoing greenfield pipeline, not fully realized flows**
 
-While 2025 final inflow data are not yet fully realized, greenfield project announcements remain high. Early-2025 project data show continued activity across technology, manufacturing, and free zones, with the UAE ranking second globally in project announcements and project values rising materially relative to prior years.
+While full-year 2025 inflow data are not yet available, greenfield announcements remain strong. Early-2025 project data show continued activity across technology, manufacturing, and free zones, with the UAE ranking second globally in project announcements and project values rising materially relative to prior years.
 
-Greenfield announcements typically translate into phased capital deployment over multiple years. The scale of the current pipeline reduces the likelihood of an abrupt reversion toward pre-2023 inflow levels.
+Greenfield projects typically deploy capital over multiple years. This reduces the likelihood of an abrupt reversion toward pre-2023 inflow levels.
 
 **3. Explicit structural investment strategy**
 
-The National Investment Strategy 2031 targets raising annual FDI to AED 240 billion and expanding total FDI stock to AED 2.2 trillion. Complementary reforms — including 100% foreign ownership provisions and the NextGen FDI programme — reinforce structural competitiveness.
+The National Investment Strategy 2031 targets raising annual FDI to AED 240 billion and expanding total FDI stock to AED 2.2 trillion. Complementary reforms — including 100% foreign ownership provisions and the NextGen FDI programme — reinforce competitiveness.
 
-This policy direction is expansionary and designed for the medium term. It supports the view that the recent step-up in inflows reflects strengthened positioning rather than a temporary surge.
+This is an expansionary medium-term policy push, reinforcing that the post-2023 step-up reflects stronger positioning rather than a temporary surge.
 
 ---
 
-Taken together, these factors indicate that recent inflows contain a structural component that a purely historical ARDL specification — estimated on a relatively small sample — is likely to underweight.
+Taken together, recent inflows contain a structural component that the ARDL-only baseline likely understates.
 
-Accordingly, assigning greater weight to the trend anchor (w_ARDL = 0.3) better reflects the balance of evidence. Under this specification, inflows remain elevated in 2025 and moderate gradually in 2026, rather than reverting sharply toward earlier cyclical norms.
+For policy interpretation, w_ARDL = 0.3 is the recommended baseline. It keeps 2025 elevated and implies gradual moderation in 2026, rather than rapid mean reversion.
 
-The resulting forecast path under the anchor-heavy specification, **w = 0.3**, is shown below.
+The resulting forecast path under w_ARDL = 0.3 is shown below.
 
 ![Anchor heavy forecasts](outputs/anchor_heavy_forecasts.png)
 
-The chart highlights the post-2023 step-up in inflows and the sustained elevation through 2026 under the recommended weighting, reinforcing why the anchor-heavy specification represents the most realistic and strategically coherent central forecast for 2025–2026.
+The chart highlights the post-2023 step-up and sustained increase through 2026 under this specification, reinforcing it as the most realistic central forecast for 2025–2026.
 
 ---
 
@@ -364,4 +364,3 @@ As new data emerge, the blend between historical dynamics and structural momentu
 
 The central message is clear: UAE FDI remains exposed to global cycles, but its medium-term trajectory is increasingly shaped by domestic structural strength. Sustaining that strength is the critical policy task for 2025–2026.
 
----
