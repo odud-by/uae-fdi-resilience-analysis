@@ -121,8 +121,6 @@ These channels provide the foundation for interpreting the scenario results that
 
 Rather than relying on a single forecast path, this analysis evaluates UAE FDI outcomes under a small set of macroeconomic scenarios. Each scenario reflects a plausible combination of global financial conditions, energy market dynamics, and regional growth expectations over the 2025–2026 horizon.
 
-The scenarios are not intended as predictions. They are designed to bound reasonable outcomes and to assess how sensitive short-term FDI inflows are to changes in the external environment.
-
 #### Base Case: Gradual Normalization
 
 The base case reflects a continuation of recent trends, with global financial conditions easing gradually but remaining tighter than the pre-2022 period. Energy prices stabilize near recent averages, and UAE growth remains solid but not accelerating.
@@ -189,7 +187,7 @@ The anchor is constructed using a weighted average of recent FDI growth, placing
 
 ### Trend Anchor Projection
 
-The structural trend anchor generates the following anchor projection based solely on recent FDI growth dynamics.
+The structural trend anchor generates the following anchor projection based solely on recent FDI growth.
 
 | Projection Type | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
 |-----------------|-------------------|-------------------|
@@ -254,33 +252,23 @@ Across the examined weights, the central pattern does not change: 2025 remains e
 
 The trade-off between the ARDL model and the trend anchor framework illustrates why blending is necessary. The ARDL specification captures historical dynamics and allows for partial normalization after exceptionally strong inflows. The trend anchor, by contrast, reflects the structural acceleration evident in 2023–2024.
 
-An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w_ARDL = 0.3 better aligns the forecast with current structural momentum. 
-
-Given the breadth of evidence, this recommendation rests on three key considerations.
+An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w_ARDL = 0.3 better aligns the forecast with current structural momentum. Given the breadth of evidence, this recommendation rests on three key considerations:
 
 **1. Multi-year capital deployment in advanced technology**
 
-Large-scale AI and data infrastructure investments are committed and phased beyond 2025. The Microsoft–G42 partnership includes a $15 billion investment program, with significant deployment completed by end-2025 and additional capital scheduled through 2026–2029. The UAE’s 5 GW “Stargate” AI campus, supported by global partners including Nvidia and Oracle, is rolling out capacity through 2026.
-
-These are long-horizon capex programs, supporting a forecast that moderates gradually rather than reverting quickly.
+Large-scale AI and data infrastructure investments are committed and phased beyond 2025. The Microsoft–G42 partnership includes a $15 billion investment program, with significant deployment completed by end-2025 and additional capital scheduled through 2026–2029. The UAE’s 5 GW “Stargate” AI campus, supported by global partners including Nvidia and Oracle, is rolling out capacity through 2026. These are long-horizon capex programs, supporting a forecast that moderates gradually rather than reverting quickly.
 
 **2. Ongoing greenfield pipeline, not fully realized flows**
 
-While full-year 2025 inflow data are not yet available, greenfield announcements remain strong. Early-2025 project data show continued activity across technology, manufacturing, and free zones, with the UAE ranking second globally in project announcements and project values rising materially relative to prior years.
-
-Greenfield projects typically deploy capital over multiple years. This reduces the likelihood of an abrupt reversion toward pre-2023 inflow levels.
+While full-year 2025 inflow data are not yet available, greenfield announcements remain strong. Early-2025 project data show continued activity across technology, manufacturing, and free zones, with the UAE ranking second globally in project announcements and project values rising materially relative to prior years. Greenfield projects typically deploy capital over multiple years. This reduces the likelihood of an abrupt reversion toward pre-2023 inflow levels.
 
 **3. Explicit structural investment strategy**
 
-The National Investment Strategy 2031 targets raising annual FDI to AED 240 billion and expanding total FDI stock to AED 2.2 trillion. Complementary reforms — including 100% foreign ownership provisions and the NextGen FDI programme — reinforce competitiveness.
-
-This is an expansionary medium-term policy push, reinforcing that the post-2023 step-up reflects stronger positioning rather than a temporary surge.
+The National Investment Strategy 2031 targets raising annual FDI to AED 240 billion and expanding total FDI stock to AED 2.2 trillion. Complementary reforms — including 100% foreign ownership provisions and the NextGen FDI programme — reinforce competitiveness. This is an expansionary medium-term policy push, reinforcing that the post-2023 step-up reflects stronger positioning rather than a temporary surge.
 
 ---
 
-Taken together, recent inflows contain a structural component that the ARDL-only baseline likely understates.
-
-For policy interpretation, w_ARDL = 0.3 is the recommended baseline. It keeps 2025 elevated and implies gradual moderation in 2026, rather than rapid mean reversion.
+Taken together, recent inflows contain a structural component that the neutral baseline likely understates. For policy interpretation, w_ARDL = 0.3 is the recommended baseline. It keeps 2025 elevated and implies gradual moderation in 2026, rather than rapid mean reversion.
 
 The resulting forecast path under w_ARDL = 0.3 is shown below.
 
@@ -292,7 +280,7 @@ The chart highlights the post-2023 step-up and sustained increase through 2026 u
 
 ## Policy Implications & “What’s Controllable”
 
-The analysis points to a clear distinction: short-term FDI volatility is influenced by global liquidity and oil prices, but the durability of inflows is increasingly shaped by domestic policy architecture. The relevant question for 2025–2026 is therefore not whether volatility can be eliminated, but how its transmission can be managed.
+The analysis points to a clear distinction: short-term FDI volatility is driven by global liquidity and oil prices, but durability is shaped by domestic policy.  The relevant question for 2025–2026 is therefore not eliminating volatility, but managing its transmission.
 
 ### What Is Not Directly Controllable
 
@@ -306,7 +294,7 @@ These factors may compress or delay inflows temporarily. Attempting to offset th
 
 **1. Reinforcing Post-COVID Momentum**
 
-The 2023–2024 step-up created visible investment momentum. Leaning into this momentum—rather than assuming mean-reversion helps sustain investor confidence. Clear signaling that increased inflows are structural strengthens forward expectations.
+The 2023–2024 step-up created visible investment momentum. Leaning into this momentum, rather than assuming mean-reversion helps sustain investor confidence. Clear signaling that increased inflows are structural rather than coincidental strengthens forward expectations.
 
 **2. After-Care & Reinvestment Strategy**
 
