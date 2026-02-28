@@ -289,3 +289,79 @@ The resulting forecast path under the anchor-heavy specification, **w = 0.3**, i
 The chart highlights the post-2023 step-up in inflows and the sustained elevation through 2026 under the recommended weighting, reinforcing why the anchor-heavy specification represents the most realistic and strategically coherent central forecast for 2025–2026.
 
 ---
+
+## Policy Implications & “What’s Controllable”
+
+The analysis points to a clear distinction: short-term FDI volatility is influenced by global liquidity and oil prices, but the durability of inflows is increasingly shaped by domestic policy architecture. The relevant question for 2025–2026 is therefore not whether volatility can be eliminated, but how its transmission can be managed.
+
+### What Is Not Directly Controllable
+
+- Global monetary conditions  
+- Oil price fluctuations  
+- Broad shifts in international risk sentiment  
+
+These factors may compress or delay inflows temporarily. Attempting to offset them aggressively risks policy overreach. Cyclical softening should not be mistaken for structural deterioration.
+
+### What Is Controllable
+
+**1. Reinforcing Post-COVID Momentum**
+
+The 2023–2024 step-up created visible investment momentum. Leaning into this momentum—rather than assuming mean-reversion helps sustain investor confidence. Clear signaling that increased inflows are structural strengthens forward expectations.
+
+**2. After-Care & Reinvestment Strategy**
+
+Existing investors represent one of the most reliable channels for sustained FDI. Prioritizing after-care, expansion support, and reinvestment facilitation can stabilize inflows even if new project announcements fluctuate.
+
+**3. Regulatory Stability & Predictability**
+
+- Maintain and actively promote 100% foreign ownership provisions  
+- Preserve long-horizon visa pathways  
+- Ensure transparent dispute-resolution mechanisms and service-level timelines  
+
+Reducing regulatory uncertainty lowers the pass-through from oil volatility to investment decisions. Predictability itself becomes a stabilizing force.
+
+**4. Free Zone & Investment Platform Consistency**
+
+Stable free-zone rules, streamlined licensing, and consistent incentive frameworks reinforce credibility. Frequent rule shifts would amplify normalization pressures embedded in historical dynamics.
+
+**5. Infrastructure & Growth Support**
+
+Continued investment in logistics, education, digital infrastructure, and advanced manufacturing ecosystems reduces reliance on cyclical liquidity effects. These investments reinforce the structural drivers captured by the trend anchor.
+
+
+### Controllability in Practice
+
+The model demonstrates that oil-linked liquidity matters in the short run. However, structural competitiveness determines whether shocks translate into temporary delays or deeper retrenchment.
+
+In practical terms:
+
+- External shocks influence timing.  
+- Domestic policy influences durability.  
+
+The implication for 2025–2026 is disciplined continuity. Sustained regulatory clarity, investor facilitation, and sector diversification can moderate downside risk without overreacting to cyclical movements.
+
+This is where policy leverage resides.
+
+---
+
+## Conclusion & Next Steps
+
+UAE FDI has entered a new phase. The scale and breadth of inflows in 2023–2024 represent more than a cyclical rebound; they reflect strengthened structural positioning across technology, logistics, advanced manufacturing, and digital infrastructure.
+
+The ARDL framework confirms that short-term volatility remains linked to oil prices and global liquidity conditions. However, forward-looking evidence suggests that recent momentum contains a durable component that historical normalization dynamics alone may understate.
+
+For this reason, the anchor-heavy specification (w_ARDL = 0.3) is adopted as the strategic baseline for 2025–2026. Under this path, inflows remain elevated in 2025 and moderate gradually in 2026, reflecting resilience with measured normalization rather than sharp reversion.
+
+The strategic priority for policymakers is therefore consistency. Maintaining regulatory clarity, reinforcing investment facilitation, and supporting sectoral diversification will matter more than reactive counter-cyclical adjustments to external shocks.
+
+Looking ahead, several extensions could further refine the framework:
+
+- Incorporating additional explanatory variables such as global risk indicators, sector-level investment data, or capital market conditions  
+- Moving toward higher-frequency data as availability improves  
+- Testing for structural breaks explicitly as post-2024 data accumulate  
+
+As new data emerge, the blend between historical dynamics and structural momentum can be recalibrated. For now, the evidence supports a disciplined but momentum-aware outlook.
+
+The central message is clear: UAE FDI remains exposed to global cycles, but its medium-term trajectory is increasingly shaped by domestic structural strength. Sustaining that strength is the critical policy task for 2025–2026.
+
+---
