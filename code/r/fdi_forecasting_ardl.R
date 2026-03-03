@@ -85,11 +85,17 @@ gdpg <- gdp_raw |>
 
 # (d) Brent (FRED series)
 brent_raw <- readr::read_csv(file.path(DATA_DIR, "POILBREUSDA.csv"), show_col_types = FALSE)
-stopifnot(all(c("observation_date", "POILBREUSDA") %in% names(brent_raw)))
+
+date_col <- dplyr::case_when(
+  "observation_date" %in% names(brent_raw) ~ "observation_date",
+  "DATE"             %in% names(brent_raw) ~ "DATE",
+  TRUE ~ NA_character_
+)
+stopifnot(!is.na(date_col), "POILBREUSDA" %in% names(brent_raw))
 
 brent <- brent_raw |>
   mutate(
-    date  = lubridate::ymd(observation_date),
+    date  = lubridate::ymd(.data[[date_col]]),
     year  = lubridate::year(date),
     brent = numify(POILBREUSDA)
   ) |>
