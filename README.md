@@ -164,8 +164,8 @@ Using the estimated ARDL framework and the macroeconomic assumptions above, cond
 
 Key takeaways from the ARDL scenarios:
 
-- The Upside case raises 2025 inflows relative to the Base, consistent with stronger oil-linked liquidity and investor confidence.
-- The Downside case lowers 2025 inflows, reflecting tighter global conditions and softer energy prices.
+- In the Upside scenario, 2025 inflows are greater than the Base, supported by stronger oil-linked liquidity and improved investor confidence.  
+- In the Downside scenario, 2025 inflows are lower than the Base, reflecting tighter global financial conditions and weaker energy prices.
 - Across scenarios, 2026 outcomes converge, suggesting partial normalization after the initial scenario shock.
 - Differences across scenarios are most pronounced in 2025, when oil effects and persistence are strongest.
 
@@ -234,7 +234,7 @@ Several clear patterns emerge:
 - The adjustment is more pronounced in 2026, where outcomes range from USD 59.7 bn under an anchor-heavy specification (w = 0.3) to USD 47.3 bn under an ARDL-heavy specification (w = 0.6). 
 - This dispersion captures the balance between recent acceleration and the normalization embedded in the ARDL model.
 
-Across the examined weights, the central pattern does not change: 2025 remains elevated, and 2026 reflects a partial moderation whose magnitude depends on the balance between historical dynamics and recent momentum.
+Across the examined weights, the central pattern does not change: 2025 remains elevated, and 2026 reflects a partial moderation whose magnitude depends on the weight assigned to the ARDL model.
 
 ---
 
@@ -242,7 +242,7 @@ Across the examined weights, the central pattern does not change: 2025 remains e
 
 The trade-off between the ARDL model and the trend anchor framework illustrates why blending is necessary. The ARDL specification captures historical dynamics and allows for partial normalization after exceptionally strong inflows. The trend anchor, by contrast, reflects the structural acceleration evident in 2023–2024.
 
-An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w = 0.3 better aligns the forecast with current structural momentum.
+An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w = 0.3 better aligns the forecast with current structural momentum. This recommendation rests on three key considerations:
 
 **1. Multi-year capital deployment in advanced technology**
 
@@ -258,9 +258,7 @@ The National Investment Strategy 2031 targets raising annual FDI to AED 240 bill
 
 ---
 
-Recent inflows contain a durable component that the neutral baseline likely understates. For policy interpretation, w = 0.3 is the recommended strategic baseline. It keeps 2025 elevated and implies gradual moderation in 2026, rather than rapid mean reversion.
-
-The resulting forecast path under w = 0.3 is shown below.
+Using the strategic baseline (w = 0.3) for policy interpretation avoids understating the sustained component in recent inflows. The resulting forecast path under w = 0.3 is shown below.
 
 ![Anchor heavy forecasts](outputs/anchor_heavy_forecasts.png)
 
