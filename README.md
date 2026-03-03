@@ -215,9 +215,9 @@ The blended forecast softens the normalization implied by the ARDL model while a
 
 ## Sensitivity to ARDL Weight
 
-The blended forecast depends on how much weight is assigned to the ARDL model relative to the trend anchor. To test robustness, forecasts are recalculated across a reasonable range of weights from w_ARDL = 0.3 to 0.6.
+The blended forecast depends on how much weight is assigned to the ARDL model relative to the trend anchor. To test robustness, forecasts are recalculated across a reasonable range of weights from w = 0.3 to 0.6.
 
-| w_ARDL | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
+| w | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
 |--------|-------------------|-------------------|
 | 0.3    | 53.0              | 59.7              |
 | 0.4    | 51.5              | 55.5              |
@@ -242,7 +242,7 @@ Across the examined weights, the central pattern does not change: 2025 remains e
 
 The trade-off between the ARDL model and the trend anchor framework illustrates why blending is necessary. The ARDL specification captures historical dynamics and allows for partial normalization after exceptionally strong inflows. The trend anchor, by contrast, reflects the structural acceleration evident in 2023–2024.
 
-An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w_ARDL = 0.3 better aligns the forecast with current structural momentum.
+An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w = 0.3 better aligns the forecast with current structural momentum.
 
 **1. Multi-year capital deployment in advanced technology**
 
@@ -258,9 +258,9 @@ The National Investment Strategy 2031 targets raising annual FDI to AED 240 bill
 
 ---
 
-Recent inflows contain a structural component that the neutral baseline likely understates. For policy interpretation, w_ARDL = 0.3 is the recommended baseline. It keeps 2025 elevated and implies gradual moderation in 2026, rather than rapid mean reversion.
+Recent inflows contain a structural component that the neutral baseline likely understates. For policy interpretation, w = 0.3 is the recommended baseline. It keeps 2025 elevated and implies gradual moderation in 2026, rather than rapid mean reversion.
 
-The resulting forecast path under w_ARDL = 0.3 is shown below.
+The resulting forecast path under w = 0.3 is shown below.
 
 ![Anchor heavy forecasts](outputs/anchor_heavy_forecasts.png)
 
@@ -297,7 +297,7 @@ UAE FDI has entered a new phase. The scale and breadth of inflows in 2023–2024
 
 The ARDL framework confirms that short-term volatility remains linked to oil prices and global liquidity conditions. However, forward-looking evidence suggests that recent momentum contains a durable component that historical normalization dynamics alone may understate.
 
-For this reason, the anchor-heavy specification (w_ARDL = 0.3) is adopted as the strategic baseline for 2025–2026. Under this path, inflows remain elevated in 2025 and moderate gradually in 2026, reflecting resilience with measured normalization rather than sharp reversion.
+For this reason, the anchor-heavy specification (w = 0.3) is adopted as the strategic baseline for 2025–2026. Under this path, inflows remain elevated in 2025 and moderate gradually in 2026, reflecting resilience with measured normalization rather than sharp reversion.
 
 The strategic priority for policymakers is therefore consistency. Maintaining regulatory clarity, reinforcing investment facilitation, and supporting sectoral diversification will matter more than reactive counter-cyclical adjustments to external shocks.
 
