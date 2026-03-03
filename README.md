@@ -154,7 +154,7 @@ Key assumptions:
 
 ### ARDL Scenario Results
 
-Using the estimated ARDL framework and the macroeconomic assumptions above, conditional forecasts for 2025 and 2026 are generated. The table below reflect pure ARDL forecasts, prior to any anchor adjustment or blending.
+Using the estimated ARDL framework and the macroeconomic assumptions above, conditional forecasts for 2025 and 2026 are generated. The table below reflects pure ARDL forecasts, prior to any anchor adjustment or blending.
 
 | Scenario   | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
 |------------|-------------------|-------------------|
@@ -211,11 +211,11 @@ Applying this weight produces the following blended Base forecast:
 |-----------------|-------------------|-------------------|
 | Blended (w = 0.5) | 50.1 | 51.4 |
 
-The blended forecast provides a balanced baseline that integrates historical discipline with recent acceleration.
+This neutral blend (w_ARDL = 0.5) is used as the technical reference case; the strategic baseline for policy interpretation is introduced later (w = 0.3).
 
 ## Sensitivity to ARDL Weight
 
-The blended forecast depends on how much weight is assigned to the ARDL model relative to the trend anchor. To test robustness, forecasts are recalculated across a reasonable range of weights from w = 0.3 to 0.6.
+The blended forecast depends on the weight (w) assigned to the ARDL model relative to the trend anchor. To test robustness, forecasts are recalculated across a reasonable range of weights from w = 0.3 to 0.6.
 
 | w | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
 |--------|-------------------|-------------------|
@@ -242,11 +242,11 @@ Across the examined weights, the central pattern holds: 2025 remains elevated, w
 
 The trade-off between the ARDL model and the trend anchor framework illustrates why blending is necessary. The ARDL specification captures historical dynamics and allows for partial normalization after exceptionally strong inflows. The trend anchor, by contrast, reflects the acceleration evident in 2023–2024.
 
-An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w = 0.3 better aligns the forecast with current structural momentum. This recommendation rests on three key considerations:
+An equal-weighted blend (w = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w = 0.3 better aligns the forecast with current structural momentum. This recommendation rests on three key considerations:
 
 **1. Multi-year capital deployment in advanced technology**
 
-Large-scale AI and data infrastructure investments are committed and phased beyond 2025. The Microsoft–G42 partnership includes a $15 billion investment program, with significant deployment completed by end-2025 and additional capital scheduled through 2026–2029. The UAE’s 5 GW “Stargate” AI campus, supported by global partners including Nvidia and Oracle, is rolling out capacity through 2026. These long-horizon capex programs support a forecast that moderates gradually rather than reverting quickly.
+Large-scale AI and data infrastructure investments are committed and phased beyond 2025. The Microsoft–G42 partnership includes a USD 15 billion investment program, with significant deployment completed by end-2025 and additional capital scheduled through 2026–2029. The UAE’s 5 GW “Stargate” AI campus, supported by global partners including Nvidia and Oracle, is rolling out capacity through 2026. These long-horizon capex programs support a forecast that moderates gradually rather than reverting quickly.
 
 **2. Ongoing greenfield pipeline, not fully realized flows**
 
@@ -254,7 +254,7 @@ While full-year 2025 inflow data are not yet available, greenfield announcements
 
 **3. Explicit structural investment strategy**
 
-The National Investment Strategy 2031 targets raising annual FDI to AED 240 billion and expanding total FDI stock to AED 2.2 trillion. Complementary reforms — including 100% foreign ownership provisions and the NextGen FDI programme — reinforce competitiveness. This is an expansionary medium-term policy push, reinforcing that the post-2023 step-up reflects stronger positioning as opposed to a temporary surge.
+The National Investment Strategy 2031 targets raising annual FDI to AED 240 billion and expanding total FDI stock to AED 2.2 trillion. Complementary reforms — including 100% foreign ownership provisions and the NextGen FDI programme — reinforce competitiveness. This is an expansionary medium-term policy push, reinforcing that the post-2023 step-up reflects stronger positioning rather than a temporary surge.
 
 ---
 
@@ -293,7 +293,7 @@ Stable free-zone rules, streamlined licensing, and consistent incentive framewor
 
 UAE FDI has entered a new phase. The scale and breadth of inflows in 2023–2024 represent more than a cyclical rebound; they reflect strengthened structural positioning across technology, logistics, advanced manufacturing, and digital infrastructure.
 
-Accordinly, the anchor-heavy specification (w = 0.3) is adopted as the strategic baseline for 2025–2026. Under this path, inflows remain elevated in 2025 and moderate gradually in 2026, reflecting resilience with measured normalization rather than sharp reversion.
+Accordingly, the anchor-heavy specification (w = 0.3) is adopted as the strategic baseline for 2025–2026. Under this path, inflows remain elevated in 2025 and moderate gradually in 2026, reflecting resilience with measured normalization rather than sharp reversion.
 
 The strategic priority for policymakers is therefore consistency. Maintaining regulatory clarity, reinforcing investment facilitation, and supporting sectoral diversification will matter more than reactive counter-cyclical adjustments to external shocks.
 
