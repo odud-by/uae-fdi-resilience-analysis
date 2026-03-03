@@ -12,7 +12,7 @@ In this context, understanding the resilience of UAE FDI has become essential. T
 
 ## Evolution of UAE FDI Inflows 
 
-To assess forward-looking resilience, it is first necessary to examine how FDI has behaved across past global cycles. Between 2001 and 2024, inflows exhibited clear cyclical responses to global shocks alongside distinct phases of structural acceleration.
+To assess forward-looking resilience, it is first necessary to examine how UAE FDI has behaved historically. Between 2001 and 2024, inflows exhibited clear cyclical responses to global shocks alongside distinct phases of structural acceleration.
 
 ![Historical FDI Chart](outputs/fdi_historical.png)
 
@@ -25,7 +25,7 @@ The early-2000s expansion in FDI aligned with the UAE’s emergence as a regiona
 The global financial crisis of 2008–09 reduced inflows by more than 90% between 2007 and 2009. Unlike many emerging markets, inflows rebounded within a few years rather than entering prolonged stagnation. By 2019, FDI had recovered to nearly USD 17.9 billion, supported by greenfield activity and further expansion across logistics, free zones, and service-related sectors.
 
 **3. Post-COVID Structural Step-Up**  
-The COVID period diverged from conventional crisis patterns: instead of contracting, inflows remained elevated through 2020–2022. The post-pandemic phase marked a structural step-up rather than a cyclical rebound. In 2023, inflows jumped to USD 30.7 billion, placing the UAE among the leading global FDI destinations and second only to the United States in greenfield project announcements. In 2024, inflows reached a record USD 45.6 billion, placing the UAE among the top 10 global destinations and accounting for a dominant share of total inflows into the Middle East.
+The COVID period diverged from conventional crisis patterns: instead of contracting, inflows remained elevated through 2020–2022. The post-pandemic phase marked a structural step-up rather than a cyclical rebound. In 2023, inflows jumped to USD 30.7 billion, ranking the UAE among the world’s leading FDI destinations and second globally in greenfield project announcements. In 2024, inflows reached a record USD 45.6 billion, placing the UAE in the global top 10 and accounting for a dominant share of Middle East inflows.
 
 The magnitude and consistency of recent inflows across greenfield projects, reinvestments, and diversified sectors suggest that 2023–2024 mark a distinct upward shift rather than a typical cyclical upswing. This raises an important policy question: how durable is this momentum under tighter global conditions?
 
@@ -76,9 +76,9 @@ The ARDL model's role is to:
 
 ### Data & Estimation Window
 
-The estimation sample covers the period from 2001 to 2024, reflecting the availability and consistency of key macroeconomic series for the UAE. Variables are selected to balance economic relevance with data reliability and include:
+The estimation sample covers the period from 2001 to 2024, reflecting the availability and consistency of key macroeconomic data for the UAE. Variables are selected to balance economic relevance with data reliability and include:
 
-- FDI net inflows (current US dollars)  
+- UAE FDI net inflows (current US dollars)  
 - Brent crude oil prices (annual average)  
 - Real GDP growth  
 - Trade Openness (trade as a percentage of GDP)  
@@ -104,7 +104,7 @@ A detailed technical exposition of model specification, diagnostics, and forecas
 
 ---
 
-## Model-Implied FDI Dynamics
+## ARDL-Implied FDI Dynamics
 
 The ARDL estimates highlight four short-run transmission channels shaping UAE FDI dynamics:
 
