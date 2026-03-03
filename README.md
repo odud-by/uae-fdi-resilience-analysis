@@ -134,8 +134,6 @@ Key assumptions:
 - UAE real GDP growth remains close to 5%, reflecting projections from the IMF World Economic Outlook.
 - Trade openness remains broadly stable, with no major structural shift  
 
-Under this scenario, FDI inflows remain resilient, supported by existing investment momentum and a stable macroeconomic backdrop.
-
 #### Downside Case: Prolonged External Tightness
 
 The downside scenario reflects a more challenging global environment, where tighter financial conditions persist. Softer energy prices reduce regional liquidity, and investors become more selective in committing capital.
@@ -144,8 +142,6 @@ Key assumptions:
 - Brent crude declines toward the USD 60–65 range  
 - Global financing conditions remain restrictive 
 - UAE growth moderates but remains positive  
-
-Under this scenario, FDI inflows undershoot recent momentum, driven primarily by delayed investment decisions.
 
 #### Upside Case: Liquidity and Confidence Rebound
 
@@ -156,13 +152,9 @@ Key assumptions:
 - Global financial conditions ease more rapidly than anticipated  
 - UAE growth remains robust, supported by strong domestic demand and external inflows  
 
-Under this scenario, FDI inflows exceed baseline momentum due to improved risk sentiment and accelerated capital deployment.
-
 ### ARDL Scenario Results
 
-Using the estimated ARDL framework and the macroeconomic assumptions above, conditional forecasts for FDI inflows are generated for 2025 and 2026.
-
-The results below reflect pure ARDL forecasts, prior to any anchor adjustment or blending.
+Using the estimated ARDL framework and the macroeconomic assumptions above, conditional forecasts for FDI inflows are generated for 2025 and 2026. The table below reflect pure ARDL forecasts, prior to any anchor adjustment or blending.
 
 | Scenario   | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
 |------------|-------------------|-------------------|
@@ -183,11 +175,9 @@ While the ARDL results capture historical transmission mechanisms, they do not f
 
 ## Trend Anchor & Momentum Adjustment
 
-The ARDL projections are based on historical relationships in the data. As a result, they naturally allow for some normalization following exceptionally strong inflows.
+The ARDL projections are based on historical relationships in the data. As a result, they naturally allow for some normalization following exceptionally strong inflows. However, the scale of FDI in 2023–2024 suggests a higher structural investment trajectory than implied by the prior decade.
 
-However, the scale of FDI in 2023 and 2024 differs significantly from the prior decade. These years may reflect more than a temporary surge in liquidity — they could indicate a higher structural investment trajectory. To account for this possibility, a structural trend anchor is introduced.
-
-The anchor is constructed using a weighted average of recent FDI growth, placing greater emphasis on post-pandemic years. This approach allows recent momentum to influence the forward-looking baseline without discarding the discipline of the ARDL framework. The anchor serves as a complementary reference path. It does not replace the ARDL model, but provides an alternative lens through which recent acceleration can be evaluated.
+The anchor is constructed using a weighted average of recent FDI growth, placing greater emphasis on post-pandemic years. This approach allows recent momentum to influence the forward-looking baseline without discarding the discipline of the ARDL framework. The anchor serves as a complementary reference path.
 
 ### Trend Anchor Projection
 
@@ -221,7 +211,7 @@ Applying this weight produces the following blended Base forecast:
 |-----------------|-------------------|-------------------|
 | Blended (w = 0.5) | 50.1 | 51.4 |
 
-The blended forecast softens the normalization implied by the ARDL model while avoiding full extrapolation of recent acceleration. It provides a balanced baseline that incorporates both historical discipline and recent momentum. This central blend serves as the reference for policy interpretation.
+The blended forecast softens the normalization implied by the ARDL model while avoiding full extrapolation of recent acceleration. It provides a balanced baseline that incorporates both historical discipline and recent momentum.
 
 ## Sensitivity to ARDL Weight
 
@@ -244,7 +234,7 @@ Several clear patterns emerge:
 - The adjustment is more pronounced in 2026, where outcomes range from USD 59.7 bn under an anchor-heavy specification (w = 0.3) to USD 47.3 bn under an ARDL-heavy specification (w = 0.6). 
 - This dispersion captures the balance between recent structural momentum (captured by the anchor) and historical normalization dynamics (captured by the ARDL model).
 
-Across the examined weights, the central pattern does not change: 2025 remains elevated, and 2026 reflects a partial moderation whose magnitude depends on the balance between historical dynamics and recent momentum. The overall outlook remains stable across reasonable blending weights.
+Across the examined weights, the central pattern does not change: 2025 remains elevated, and 2026 reflects a partial moderation whose magnitude depends on the balance between historical dynamics and recent momentum.
 
 ---
 
@@ -252,7 +242,7 @@ Across the examined weights, the central pattern does not change: 2025 remains e
 
 The trade-off between the ARDL model and the trend anchor framework illustrates why blending is necessary. The ARDL specification captures historical dynamics and allows for partial normalization after exceptionally strong inflows. The trend anchor, by contrast, reflects the structural acceleration evident in 2023–2024.
 
-An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w_ARDL = 0.3 better aligns the forecast with current structural momentum. Given the breadth of evidence, this recommendation rests on three key considerations:
+An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w_ARDL = 0.3 better aligns the forecast with current structural momentum.
 
 **1. Multi-year capital deployment in advanced technology**
 
@@ -280,38 +270,24 @@ The chart highlights the post-2023 step-up and sustained increase through 2026 u
 
 ## Policy Implications
 
-The analysis points to a clear distinction: short-term FDI volatility is driven by global liquidity and oil prices, but durability is shaped by domestic policy.  The relevant question for 2025–2026 is therefore not eliminating volatility, but managing its transmission.
+The analysis points to a clear distinction: short-term FDI volatility is driven by global liquidity and oil prices, but durability is shaped by domestic policy. Not all drivers are policy controllable - global monetary conditions, energy prices, and shifts in risk sentiment can temporarily compress inflows. Overreacting to such cyclical pressures risks policy overreach and may mistake temporary softening for structural weakness.
 
-Not all drivers are policy-controllable: global monetary conditions, oil prices, and shifts in risk sentiment may temporarily compress inflows. Overreacting to these risks policy overreach and misinterpreting cyclical softening as structural weakness. 
+The relevant policy question for 2025–2026 is therefore not how to eliminate volatility, but how to ensure that temporary shocks do not undermine the durability of inflows. Three priorities follow.
 
-**1. Reinforcing Post-COVID Momentum:**
-The 2023–2024 step-up created visible investment momentum. Leaning into this momentum, rather than assuming mean-reversion helps sustain investor confidence. Clear signaling that increased inflows are structural rather than coincidental strengthens forward expectations.
+**1. Momentum Signaling & Investor Retention**
 
-**2. After-Care & Reinvestment Strategy:**
-Existing investors represent one of the most reliable channels for sustained FDI. Prioritizing after-care, expansion support, and reinvestment facilitation can stabilize inflows even if new project announcements fluctuate.
+The 2023–2024 step-up created visible investment momentum. Policy signaling should be used to lean into this momentum and reflect strengthened positioning rather than a temporary surge. Existing investors represent one of the most reliable channels for sustained FDI. Prioritizing after-care, expansion support, and reinvestment facilitation can stabilize inflows even if new project announcements fluctuate.
 
-**3. Regulatory Stability & Predictability:**
+**2. Regulatory Stability & Predictability**
 - Maintain and actively promote 100% foreign ownership provisions  
 - Preserve long-horizon visa pathways  
 - Ensure transparent dispute-resolution mechanisms and service-level timelines  
 
 Reducing regulatory uncertainty lowers the pass-through from oil volatility to investment decisions. Predictability itself becomes a stabilizing force.
 
-**4. Free Zone & Investment Platform Consistency:**
-Stable free-zone rules, streamlined licensing, and consistent incentive frameworks reinforce credibility. Frequent rule shifts would amplify normalization pressures embedded in historical dynamics.
+**3. Platform Consistency & Structural Investment**
 
-**5. Infrastructure & Growth Support:**
-Continued investment in logistics, education, digital infrastructure, and advanced manufacturing ecosystems reduces reliance on cyclical liquidity effects. These investments reinforce the structural drivers captured by the trend anchor.
-
-
-### Controllability in Practice
-
-The model demonstrates that oil-linked liquidity matters in the short run. However, structural competitiveness determines whether shocks translate into temporary delays or deeper retrenchment. In practical terms:
-
-- External shocks influence timing.  
-- Domestic policy influences durability.  
-
-The implication for 2025–2026 is disciplined continuity. Sustained regulatory clarity, investor facilitation, and sector diversification can moderate downside risk without overreacting to cyclical movements. This is where policy leverage resides.
+Stable free-zone rules, streamlined licensing, and consistent incentive frameworks reinforce credibility. Frequent rule changes would amplify normalization pressures embedded in historical dynamics. Continued investment in logistics, digital infrastructure, education, and advanced manufacturing reduces reliance on cyclical liquidity effects and strengthens the structural drivers underlying recent inflows.
 
 ---
 
@@ -325,8 +301,7 @@ For this reason, the anchor-heavy specification (w_ARDL = 0.3) is adopted as the
 
 The strategic priority for policymakers is therefore consistency. Maintaining regulatory clarity, reinforcing investment facilitation, and supporting sectoral diversification will matter more than reactive counter-cyclical adjustments to external shocks.
 
-Looking ahead, several extensions could further refine the framework:
-
+Future refinements could include:
 - Incorporating additional explanatory variables such as global risk indicators, sector-level investment data, or capital market conditions  
 - Moving toward higher-frequency data as availability improves  
 - Testing for structural breaks explicitly as post-2024 data accumulate  
