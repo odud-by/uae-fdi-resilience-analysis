@@ -268,7 +268,7 @@ The National Investment Strategy 2031 targets raising annual FDI to AED 240 bill
 
 ---
 
-Taken together, recent inflows contain a structural component that the neutral baseline likely understates. For policy interpretation, w_ARDL = 0.3 is the recommended baseline. It keeps 2025 elevated and implies gradual moderation in 2026, rather than rapid mean reversion.
+Recent inflows contain a structural component that the neutral baseline likely understates. For policy interpretation, w_ARDL = 0.3 is the recommended baseline. It keeps 2025 elevated and implies gradual moderation in 2026, rather than rapid mean reversion.
 
 The resulting forecast path under w_ARDL = 0.3 is shown below.
 
@@ -278,57 +278,40 @@ The chart highlights the post-2023 step-up and sustained increase through 2026 u
 
 ---
 
-## Policy Implications & “What’s Controllable”
+## Policy Implications
 
 The analysis points to a clear distinction: short-term FDI volatility is driven by global liquidity and oil prices, but durability is shaped by domestic policy.  The relevant question for 2025–2026 is therefore not eliminating volatility, but managing its transmission.
 
-### What Is Not Directly Controllable
+Not all drivers are policy-controllable: global monetary conditions, oil prices, and shifts in risk sentiment may temporarily compress inflows. Overreacting to these risks policy overreach and misinterpreting cyclical softening as structural weakness. 
 
-- Global monetary conditions  
-- Oil price fluctuations  
-- Broad shifts in international risk sentiment  
-
-These factors may compress or delay inflows temporarily. Attempting to offset them aggressively risks policy overreach. Cyclical softening should not be mistaken for structural deterioration.
-
-### What Is Controllable
-
-**1. Reinforcing Post-COVID Momentum**
-
+**1. Reinforcing Post-COVID Momentum:**
 The 2023–2024 step-up created visible investment momentum. Leaning into this momentum, rather than assuming mean-reversion helps sustain investor confidence. Clear signaling that increased inflows are structural rather than coincidental strengthens forward expectations.
 
-**2. After-Care & Reinvestment Strategy**
-
+**2. After-Care & Reinvestment Strategy:**
 Existing investors represent one of the most reliable channels for sustained FDI. Prioritizing after-care, expansion support, and reinvestment facilitation can stabilize inflows even if new project announcements fluctuate.
 
-**3. Regulatory Stability & Predictability**
-
+**3. Regulatory Stability & Predictability:**
 - Maintain and actively promote 100% foreign ownership provisions  
 - Preserve long-horizon visa pathways  
 - Ensure transparent dispute-resolution mechanisms and service-level timelines  
 
 Reducing regulatory uncertainty lowers the pass-through from oil volatility to investment decisions. Predictability itself becomes a stabilizing force.
 
-**4. Free Zone & Investment Platform Consistency**
-
+**4. Free Zone & Investment Platform Consistency:**
 Stable free-zone rules, streamlined licensing, and consistent incentive frameworks reinforce credibility. Frequent rule shifts would amplify normalization pressures embedded in historical dynamics.
 
-**5. Infrastructure & Growth Support**
-
+**5. Infrastructure & Growth Support:**
 Continued investment in logistics, education, digital infrastructure, and advanced manufacturing ecosystems reduces reliance on cyclical liquidity effects. These investments reinforce the structural drivers captured by the trend anchor.
 
 
 ### Controllability in Practice
 
-The model demonstrates that oil-linked liquidity matters in the short run. However, structural competitiveness determines whether shocks translate into temporary delays or deeper retrenchment.
-
-In practical terms:
+The model demonstrates that oil-linked liquidity matters in the short run. However, structural competitiveness determines whether shocks translate into temporary delays or deeper retrenchment. In practical terms:
 
 - External shocks influence timing.  
 - Domestic policy influences durability.  
 
-The implication for 2025–2026 is disciplined continuity. Sustained regulatory clarity, investor facilitation, and sector diversification can moderate downside risk without overreacting to cyclical movements.
-
-This is where policy leverage resides.
+The implication for 2025–2026 is disciplined continuity. Sustained regulatory clarity, investor facilitation, and sector diversification can moderate downside risk without overreacting to cyclical movements. This is where policy leverage resides.
 
 ---
 
