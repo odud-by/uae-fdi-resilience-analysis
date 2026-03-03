@@ -1,4 +1,4 @@
-# Assessing the Resilience & Policy Controllability of UAE FDI (2025–2026)
+# UAE FDI Outlook (2025–2026): Resilience, Scenarios, and Policy Levers
 
 ## Executive Overview
 
@@ -76,14 +76,14 @@ The ARDL model's role is to:
 
 ### Data & Estimation Window
 
-The estimation sample covers the period from 2001 to 2024, reflecting the availability and consistency of key macroeconomic data for the UAE. Variables are selected to balance economic relevance with data reliability and include:
+The estimation sample covers the period from 2001 to 2024, reflecting the availability and consistency of key macroeconomic data for the UAE. Data are updated through 18 November 2025; however, 2024 is the most recent year with complete annual observations across all variables. Accordingly, 2025 and 2026 are treated as forecast periods. Variables are selected to balance economic relevance with data reliability and include:
 
 - UAE FDI net inflows (current US dollars)  
 - Brent crude oil prices (annual average)  
 - Real GDP growth  
 - Trade Openness (trade as a percentage of GDP)  
 
-Given the short annual sample and the presence of mixed integration orders, the analysis focuses on robust short-run inference rather than formal long-run cointegration relationships.
+Given the short annual sample and the presence of mixed integration orders, the analysis focuses on robust short-run inference rather than formal long-run cointegration relationships. 
 
 ### Model Diagnostics & Stability
 
