@@ -175,7 +175,7 @@ While the ARDL results capture historical transmission mechanisms, they do not f
 
 ## Trend Anchor & Momentum Adjustment
 
-The ARDL projections are based on historical relationships in the data. As a result, they naturally allow for some normalization following exceptionally strong inflows. However, the scale of FDI in 2023–2024 suggests a higher structural investment trajectory than implied by the prior decade.
+The ARDL projections are based on historical relationships in the data. As a result, they naturally allow for some normalization following exceptionally strong inflows. However, the scale of FDI in 2023–2024 suggests a higher investment trajectory than implied by the prior decade.
 
 The anchor is constructed using a weighted average of recent FDI growth, placing greater emphasis on post-pandemic years. This approach allows recent momentum to influence the forward-looking baseline without discarding the discipline of the ARDL framework. 
 
@@ -187,7 +187,7 @@ The structural trend anchor generates the following anchor projection based sole
 |-----------------|-------------------|-------------------|
 | Trend Anchor    | 57.3              | 72.0              |
 
-The anchor projection maintains a substantially higher trajectory relative to the ARDL-based scenarios. This reflects the assumption that the acceleration observed in 2023–2024 represents a sustained shift in investment momentum rather than a temporary spike.
+The anchor projection maintains a substantially higher trajectory relative to the ARDL-based scenarios. This reflects the assumption that observed 2023–2024 inflows represent sustained strength rather than a temporary spike.
 
 Unlike the ARDL framework, the anchor path does not incorporate oil-price sensitivity or scenario-based stress testing. Instead, it embeds recent realized growth directly into the forward outlook. As such, the anchor should be interpreted as a momentum-driven reference path rather than a standalone forecast.
 
@@ -211,7 +211,7 @@ Applying this weight produces the following blended Base forecast:
 |-----------------|-------------------|-------------------|
 | Blended (w = 0.5) | 50.1 | 51.4 |
 
-The blended forecast softens the normalization implied by the ARDL model while avoiding full extrapolation of recent acceleration. It provides a balanced baseline that integrates historical discipline with recent acceleration.
+The blended forecast provides a balanced baseline that integrates historical discipline with recent acceleration.
 
 ## Sensitivity to ARDL Weight
 
@@ -232,7 +232,7 @@ Several clear patterns emerge:
 
 - As the weight on the ARDL model increases, projected inflows decline in both years.  
 - The adjustment is more pronounced in 2026, where outcomes range from USD 59.7 bn under an anchor-heavy specification (w = 0.3) to USD 47.3 bn under an ARDL-heavy specification (w = 0.6). 
-- This dispersion captures the balance between recent acceleration and the normalization embedded in the ARDL model.
+- This dispersion captures the balance between recent acceleration and historical mean reversion.
 
 Across the examined weights, the central pattern does not change: 2025 remains elevated, and 2026 reflects a partial moderation whose magnitude depends on the weight assigned to the ARDL model.
 
@@ -240,7 +240,7 @@ Across the examined weights, the central pattern does not change: 2025 remains e
 
 ## Strategic Recommendation: Anchor-Heavy Specification
 
-The trade-off between the ARDL model and the trend anchor framework illustrates why blending is necessary. The ARDL specification captures historical dynamics and allows for partial normalization after exceptionally strong inflows. The trend anchor, by contrast, reflects the structural acceleration evident in 2023–2024.
+The trade-off between the ARDL model and the trend anchor framework illustrates why blending is necessary. The ARDL specification captures historical dynamics and allows for partial normalization after exceptionally strong inflows. The trend anchor, by contrast, reflects the acceleration evident in 2023–2024.
 
 An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between normalization and momentum. However, forward-looking evidence supports an anchor-heavy baseline for policy interpretation. In practice, w = 0.3 better aligns the forecast with current structural momentum. This recommendation rests on three key considerations:
 
@@ -268,7 +268,7 @@ The chart highlights the post-2023 step-up and sustained increase through 2026 u
 
 ## Policy Implications
 
-The analysis points to a clear distinction: short-term FDI volatility is driven by global liquidity and oil prices, but durability is shaped by domestic policy. Not all drivers are policy-controllable: global monetary conditions, energy prices, and shifts in risk sentiment can temporarily compress inflows. Overreacting to cyclical pressures risks policy overreach and misinterpreting temporary softening as structural weakness.
+Short-term FDI volatility is driven by global liquidity and oil prices, but durability is shaped by domestic policy. Not all drivers are policy-controllable: global monetary conditions, energy prices, and shifts in risk sentiment can temporarily compress inflows. Overreacting to cyclical pressures risks policy overreach.
 
 The relevant policy question for 2025–2026 is therefore not how to eliminate volatility, but how to ensure that temporary shocks do not undermine the durability of inflows. Three priorities follow.
 
@@ -292,8 +292,6 @@ Stable free-zone rules, streamlined licensing, and consistent incentive framewor
 ## Conclusion & Next Steps
 
 UAE FDI has entered a new phase. The scale and breadth of inflows in 2023–2024 represent more than a cyclical rebound; they reflect strengthened structural positioning across technology, logistics, advanced manufacturing, and digital infrastructure.
-
-The ARDL framework confirms that short-term volatility remains linked to oil prices and global liquidity conditions. However, forward-looking evidence suggests that recent momentum contains a durable component that historical normalization dynamics alone may understate.
 
 For this reason, the anchor-heavy specification (w = 0.3) is adopted as the strategic baseline for 2025–2026. Under this path, inflows remain elevated in 2025 and moderate gradually in 2026, reflecting resilience with measured normalization rather than sharp reversion.
 
