@@ -16,6 +16,8 @@ Full analysis:
 
 ## Methodology
 
+Full Methodology: 
+👉 ["Methodology & Model Framework"](methodology/Methodology.md).
 - ARDL short-run dynamic framework
 - Trend anchor derived from post-2023 momentum
 - Blended forecast sensitivity testing
