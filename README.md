@@ -12,19 +12,22 @@ In this context, understanding the resilience of UAE FDI momentum has become ess
 
 ## Evolution of UAE FDI Inflows 
 
-To assess forward-looking resilience, it is first necessary to examine how UAE FDI has behaved across past global cycles. Between 2001 and 2024, UAE foreign direct investment (FDI) inflows exhibited clear cyclical responses to global shocks alongside distinct phases of structural acceleration.
+To assess forward-looking resilience, it is first necessary to examine how FDI has behaved across past global cycles. Between 2001 and 2024, inflows exhibited clear cyclical responses to global shocks alongside distinct phases of structural acceleration.
 
 ![Historical FDI Chart](outputs/fdi_historical.png)
 
-The chart highlights three distinct regimes in UAE FDI inflows.
+The chart highlights three distinct regimes in UAE FDI inflows:
 
+**1. Early-2000s Expansion**  
 The early-2000s expansion in FDI aligned with the UAE’s emergence as a regional trade and logistics hub, supporting increased project finance and cross-border investment.
 
-The global financial crisis of 2008–09 sharply reduced inflows from USD 14.1 billion in 2007 to USD 1.1 billion in 2009. Unlike many emerging markets, UAE FDI rebounded within a few years rather than entering prolonged stagnation. After stabilizing in the post-crisis period, inflows accelerated to nearly USD 17.9 billion by 2019, driven by increased greenfield project activity and further expansion across logistics, free zones, and service-related sectors.
+**2. Global Financial Crisis and Recovery**  
+The global financial crisis of 2008–09 reduced inflows by more than 90% between 2007 and 2009. Unlike many emerging markets, inflows rebounded within a few years rather than entering prolonged stagnation. By 2019, FDI had recovered to nearly USD 17.9 billion, supported by greenfield activity and further expansion across logistics, free zones, and service-related sectors.
 
-The COVID period diverged from conventional crisis patterns: instead of contracting, FDI remained elevated through 2020–2022. This resilience stands in contrast to broader global trends, where FDI flows generally weakened. The post-pandemic phase represents a structural step-up rather than a simple cyclical rebound. In 2023, inflows jumped to approximately USD 30.7 billion, placing the UAE among the leading global FDI destinations and second only to the United States in greenfield project announcements. In 2024, inflows reached a record USD 45.6 billion, placing the UAE among the top 10 global destinations and accounting for a dominant share of total inflows into the Middle East.
+**3. Post-COVID Structural Step-Up**  
+The COVID period diverged from conventional crisis patterns: instead of contracting, inflows remained elevated through 2020–2022. The post-pandemic phase marked a structural step-up rather than a cyclical rebound. In 2023, inflows jumped to USD 30.7 billion, placing the UAE among the leading global FDI destinations and second only to the United States in greenfield project announcements. In 2024, inflows reached a record USD 45.6 billion, placing the UAE among the top 10 global destinations and accounting for a dominant share of total inflows into the Middle East.
 
-The magnitude and consistency of recent inflows across greenfield projects, reinvestments, and diversified sector activity suggest that 2023–2024 represent more than a typical cyclical upswing; they mark a distinct upward shift in UAE investment flows. This structural acceleration raises an important policy question: how durable is this momentum under tightening global conditions?
+The magnitude and consistency of recent inflows across greenfield projects, reinvestments, and diversified sectors suggest that 2023–2024 represent more than a cyclical upswing; they mark a distinct upward shift in investment flows. This raises an important policy question: how durable is this momentum under tighter global conditions?
 
 ---
 
@@ -103,15 +106,16 @@ A detailed technical exposition of model specification, diagnostics, and forecas
 
 ## Model-Implied FDI Dynamics
 
-The ARDL estimates indicate that UAE FDI is primarily driven by investment momentum and oil-linked liquidity, with domestic growth playing a secondary role.
+The ARDL estimates highlight four short-run transmission channels shaping UAE FDI dynamics:
 
-FDI exhibits strong persistence: last-year inflows affect next-year outcomes. This reflects the role of project pipelines, reinvestment decisions, and implementation lags in large-scale investments. Once momentum builds, it tends to carry into the following year before gradually dissipating.
+- **Persistence (Lagged FDI):**  FDI inflows exhibit strong year-to-year persistence, last-year inflows affect next-year outcomes. This reflects the role of project pipelines, reinvestment decisions, and implementation lags in large-scale investments. Once momentum builds, it tends to carry into the following year before gradually dissipating.
 
-Oil prices influence FDI in stages rather than instantaneously. Initial oil shocks generate caution and uncertainty, but as liquidity improves and confidence returns, inflows recover. This means UAE FDI moves closely with regional liquidity conditions.
+- **Oil-Linked Liquidity Effects:**  Oil prices influence FDI in stages rather than instantaneously. Initial oil shocks generate caution and uncertainty, but as liquidity improves and confidence returns, inflows recover. This means UAE FDI moves closely with regional liquidity conditions.
 
-GDP growth supports FDI but plays a secondary role. Trade openness does not materially influence year-to-year fluctuations, operating more as a structural backdrop than a cyclical driver.
-
-These channels provide the foundation for interpreting the scenario results that follow.
+- **Domestic Growth & Trade Openness:**  Real GDP growth supports FDI but plays a secondary role relative to persistence and oil dynamics. 
+  Trade openness does not materially influence year-to-year fluctuations and operates more as a structural backdrop than a cyclical driver.
+  
+These channels provide the foundation for interpreting the results that follow.
 
 ---
 
@@ -134,7 +138,7 @@ Under this scenario, FDI inflows remain resilient, supported by existing investm
 
 #### Downside Case: Prolonged External Tightness
 
-The downside scenario reflects a more challenging global environment, where tighter financial conditions persist. Softer energy prices reduce regional liquidity, and international investors become more selective in committing capital.
+The downside scenario reflects a more challenging global environment, where tighter financial conditions persist. Softer energy prices reduce regional liquidity, and investors become more selective in committing capital.
 
 Key assumptions:
 - Brent crude declines toward the USD 60–65 range  
@@ -156,7 +160,7 @@ Under this scenario, FDI inflows exceed baseline momentum due to improved risk s
 
 ### ARDL Scenario Results
 
-Using the estimated ARDL framework and the macroeconomic assumptions outlined above, conditional forecasts for UAE FDI inflows are generated for 2025 and 2026 under each scenario.
+Using the estimated ARDL framework and the macroeconomic assumptions above, conditional forecasts for FDI inflows are generated for 2025 and 2026.
 
 The results below reflect pure ARDL forecasts, prior to any anchor adjustment or blending.
 
@@ -168,12 +172,12 @@ The results below reflect pure ARDL forecasts, prior to any anchor adjustment or
 
 Key takeaways from the ARDL scenarios:
 
-- The Upside case raises 2025 inflows relative to the Base scenario, consistent with stronger oil-linked liquidity and investor confidence.
+- The Upside case raises 2025 inflows relative to the Base, consistent with stronger oil-linked liquidity and investor confidence.
 - The Downside case lowers 2025 inflows, reflecting tighter global conditions and softer energy prices.
-- Across scenarios, 2026 outcomes converge, suggesting partial normalization after the initial scenario impact.
+- Across scenarios, 2026 outcomes converge, suggesting partial normalization after the initial scenario shock.
 - Differences across scenarios are most pronounced in 2025, when oil effects and persistence are strongest.
 
-While the ARDL results capture historical transmission mechanisms, they do not fully account for the structural shift observed in 2023–2024. The next sections introduce a trend anchor to account for recent structural momentum and assess how conclusions change when forecasts are anchored to post-pandemic inflow dynamics. 
+While the ARDL results capture historical transmission mechanisms, they do not fully account for the structural shift observed in 2023–2024. The next section introduces a trend anchor to reflect recent momentum and assess how conclusions change when forecasts are anchored to post-pandemic inflow dynamics. 
 
 ---
 
@@ -207,9 +211,7 @@ The blended forecast combines the ARDL Base forecast and the Trend Anchor projec
 
 ![Blended Forecast Formula](outputs/blended_formula.png)
 
-For the central specification, w_ARDL = 0.5.
-
-This assigns equal weight to:
+For the central specification, w_ARDL = 0.5. This assigns equal weight to:
 - The historical dynamics captured by the ARDL model  
 - The recent inflow acceleration reflected in the trend anchor  
 
@@ -219,9 +221,7 @@ Applying this weight produces the following blended Base forecast:
 |-----------------|-------------------|-------------------|
 | Blended (w = 0.5) | 50.1 | 51.4 |
 
-The blended forecast softens the normalization implied by the ARDL model while avoiding full extrapolation of recent acceleration. It provides a balanced baseline that incorporates both historical discipline and recent momentum.
-
-This central blend serves as the reference for policy interpretation.
+The blended forecast softens the normalization implied by the ARDL model while avoiding full extrapolation of recent acceleration. It provides a balanced baseline that incorporates both historical discipline and recent momentum. This central blend serves as the reference for policy interpretation.
 
 ## Sensitivity to ARDL Weight
 
