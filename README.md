@@ -4,9 +4,9 @@
 
 Foreign Direct Investment (FDI) plays a central role in the UAE’s economic diversification and long-term growth strategy. While recent years have demonstrated strong investment momentum, short-term FDI inflows remain sensitive to global financing conditions, regional oil price movements, and shifts in investor confidence.
 
-Over the past 2 years, global monetary tightening has affected the cost of capital and the availability of cross-border financing. In the UAE, domestic financial conditions have tightened in line with global rates, with the Central Bank's policy rate increasing alongside the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, highlighting how external macroeconomic conditions influence investment timing.
+Over the past 2 years, global monetary tightening has raised the cost of capital and constrained cross-border financing. In the UAE, domestic financial conditions tightened alongside global rates, as the Central Bank moved in step with the US Federal Reserve. At the same time, movements in oil prices continue to shape regional liquidity and investor sentiment, highlighting how external macroeconomic conditions influence investment timing.
 
-In this context, understanding the resilience of UAE FDI has become essential. This analysis therefore examines UAE FDI inflows over the 2025–2026 forecast horizon using a scenario-based framework. Rather than solely focusing on forecast accuracy, the objective is to assess how recent investment momentum performs under different global conditions, identify the key drivers of short-term volatility, and evaluate which factors are most relevant for stabilizing or supporting outcomes over the next 2 years.
+In this context, understanding the resilience of UAE FDI has become essential. This analysis therefore examines UAE FDI inflows over the 2025–2026 forecast horizon using a scenario-based framework. Rather than solely focusing on forecast accuracy, the objective is to assess how recent investment momentum performs under different global conditions, identify the key drivers of short-term volatility, and determine which factors are most relevant for stabilizing outcomes over the next 2 years.
 
 ---
 
@@ -27,7 +27,7 @@ The global financial crisis of 2008–09 reduced inflows by more than 90% betwee
 **3. Post-COVID Structural Step-Up**  
 The COVID period diverged from conventional crisis patterns: instead of contracting, inflows remained elevated through 2020–2022. The post-pandemic phase marked a structural step-up rather than a cyclical rebound. In 2023, inflows jumped to USD 30.7 billion, ranking the UAE among the world’s leading FDI destinations and second globally in greenfield project announcements. In 2024, inflows reached a record USD 45.6 billion, placing the UAE in the global top 10 and accounting for a dominant share of Middle East inflows.
 
-The magnitude and consistency of recent inflows across greenfield projects, reinvestments, and diversified sectors suggest that 2023–2024 mark a distinct upward shift rather than a typical cyclical upswing. This raises an important policy question: how durable is this momentum under tighter global conditions?
+The magnitude and consistency of recent inflows across greenfield projects, reinvestments, and diversified sectors indicate a distinct upward shift rather than a typical cyclical upswing. This raises an important policy question: how durable is this momentum under tighter global conditions?
 
 ---
 
@@ -65,7 +65,7 @@ This analysis uses a short-run time-series framework to evaluate how UAE FDI inf
 
 The core empirical tool is an Autoregressive Distributed Lag (ARDL) model estimated on annual UAE data from 2001 to 2024. The ARDL specification is well suited to the dataset, as it accommodates variables with mixed integration orders and captures short-run dynamics without requiring pre-differencing. 
 
-However, ARDL-based forecasts can overreact to short-term fluctuations. To address this, base-case forecasts are blended with a trend anchor derived from recent realized FDI growth. This keeps forecasts grounded in observed momentum while preserving sensitivity to macroeconomic conditions.
+However, ARDL-based forecasts can overreact to short-term fluctuations. To mitigate this, base-case forecasts are blended with a trend anchor derived from recent realized FDI growth, keeping projections grounded in observed momentum while preserving sensitivity to macroeconomic conditions.  
 
 The ARDL model's role is to:
 
@@ -108,9 +108,9 @@ A detailed technical exposition of model specification, diagnostics, and forecas
 
 The ARDL estimates highlight four short-run transmission channels shaping UAE FDI dynamics:
 
-- **Persistence (Lagged FDI):**  FDI inflows exhibit strong year-to-year persistence: last-year inflows affect next-year outcomes. This reflects the role of project pipelines, reinvestment decisions, and implementation lags in large-scale investments. Once momentum builds, it tends to carry into the following year before gradually dissipating.
+- **Persistence (Lagged FDI):**  FDI inflows exhibit strong year-to-year persistence, with last-year inflows influencing next-year outcomes. This reflects the role of project pipelines, reinvestment decisions, and implementation lags in large-scale investments. Once momentum builds, it tends to carry into the following year before gradually dissipating.
 
-- **Oil-Linked Liquidity Effects:**  Oil prices influence FDI in stages rather than instantaneously. Initial oil shocks generate caution and uncertainty, but as liquidity improves and confidence returns, inflows recover. This means UAE FDI moves closely with regional liquidity conditions.
+- **Oil-Linked Liquidity Effects:**  Oil prices affect FDI in stages rather than instantaneously. Initial oil shocks generate caution and uncertainty, but as liquidity improves and confidence returns, inflows recover. This means UAE FDI moves closely with regional liquidity conditions.
 
 - **Domestic Growth & Trade Openness:**  Real GDP growth supports FDI but plays a secondary role relative to persistence and oil dynamics. 
   Trade openness does not materially influence year-to-year fluctuations and operates more as a structural backdrop than a cyclical driver.
@@ -154,7 +154,7 @@ Key assumptions:
 
 ### ARDL Scenario Results
 
-Using the estimated ARDL framework and the macroeconomic assumptions above, conditional forecasts for FDI inflows are generated for 2025 and 2026. The table below reflect pure ARDL forecasts, prior to any anchor adjustment or blending.
+Using the estimated ARDL framework and the macroeconomic assumptions above, conditional forecasts for 2025 and 2026 are generated. The table below reflect pure ARDL forecasts, prior to any anchor adjustment or blending.
 
 | Scenario   | FDI 2025 (USD bn) | FDI 2026 (USD bn) |
 |------------|-------------------|-------------------|
@@ -177,7 +177,7 @@ While the ARDL results capture historical transmission mechanisms, they do not f
 
 The ARDL projections are based on historical relationships in the data. As a result, they naturally allow for some normalization following exceptionally strong inflows. However, the scale of FDI in 2023–2024 suggests a higher investment trajectory than implied by the prior decade.
 
-The anchor is constructed using a weighted average of recent FDI growth, placing greater emphasis on post-pandemic years. This approach allows recent momentum to influence the forward-looking baseline without discarding the discipline of the ARDL framework. 
+The anchor is constructed using a weighted average of recent FDI growth, with greater emphasis on post-pandemic years. This approach allows recent momentum to influence the forward-looking baseline without discarding the discipline of the ARDL framework. 
 
 ### Trend Anchor Projection
 
@@ -189,7 +189,7 @@ The structural trend anchor generates the following anchor projection based sole
 
 The anchor projection maintains a substantially higher trajectory relative to the ARDL-based scenarios. This reflects the assumption that observed 2023–2024 inflows represent sustained strength rather than a temporary spike.
 
-Unlike the ARDL framework, the anchor path does not incorporate oil-price sensitivity or scenario-based stress testing. Instead, it embeds recent realized growth directly into the forward outlook. As such, the anchor should be interpreted as a momentum-driven reference path rather than a standalone forecast.
+Unlike the ARDL framework, the anchor path does not incorporate oil-price sensitivity or scenario stress testing. Instead, it embeds recent realized growth directly into the forward outlook. As such, the anchor should be interpreted as a momentum-driven reference path rather than a standalone forecast.
 
 ---
 
@@ -234,7 +234,7 @@ Several clear patterns emerge:
 - The adjustment is more pronounced in 2026, where outcomes range from USD 59.7 bn under an anchor-heavy specification (w = 0.3) to USD 47.3 bn under an ARDL-heavy specification (w = 0.6). 
 - This dispersion captures the balance between recent acceleration and historical mean reversion.
 
-Across the examined weights, the central pattern does not change: 2025 remains elevated, and 2026 reflects a partial moderation whose magnitude depends on the weight assigned to the ARDL model.
+Across the examined weights, the central pattern holds: 2025 remains elevated, while 2026 reflects partial moderation depending on the weight assigned to the ARDL model.
 
 ---
 
@@ -246,7 +246,7 @@ An equal-weighted blend (w_ARDL = 0.5) provides a neutral midpoint between norma
 
 **1. Multi-year capital deployment in advanced technology**
 
-Large-scale AI and data infrastructure investments are committed and phased beyond 2025. The Microsoft–G42 partnership includes a $15 billion investment program, with significant deployment completed by end-2025 and additional capital scheduled through 2026–2029. The UAE’s 5 GW “Stargate” AI campus, supported by global partners including Nvidia and Oracle, is rolling out capacity through 2026. These are long-horizon capex programs, supporting a forecast that moderates gradually rather than reverting quickly.
+Large-scale AI and data infrastructure investments are committed and phased beyond 2025. The Microsoft–G42 partnership includes a $15 billion investment program, with significant deployment completed by end-2025 and additional capital scheduled through 2026–2029. The UAE’s 5 GW “Stargate” AI campus, supported by global partners including Nvidia and Oracle, is rolling out capacity through 2026. These long-horizon capex programs support a forecast that moderates gradually rather than reverting quickly.
 
 **2. Ongoing greenfield pipeline, not fully realized flows**
 
@@ -254,7 +254,7 @@ While full-year 2025 inflow data are not yet available, greenfield announcements
 
 **3. Explicit structural investment strategy**
 
-The National Investment Strategy 2031 targets raising annual FDI to AED 240 billion and expanding total FDI stock to AED 2.2 trillion. Complementary reforms — including 100% foreign ownership provisions and the NextGen FDI programme — reinforce competitiveness. This is an expansionary medium-term policy push, reinforcing that the post-2023 step-up reflects stronger positioning rather than a temporary surge.
+The National Investment Strategy 2031 targets raising annual FDI to AED 240 billion and expanding total FDI stock to AED 2.2 trillion. Complementary reforms — including 100% foreign ownership provisions and the NextGen FDI programme — reinforce competitiveness. This is an expansionary medium-term policy push, reinforcing that the post-2023 step-up reflects stronger positioning as opposed to a temporary surge.
 
 ---
 
@@ -268,9 +268,9 @@ The chart highlights the post-2023 step-up and sustained increase through 2026 u
 
 ## Policy Implications
 
-Short-term FDI volatility is driven by global liquidity and oil prices, but durability is shaped by domestic policy. Not all drivers are policy-controllable: global monetary conditions, energy prices, and shifts in risk sentiment can temporarily compress inflows. Overreacting to cyclical pressures risks policy overreach.
+Short-term FDI volatility is driven by global liquidity and oil prices, but durability is shaped by domestic policy. Not all drivers are policy-controllable: global monetary conditions, energy prices, and shifts in risk sentiment can temporarily compress inflows. Overreaction to cyclical pressures risks policy overreach.
 
-The relevant policy question for 2025–2026 is therefore not how to eliminate volatility, but how to ensure that temporary shocks do not undermine the durability of inflows. Three priorities follow.
+The relevant policy question for 2025–2026 is not how to eliminate volatility, but how to prevent temporary shocks from undermining the durability of inflows. 
 
 **1. Momentum Signaling & Investor Retention**
 
@@ -293,7 +293,7 @@ Stable free-zone rules, streamlined licensing, and consistent incentive framewor
 
 UAE FDI has entered a new phase. The scale and breadth of inflows in 2023–2024 represent more than a cyclical rebound; they reflect strengthened structural positioning across technology, logistics, advanced manufacturing, and digital infrastructure.
 
-For this reason, the anchor-heavy specification (w = 0.3) is adopted as the strategic baseline for 2025–2026. Under this path, inflows remain elevated in 2025 and moderate gradually in 2026, reflecting resilience with measured normalization rather than sharp reversion.
+Accordinly, the anchor-heavy specification (w = 0.3) is adopted as the strategic baseline for 2025–2026. Under this path, inflows remain elevated in 2025 and moderate gradually in 2026, reflecting resilience with measured normalization rather than sharp reversion.
 
 The strategic priority for policymakers is therefore consistency. Maintaining regulatory clarity, reinforcing investment facilitation, and supporting sectoral diversification will matter more than reactive counter-cyclical adjustments to external shocks.
 
@@ -304,5 +304,5 @@ Future refinements could include:
 
 As new data emerge, the blend between historical dynamics and structural momentum can be recalibrated. For now, the evidence supports a disciplined but momentum-aware outlook.
 
-The central message is clear: UAE FDI remains exposed to global cycles, but its medium-term trajectory is increasingly shaped by domestic structural strength. Sustaining that strength is the critical policy task for 2025–2026.
+The central message is clear: UAE FDI remains exposed to global cycles, yet its medium-term trajectory is increasingly shaped by domestic structural strength. Sustaining that strength is the critical policy task for 2025–2026.
 
