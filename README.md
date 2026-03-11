@@ -19,7 +19,7 @@ The analysis applies an **Autoregressive Distributed Lag (ARDL) framework**, com
 
 Executive policy brief presentation:
 
-👉 **[UAE FDI Resilience — Executive Policy Brief](LINK_TO_SLIDES_PDF)**
+👉 **[UAE FDI Resilience — Executive Policy Brief](slides/UAE_FDI_Resilience_ARDL_Forecast_2025_2026.pdf)**
 
 These slides summarize the **strategic insights, forecast scenarios, and policy implications** derived from the econometric analysis.
 
@@ -48,13 +48,13 @@ Technical documentation of the modelling framework:
 
 Key components include:
 
-- **ARDL short-run dynamic framework**
-- **Unit root testing (ADF & KPSS)**
-- **Lag selection via AIC**
-- **HAC robust inference (Newey–West)**
-- **CUSUM / MOSUM stability diagnostics**
-- **Trend anchor adjustment**
-- **Blended forecast sensitivity analysis**
+- ARDL short-run dynamic framework
+- Unit root testing (ADF & KPSS)
+- Lag selection via AIC
+- HAC robust inference (Newey–West)
+- CUSUM / MOSUM stability diagnostics
+- Trend anchor adjustment
+- Blended forecast sensitivity analysis
 
 ---
 
@@ -62,7 +62,7 @@ Key components include:
 
 R implementation of the econometric model:
 
-👉 **[ARDL Model Script](LINK_TO_R_CODE)**
+👉 **[ARDL Model Script](code/r/uae_fdi_resilience.R)**
 
 The script includes:
 
@@ -79,7 +79,7 @@ The script includes:
 
 Input datasets used for the analysis:
 
-👉 **[Raw Data Files](LINK_TO_DATA_FOLDER)**
+👉 **[Raw Data Files](data)**
 
 Sources include:
 
@@ -92,36 +92,40 @@ Sources include:
 
 # Repository Structure
 
-```
-/presentation
-   UAE_FDI_Resilience_Policy_Brief.pdf
+The repository is organized as follows:
 
-/code
-   ardl_fdi_model.R
+```
+/code/r
+   uae_fdi_resilience.R
 
 /data
-   raw datasets
-
-/outputs
-   forecast charts and tables
+   API_BX.KLT.DINV.CD.WD_DS2_en_csv_v2_130169.csv
+   API_NE.TRD.GNFS.ZS_DS2_en_csv_v2_130005.csv
+   GDPg.xls
+   POILBREUSDA.csv
 
 /methodology
    Methodology.md
+   /figures
+      anchor_fdi.png
+      anchor_growth.png
+      blended_forecast.png
+      cusum.png
+      mosum.png
 
+/outputs
+   anchor_heavy_forecasts.png
+   ardl_scenario_results_2025_2026.csv
+   blended_formula.png
+   fdi_blend_sensitivity.png
+   fdi_historical.png
+
+/slides
+   UAE_FDI_Resilience_Policy_Brief.pdf
+
+README.md
 UAE_FDI_Resilience_2025_2026.md
 ```
-
----
-
-# Purpose of the Project
-
-This project demonstrates how **econometric modelling can inform economic advisory and investment policy analysis** by combining:
-
-- quantitative time-series modelling  
-- macroeconomic scenario analysis  
-- structural interpretation of investment dynamics  
-
-The repository provides both the **technical implementation** and the **executive-level insights** derived from the analysis.
 
 ---
 
