@@ -29,7 +29,7 @@ These slides summarize the **strategic insights, forecast scenarios, and policy 
 
 Full policy brief and analysis:
 
-👉 **[UAE_FDI_Resilience_2025_2026.md](UAE_FDI_Resilience_2025_2026.md)**
+👉 **["UAE FDI Outlook (2025–2026): Resilience, Scenarios, and Policy Levers"](UAE_FDI_Resilience_2025_2026.md)**
 
 The report includes:
 
